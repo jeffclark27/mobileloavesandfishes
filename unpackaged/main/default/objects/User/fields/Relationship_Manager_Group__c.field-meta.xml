@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relationship_Manager_Group__c</fullName>
+    <description>MLF customization May 2023. Identifies the User as a MLF business person responsible for managing a portfolio of managed Accounts, ie: a Relationship Manager. Secondly, identifies the Account Group / Tier the person belongs to. Functions in coordination with Account Object field Account Group.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifies a person / User as a MLF Relationship Manager then further defines the Account grouping / tier the person is responsible for managing.</inlineHelpText>
+    <label>Relationship Manager Group</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

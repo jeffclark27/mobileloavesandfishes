@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "2d580a48-90b7-460e-9807-5461445741ea",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "616c2738-4453-4a1c-a1e0-f561c2a87ec4",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "MLF_Contact_Support_Flow_Component",
+  "id" : "343bbcd9-d0b6-497f-b92c-8b7ef08d5a81",
+  "type" : "experienceVariation"
+}

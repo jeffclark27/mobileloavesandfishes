@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "57cc21e3-2931-4bb5-8c89-1c0401549596",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "My_Volunteer_History__c",
+  "id" : "20d2ebb2-1126-4fc6-95e8-b9076db68e7d",
+  "label" : "My Volunteer History",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-my-volunteer-history",
+  "type" : "route",
+  "urlPrefix" : "my-volunteer-history"
+}

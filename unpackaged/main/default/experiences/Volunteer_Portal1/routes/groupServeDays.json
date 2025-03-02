@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "c0b96bb4-5b8a-47af-8011-47d92f278b88",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "group_serve_program__c",
+  "id" : "a8d89e5c-6291-4a1e-9ccf-4c55976dea43",
+  "label" : "Group Serve Days",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-group-serve-program",
+  "type" : "route",
+  "urlPrefix" : "group-serve-program"
+}

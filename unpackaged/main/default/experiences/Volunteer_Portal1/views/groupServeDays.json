@@ -1,0 +1,255 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "c0b96bb4-5b8a-47af-8011-47d92f278b88",
+  "label" : "Group Serve Days",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "f4381686-a3e2-44c5-8ad7-196a41cd8f94",
+          "columns" : [ {
+            "UUID" : "7d652d6d-15d1-4ee2-80a7-0853b20f5bbe",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f4381686-a3e2-44c5-8ad7-196a41cd8f94",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Group Serve Days</span></h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2cf61a3e-16fa-488d-aec1-4af475842887",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7d652d6d-15d1-4ee2-80a7-0853b20f5bbe",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "32602ebd-9695-4236-ae8c-3b614a6647b2",
+          "columns" : [ {
+            "UUID" : "0ca85494-c5f7-4adc-a66b-a26f4f7a972e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "8c50751c-78e3-4e9d-87d6-b01819e97cf4",
+            "columnKey" : "e3e14",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "c5618ecf-a10d-43dd-9e15-a16a2732655e",
+            "columnKey" : "fbce8",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b58cf3a3-aac7-4be7-aae7-c49d229b579e",
+            "columnKey" : "91e92",
+            "columnName" : "Column 4",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "32602ebd-9695-4236-ae8c-3b614a6647b2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.JesseBrownMorelandProperties800x533.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "bdb3b81a-4973-402c-8d30-e000151afe03",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0ca85494-c5f7-4adc-a66b-a26f4f7a972e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.volunteerkidsgroupcommunityfirstvil.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "112df69e-37f8-41af-a2b1-744b8c0436c5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8c50751c-78e3-4e9d-87d6-b01819e97cf4",
+        "regionLabel" : "Column 2",
+        "regionName" : "e3e14",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.SamsungGroupServe1800x533.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "93a95467-c2e6-4e02-b2cc-a6b9f4aa02aa",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c5618ecf-a10d-43dd-9e15-a16a2732655e",
+        "regionLabel" : "Column 3",
+        "regionName" : "fbce8",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.VolunteergroupBryanMaxwell800x533.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0df1cdf4-ce60-4036-ad65-4bf1a9f1531c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b58cf3a3-aac7-4be7-aae7-c49d229b579e",
+        "regionLabel" : "Column 4",
+        "regionName" : "91e92",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 87,
+        "sectionConfig" : {
+          "UUID" : "c5a5a375-18bd-473f-abeb-c0271a497cec",
+          "columns" : [ {
+            "UUID" : "be85fa49-68cc-49e5-9cb2-e10c90596e8f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "6991adea-582d-42e3-a4f3-914f343698a4",
+            "columnKey" : "e9086",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c5a5a375-18bd-473f-abeb-c0271a497cec",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3><span style=\"font-size: 28px; color: rgb(0, 0, 0);\">We would love for your group to serve alongside us in the most talked-about neighborhood in Austin!﻿</span></h3><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">We typically host groups of five or more volunteers&nbsp;</span><strong style=\"color: rgb(0, 0, 0); font-size: 16px;\">Tuesday – Saturday</strong><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">&nbsp;from&nbsp;</span><strong style=\"color: rgb(0, 0, 0); font-size: 16px;\">9 AM – 12 PM</strong><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">&nbsp;</span><strong style=\"color: rgb(0, 0, 0); font-size: 16px;\">(October – April)</strong><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">&nbsp;and&nbsp;</span><strong style=\"color: rgb(0, 0, 0); font-size: 16px;\">8 AM – 11 AM (May – September)</strong><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">.&nbsp;A Group Serve may include working in our gardens, dry landscaping yards for micro-homes, laying pathways, tending chicken coops, or other beautification projects. Additional projects may be available based on current needs.&nbsp;</span></p><p><br></p><h3><span style=\"font-size: 22px;\">How It Works:&nbsp;&nbsp;</span></h3><p><br></p><p><span style=\"font-size: 16px;\">All Group Serve days must be coordinated&nbsp;</span><strong style=\"font-size: 16px;\">at least two weeks&nbsp;in advance&nbsp;</strong><span style=\"font-size: 16px;\">with MLF Staff. For groups of&nbsp;</span><strong style=\"font-size: 16px;\">more than 50 people</strong><span style=\"font-size: 16px;\">, we recommend planning at least</span><strong style=\"font-size: 16px;\">&nbsp;three months in advance</strong><span style=\"font-size: 16px;\">&nbsp;due to additional funding and coordination needs.&nbsp;&nbsp;</span></p><p><br></p><p><span style=\"font-size: 16px;\">Tell us more about your group by filling out the form on this page, and a member of our team will follow up to confirm your reservation.&nbsp;</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "bc3ccfad-8285-4e90-be58-d1a2ea63e82f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"mlf-volunteer-box\">\n    <h3 style=\"font-size: 28px;\">Dignified Income & Neighbor Leadership</h3>\n    <br/>\n<span style=\"font-size: 16px;\">Every volunteer group is led by a current neighbor of Community First! Village. Hosting groups like yours provides our neighbors with a dignified income, helping them pay rent, buy groceries, and build stability. To support this, we ask groups to contribute $10 per person, which helps cover the neighbor’s wages and any necessary tools or materials for your project. </span>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "bd04ac24-ca17-4116-b9a6-353a1ed62908",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.GenesisGardensShortyGroupServe05251.1}\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ff17d0ea-4edb-4be6-9a02-ebeaef9ba6bc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "be85fa49-68cc-49e5-9cb2-e10c90596e8f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"GroupsForm\",\"dataType\":\"Boolean\",\"supportsRecordId\":false,\"value\":true},{\"label\":\"vDefaultChoice\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"Group Serve\"}]",
+            "flowName" : "Portal_CaseContactUsForm"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "ccb9f202-f10f-44d0-aed8-7281b74dd03e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6991adea-582d-42e3-a4f3-914f343698a4",
+        "regionLabel" : "Column 2",
+        "regionName" : "e9086",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "165dd732-07c7-47a6-b920-57db145cd805",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Group Serve Program"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "aa8332f1-085b-43a0-b966-7f566ba38212",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "080bcfc6-cdc5-4248-8619-12f33d0881f1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-group-serve-program"
+}

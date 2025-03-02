@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StrtTime_AMorPM__c</fullName>
+    <description>MLF Customization Fall 2024. Created to deconstruct and format the Shift-Start-Date-Time field on the Volunteer Hours Object so it can be used in SMS text messages. Not surfaced on page layout since the field is not for business use.</description>
+    <externalId>false</externalId>
+    <formula>/* C.Hoffart Fall 2024 */
+/* Identifies if time is AM or PM */
+/* SFDC stores all times in UTC. Central Time Zone is 5 hours behind */
+/* which is why the value 5 is referenced in the formula. */
+IF (
+FLOOR(HOUR(TIMEVALUE( GW_Volunteers__Shift_Start_Date_Time__c ))-5) &gt;= 12,
+&quot;PM&quot;, &quot;AM&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Not for business use. Contact Admin for more information.</inlineHelpText>
+    <label>StrtTime-AMorPM</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

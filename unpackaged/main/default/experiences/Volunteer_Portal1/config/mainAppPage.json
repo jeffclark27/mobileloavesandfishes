@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "33300aed-9e10-4716-91ca-fbfcf7587022",
+  "headMarkup" : "<style>\n    .forceListViewManagerHeader .forceListViewSettingsMenu {\n\t\tdisplay: none;\n\t}\n</style>",
+  "id" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "CPT Community Template",
+  "type" : "appPage"
+}

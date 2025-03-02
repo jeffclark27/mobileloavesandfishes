@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volunteer_Follow_Up_Thank_You__c</fullName>
+    <description>References the field of the same name on Volunteer Job records. Because it&#39;s a Long Text field, field formulas will. not list the field as available to select. SF recommends using an automation to do a field update. Will do so as a Flow.</description>
+    <inlineHelpText>Populated by the Volunteer Job record with field of the same name.</inlineHelpText>
+    <label>Volunteer Follow Up Thank You</label>
+    <length>1300</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

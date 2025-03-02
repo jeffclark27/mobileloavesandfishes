@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "34129611-58ba-4c5f-9806-3c4267de3c42",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "8434bb45-2123-4171-9951-9b10908f4f73",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Volunteer_at_the_Community_Market_Tile_Menu_Component",
+  "id" : "4986ad35-6928-4a74-9f3b-096de5611243",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,204 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "368b7878-1b4f-416f-8d32-4c660d180f0f",
+  "label" : "MLF Volunteer Hours Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "44fba5ae-9b33-4817-8c0e-58353e02dccf",
+          "columns" : [ {
+            "UUID" : "f930c287-0e52-4e48-b41d-4da84130364b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "0caea0c9-f6eb-4468-a038-7632e64a44ff",
+            "columnKey" : "1ccaa",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "5bca5905-fca0-43f3-ab58-f20d2c6da7f2",
+            "columnKey" : "47344",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "44fba5ae-9b33-4817-8c0e-58353e02dccf",
+      "regions" : [ {
+        "id" : "f930c287-0e52-4e48-b41d-4da84130364b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":true,\"value\":\"{!Record.Id}\"}]",
+            "flowName" : "VolunteerHours_PortalUpdateVolunteerHours"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "06988d04-e7a6-4660-bbe2-aaf4fb9b327c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0caea0c9-f6eb-4468-a038-7632e64a44ff",
+        "regionLabel" : "Column 2",
+        "regionName" : "1ccaa",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "5bca5905-fca0-43f3-ab58-f20d2c6da7f2",
+        "regionLabel" : "Column 3",
+        "regionName" : "47344",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "8d01edbc-715e-41a4-9e2d-23d37ce03a7d",
+          "columns" : [ {
+            "UUID" : "3c9e0020-90a9-43af-8844-94f39cd0852e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b9b3e96d-8020-46e1-b79c-b2580cd51f91",
+            "columnKey" : "e98e2",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "94d8f60a-46ef-4a7d-b091-ea3f53d81511",
+            "columnKey" : "05978",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "84ca9379-1e42-4d39-ab40-9f8e14a648a3",
+            "columnKey" : "79a2c",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "27f624cd-f31d-463b-a441-2753e22a2848",
+            "columnKey" : "1964c",
+            "columnName" : "Column 5",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "c972a0e2-5fa2-42b4-b22f-26e5fb89e088",
+            "columnKey" : "8dca6",
+            "columnName" : "Column 6",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "8d01edbc-715e-41a4-9e2d-23d37ce03a7d",
+      "regions" : [ {
+        "id" : "3c9e0020-90a9-43af-8844-94f39cd0852e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "b9b3e96d-8020-46e1-b79c-b2580cd51f91",
+        "regionLabel" : "Column 2",
+        "regionName" : "e98e2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "94d8f60a-46ef-4a7d-b091-ea3f53d81511",
+        "regionLabel" : "Column 3",
+        "regionName" : "05978",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "84ca9379-1e42-4d39-ab40-9f8e14a648a3",
+        "regionLabel" : "Column 4",
+        "regionName" : "79a2c",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-account\" class=\"slds-button slds-button_brand\" title=\"My Account\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">My Account</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "d980ab20-4f2f-4dc0-bbf3-76608403ac90",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "27f624cd-f31d-463b-a441-2753e22a2848",
+        "regionLabel" : "Column 5",
+        "regionName" : "1964c",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-volunteer-history\" class=\"slds-button slds-button_brand\" title=\"Volunteer History\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">Volunteer History</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "6f048f37-c1ad-4f63-8c19-a26e4f7565fa",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c972a0e2-5fa2-42b4-b22f-26e5fb89e088",
+        "regionLabel" : "Column 6",
+        "regionName" : "8dca6",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "053db870-f384-474d-9e7d-382410588819",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3e275666-fe1d-4411-930b-4a4315cd229b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ad630de6-3627-4bc0-bedd-5b72e9bd14b9",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a0c"
+}

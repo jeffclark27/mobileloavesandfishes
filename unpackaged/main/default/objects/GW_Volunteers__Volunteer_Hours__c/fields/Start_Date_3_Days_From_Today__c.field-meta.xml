@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_Date_3_Days_From_Today__c</fullName>
+    <description>Use by Volunteer Hours: Email Reminder Flow to determine when to send out reminder.</description>
+    <formula>IF(GW_Volunteers__Start_Date__c = TODAY()+3,TRUE,FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Shift Start Date is 3 Days from Today (Reminder Sent)</inlineHelpText>
+    <label>Start Date 3 Days From Today</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

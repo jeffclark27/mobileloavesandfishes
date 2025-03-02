@@ -1,0 +1,46 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "37531800-00f9-46eb-8fc3-90603e1d330c",
+  "label" : "Volunteer Shift List",
+  "regions" : [ {
+    "id" : "4ed28b31-831d-424b-9824-b81bead2ca1f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "{!filterId}",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : false,
+        "showChartsPanel" : false,
+        "showDisplay" : "grid",
+        "showFilterPanel" : false,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : false,
+        "showObjectName" : false,
+        "showPinnedList" : false,
+        "showSearchBar" : false
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "02cc497a-8962-4f87-84b4-ba4f31766915",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "78c3ebce-3c16-4365-9a52-156cd0036a53",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "404074fe-c6c8-409d-9023-96bd4432fa77",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-a0f"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Volunteer Portal</container>
+    <containerType>Network</containerType>
+    <label>Market Jobs</label>
+    <navigationMenuItem>
+        <label>eCommerce Assistant</label>
+        <menuItemBranding>
+            <tileImage>ecommercevolunteer1</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/a0di000000AXvHdAAL</target>
+        <targetPreference>OpenExternalLinkInSameTab</targetPreference>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Morning Market Clerk</label>
+        <menuItemBranding>
+            <tileImage>marketvolunteer2</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/a0di000000AXvHdAAL</target>
+        <targetPreference>OpenExternalLinkInSameTab</targetPreference>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Midday Market Clerk</label>
+        <menuItemBranding>
+            <tileImage>marketvolunteer1</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/a0di000000AXvHdAAL</target>
+        <targetPreference>OpenExternalLinkInSameTab</targetPreference>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Afternoon Market Clerk</label>
+        <menuItemBranding>
+            <tileImage>marketvolunteer3</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/</target>
+        <targetPreference>OpenExternalLinkInSameTab</targetPreference>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

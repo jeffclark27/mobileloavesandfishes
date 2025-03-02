@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "66bf0bb5-bc50-44e0-b78f-5904252628d6",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Delete_my_Information__c",
+  "id" : "f7f3e73c-0154-4abb-a1ba-0a3f85fd354f",
+  "label" : "Delete my Information",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-delete-my-information",
+  "type" : "route",
+  "urlPrefix" : "delete-my-information"
+}

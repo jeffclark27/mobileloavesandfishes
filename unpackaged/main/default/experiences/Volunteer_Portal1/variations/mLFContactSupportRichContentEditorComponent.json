@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "06c0bc2e-1161-4710-8218-999ee87d2e0f",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "98dfb1f4-ed3b-4d24-9671-f84e84a5cba3",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "MLF_Contact_Support_Rich_Content_Editor_Component",
+  "id" : "94313000-b2ca-4760-89ed-a7f604d4b66b",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,70 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "0c350375-b5ec-49f5-b6fe-e2d481b6fd6d",
+  "label" : "Scout Projects",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "96edcf7f-d128-4d12-8826-85123dfe43a8",
+          "columns" : [ {
+            "UUID" : "cf61900e-1d4d-42d3-bcf0-5b0ae5eaa7be",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "96edcf7f-d128-4d12-8826-85123dfe43a8",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><strong style=\"font-size: 28px; color: rgb(2, 2, 2);\">Thank you for your interest in serving at Community First! Village for your Eagle Scout or Girl Scout Gold Award Project!&nbsp;</strong></h2><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 15px; color: rgb(2, 2, 2);\">Please reach out to us at </span><a href=\"mailto:serve@mlf.org\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 15px; color: rgb(2, 2, 2);\">serve@mlf.org</a><span style=\"font-size: 15px; color: rgb(2, 2, 2);\"> for more information about our Scout service projects.</span></p><p style=\"text-align: center;\"><br></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ab741cd4-b4a4-41a2-8827-84478ac38f92",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "cf61900e-1d4d-42d3-bcf0-5b0ae5eaa7be",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f9627a8b-932b-48e2-925d-e6807cdfd5cc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Scout Projects Program"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "235ae37b-44d4-417c-9e8c-da60a6c8632b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "450951f7-8f1b-4cd6-8a77-54b888da3d67",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-scout-projects-program"
+}

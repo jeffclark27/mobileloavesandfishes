@@ -1,0 +1,70 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b1d3d2e4-f7e1-4395-9551-3ca3883a2e0d",
+  "label" : "Community Service Hours",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 87,
+        "sectionConfig" : {
+          "UUID" : "5f4a0526-be55-478a-9519-11922d71f97e",
+          "columns" : [ {
+            "UUID" : "6a9afda6-3127-44eb-9f21-98c753d372de",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "5f4a0526-be55-478a-9519-11922d71f97e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><br></h1><h1><span style=\"font-size: 28px;\">Community Service Hours </span></h1><p><br></p><p><span style=\"font-size: 16px;\">All our volunteer opportunities at Community First! Village count toward required community service hours. Thank you for choosing us!&nbsp;</span></p><p><br></p><p><span style=\"font-size: 16px;\">If you need verification for court, school, or another requirement, please provide your own documentation and bring it to an MLF Volunteer Team staff member or</span><a href=\"mailto:serve@mlf.org\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"> email us</a><span style=\"font-size: 16px;\"> a PDF copy for verification and signature. Be sure to include the date you need it returned, if applicable.&nbsp;</span></p><p><br></p><p><span style=\"font-size: 16px;\">If you need documentation for a child or an additional volunteer under your account, please contact us at </span><a href=\"mailto:serve@mlf.org\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">serve@mlf.org</a><span style=\"font-size: 16px;\">. </span></p><p><br></p><p><strong style=\"font-size: 16px;\">Your documentation should include:&nbsp;</strong></p><p><br></p><ul><li><span style=\"font-size: 16px;\">Your first and last name&nbsp;</span></li><li><span style=\"font-size: 16px;\">Dates and timeframes/number of hours completed&nbsp;(can be downloaded from your </span><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-volunteer-history\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">Volunteer History</a><span style=\"font-size: 16px;\">)</span></li><li><span style=\"font-size: 16px;\">Names of completed volunteer opportunities&nbsp;(can be downloaded from your </span><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-volunteer-history\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\">Volunteer History</a><span style=\"font-size: 16px;\">)</span></li></ul><p><br></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3a6eff6f-619b-41d5-ae1a-315caba8e499",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6a9afda6-3127-44eb-9f21-98c753d372de",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "589d9552-5808-474d-95b6-9ac389fd7c31",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Community Service Hours Program"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4fa0ab83-e7f8-46f6-8ebc-1ec4899cc1a8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e53d77f6-c561-4564-a213-14ef6fc7277d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-community-service-hours-program"
+}

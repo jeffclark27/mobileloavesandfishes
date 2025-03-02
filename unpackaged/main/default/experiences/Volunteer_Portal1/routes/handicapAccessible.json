@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "de282fc3-4a6b-4342-9686-e8a20d5e95b1",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Handicap_Accessible__c",
+  "id" : "4773a2f0-28ab-4d91-92a9-a48d6f3f4d5d",
+  "label" : "Handicap Accessible",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-handicap-accessible",
+  "type" : "route",
+  "urlPrefix" : "accessible-shifts"
+}

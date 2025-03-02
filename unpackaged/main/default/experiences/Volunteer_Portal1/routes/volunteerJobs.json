@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "37623321-0bb4-466d-a31c-e324238703d5",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Volunteer_Jobs__c",
+  "id" : "d755658f-5c90-47c1-a13a-77ff74b633b0",
+  "label" : "Volunteer Jobs",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-volunteer-jobs",
+  "type" : "route",
+  "urlPrefix" : "volunteer-jobs"
+}

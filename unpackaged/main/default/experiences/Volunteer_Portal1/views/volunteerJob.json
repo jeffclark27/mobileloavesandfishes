@@ -1,0 +1,154 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "68806f2e-7cbd-4cc2-890a-03a9314384b7",
+  "label" : "Volunteer Job",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f429f74d-522f-4641-8ffe-3152b8cf90d2",
+          "columns" : [ {
+            "UUID" : "0f8fc798-b982-45c6-a829-f54156c8bf39",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f429f74d-522f-4641-8ffe-3152b8cf90d2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundImage" : "all_other_background_header_image",
+            "invertColor" : false,
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "c:portalJobDetailBanner",
+          "id" : "a5f93084-03ca-4891-93bc-ff0594a95b63",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0f8fc798-b982-45c6-a829-f54156c8bf39",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "fa2a54e1-5441-428b-8594-b7ee371222d3",
+          "columns" : [ {
+            "UUID" : "62af4c4d-5f1f-437b-8c3f-f3717785492c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d96faad1-9596-4c3f-b249-17f6070ef103",
+            "columnKey" : "11f60",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "fa2a54e1-5441-428b-8594-b7ee371222d3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":true,\"value\":\"{!Record.Id}\"}]",
+            "flowName" : "VolunteerJob_DisplayDescription"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "15109306-8bbe-44b7-8fbf-997a89776a24",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div id=\"mobile-tables-hint\">Swipe left to right for more shift details below.</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "19c34924-d48a-4707-9c9e-47403fc68a12",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":true,\"value\":\"{!Record.Id}\"}]",
+            "flowName" : "VolunteerJob_ShiftRegistration_GuestUser"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "5fe097c7-30c2-454c-a976-f8f9214dbbb0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "62af4c4d-5f1f-437b-8c3f-f3717785492c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":true,\"value\":\"{!Record.Id}\"}]",
+            "flowName" : "VolunteerJob_DisplayRequirements"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "1bfdc98d-bb74-4b04-97b8-1f45d9f45766",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d96faad1-9596-4c3f-b249-17f6070ef103",
+        "regionLabel" : "Column 2",
+        "regionName" : "11f60",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7f85184a-fe3c-4e61-a917-838410f832ae",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c05eb87c-fc2d-427e-b481-62ccf68f7e79",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7aaead3a-f23a-4489-95f0-6f85230b397c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a0d"
+}

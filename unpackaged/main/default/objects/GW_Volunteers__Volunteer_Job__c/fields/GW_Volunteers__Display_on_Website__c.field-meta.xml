@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GW_Volunteers__Display_on_Website__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Update 11Dec24. Field does not play in role in MLF business ops with the advent of the Experience Cloud based Volunteer Portal delivered in the Spring 2025. Prior, the field played role in the operations of the legacy Fortafy Volunteer Portal solution &amp; the NPSP/V4S functionality. Removed from page layout since no longer used. Original text: Check this field if this Volunteer Job should be included in the Available Volunteer Jobs Sites page.</inlineHelpText>
+    <label>Display on Website</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome email sent from Experience Cloud to new members of the volunteer portal</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>MLF Vol Portal Welcome</name>
+    <style>none</style>
+    <subject>Mobile Loaves &amp; Fishes: Welcome to our Volunteer Portal</subject>
+    <textOnly>Hi {!Receiving_User.FirstName},
+
+You successfully created a new account on  our Volunteer Portal!
+
+Your Username is: {!Receiving_User.Username}
+
+Set a Password on your new account by clicking the following link. After establishing a password you will be automatically logged in to your new Volunteer Portal account.
+{!Community_Url}
+
+We look forward to serving with you!
+Mobile Loaves &amp; Fishes</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

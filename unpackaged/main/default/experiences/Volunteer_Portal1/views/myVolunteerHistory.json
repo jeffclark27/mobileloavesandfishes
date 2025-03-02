@@ -1,0 +1,292 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "57cc21e3-2931-4bb5-8c89-1c0401549596",
+  "label" : "My Volunteer History",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "5600a7c0-4d76-4ea9-a5d6-57104790dfda",
+          "columns" : [ {
+            "UUID" : "6812ac0c-ce5d-4e2c-8582-2adcdfef72d6",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "5600a7c0-4d76-4ea9-a5d6-57104790dfda",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong>My Volunteer History&nbsp;</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "fe9dfb66-dd21-4dec-9365-d40dbabe5a55",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6812ac0c-ce5d-4e2c-8582-2adcdfef72d6",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "60c8dd31-29ff-453a-b347-fc498fbd450a",
+          "columns" : [ {
+            "UUID" : "18b53de8-8562-4564-88a8-c81c1f5b5be6",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "10",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "591f9722-11bd-40ee-b5f7-08e2a9634bc6",
+            "columnKey" : "57817",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "60c8dd31-29ff-453a-b347-fc498fbd450a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p><span style=\"font-size: 14px;\">Your decision to share your time and talents with us means the world. Volunteers like you are the heartbeat of our organization, making everything we do possible. Your willingness to step forward and serve demonstrates your dedication to our mission, and we’re incredibly grateful for your support.</span><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/community-service-hours-program\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\"> </a></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">All our volunteer opportunities at Community First! Village count toward required community service hours. </span><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/community-service-hours-program\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">Learn more about Community Service hours.</a></p><p><span style=\"font-size: 14px;\">&nbsp;</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "300596a5-c531-4903-b6cb-90bf070f2d73",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "18b53de8-8562-4564-88a8-c81c1f5b5be6",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"/vpstandard/a0c/x?fcf=00BWC000000vns1\" class=\"slds-button slds-button_brand\" title=\"Print\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">Print</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "fd45a369-664a-4002-ba2e-a0a12511e24a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "591f9722-11bd-40ee-b5f7-08e2a9634bc6",
+        "regionLabel" : "Column 2",
+        "regionName" : "57817",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "9a9e87f6-33e1-4421-a861-42f59f7fb163",
+          "columns" : [ {
+            "UUID" : "274cbe3a-68d7-4e1e-92d3-8d435b79f314",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "9a9e87f6-33e1-4421-a861-42f59f7fb163",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "My_Completed_Shifts",
+            "layout" : "FULL",
+            "pageSize" : 15,
+            "scope" : "GW_Volunteers__Volunteer_Hours__c",
+            "showActionBar" : false,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : false,
+            "showManualRefreshButton" : false,
+            "showObjectName" : false,
+            "showPinnedList" : false,
+            "showSearchBar" : false
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "efe4cb8c-db02-43c2-bf65-fce1a6532c32",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "274cbe3a-68d7-4e1e-92d3-8d435b79f314",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "47f20c97-9c0a-46d4-a8bf-eb02542a19bb",
+          "columns" : [ {
+            "UUID" : "7456c79e-2429-4745-b9f5-f798166735e5",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "559300ca-5d69-4d48-ae1e-f037583d4f73",
+            "columnKey" : "9f14e",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "e3035371-a741-4c04-ac49-eef5ec814cab",
+            "columnKey" : "c20ff",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "5fdb059d-7303-45e8-ba2d-479a05948f36",
+            "columnKey" : "e9bb1",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "247e62d6-846c-4158-91bc-48d91d4bcae5",
+            "columnKey" : "62594",
+            "columnName" : "Column 5",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "67132ac4-35d1-48b2-b25b-8ef7be0dbe2c",
+            "columnKey" : "b1bb4",
+            "columnName" : "Column 6",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "47f20c97-9c0a-46d4-a8bf-eb02542a19bb",
+      "regions" : [ {
+        "id" : "7456c79e-2429-4745-b9f5-f798166735e5",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "559300ca-5d69-4d48-ae1e-f037583d4f73",
+        "regionLabel" : "Column 2",
+        "regionName" : "9f14e",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "e3035371-a741-4c04-ac49-eef5ec814cab",
+        "regionLabel" : "Column 3",
+        "regionName" : "c20ff",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "5fdb059d-7303-45e8-ba2d-479a05948f36",
+        "regionLabel" : "Column 4",
+        "regionName" : "e9bb1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-upcoming-shifts\" class=\"slds-button slds-button_brand\" title=\"My Upcoming Shifts\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">My Upcoming Shifts</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "859dcb04-6296-469f-b95e-b228c5b2d255",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "247e62d6-846c-4158-91bc-48d91d4bcae5",
+        "regionLabel" : "Column 5",
+        "regionName" : "62594",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-account\" class=\"slds-button slds-button_brand\" title=\"My Account\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">My Account</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "872f045c-d08e-4b09-9b46-06592961c613",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "67132ac4-35d1-48b2-b25b-8ef7be0dbe2c",
+        "regionLabel" : "Column 6",
+        "regionName" : "b1bb4",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "286b8f24-1c7e-4d22-8a4d-0f5238819df6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Volunteer History"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "db13e85d-32b0-45f4-b9c1-0ed6716a51b5",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4a2204cc-4fb4-45cd-afcd-06b6950a26b4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-my-volunteer-history"
+}

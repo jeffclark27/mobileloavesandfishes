@@ -1,0 +1,48 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "c3627ebf-103e-43e5-8c9c-32c30b2d0734",
+  "label" : "Neighbor Engagement Program",
+  "regions" : [ {
+    "id" : "91896ca7-89de-41ec-9dbe-02cb389b0380",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 22px;\">Neighbor Engagement Program</strong></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.neighbor_engagement_pic.1}\" alt=\"\"></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c7db1499-f13f-477d-873f-ca8878bfa886",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4bcb06c0-1d77-4f24-a53c-ec6185522d9b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0177ecac-5a10-456f-bf66-0e250a1450d0",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Neighbor Engagement Program"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "832e8556-5263-4937-9cb1-5981ab6a8c7a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ce416b84-d42e-4719-812b-1b140b79a057",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-neighbor-engagement-program"
+}

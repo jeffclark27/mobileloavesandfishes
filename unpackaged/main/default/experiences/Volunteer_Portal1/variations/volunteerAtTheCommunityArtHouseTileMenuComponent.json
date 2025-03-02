@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "df5ebea2-f3c3-4504-828c-6a5c3d61ed9d",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "2f3d76ab-a1ef-48fa-855e-2bb78870534f",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Volunteer_at_the_Community_Art_House_Tile_Menu_Component",
+  "id" : "7b31e5fd-435d-4a61-8a1e-cf15e4ea574f",
+  "type" : "experienceVariation"
+}

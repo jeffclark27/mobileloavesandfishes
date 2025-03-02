@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CR1112_Action_Taken__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>MLF Customization. March 2024. Created to help business users mitigate problem CR-1112. Temporary use. Can be removed when the Fortafy created Volunteer Portal (server.mlf.org) is decommissioned. Identifies Shifts the Vol Team biz users have taken action on.</description>
+    <label>CR1112 Action Taken?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

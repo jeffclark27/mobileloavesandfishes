@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "dd64a5fa-4d3e-413b-b442-21198c1be342",
+    "propertyOverrides" : {
+      "activeViewId" : "35d0c43f-b447-4e20-b807-b9587ea5424a"
+    },
+    "targetId" : "5fc7add5-1f23-48eb-917c-a7d1d36c24a0",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Volunteer_Job_Detail_Group_Job_Detail_Page",
+  "id" : "e208e8da-175a-4de5-bde9-2af6a759298a",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "368b7878-1b4f-416f-8d32-4c660d180f0f",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Volunteer_Hours_Detail__c",
+  "id" : "e0d1bce5-9b7f-4d67-baee-1b16f76b2184",
+  "label" : "Volunteer Hours Detail",
+  "objectApiName" : "GW_Volunteers__Volunteer_Hours__c",
+  "routeType" : "detail-a0c",
+  "type" : "route",
+  "urlPrefix" : "volunteer-hours"
+}

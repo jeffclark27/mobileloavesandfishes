@@ -1,0 +1,23 @@
+<p>
+<img width="200" src="http://mlf.org/wp-content/uploads/2016/01/MLF_Horizontal_Gotham-Lockup_TM_Small.png" />
+</p>
+<p>
+Hi {!Receiving_User.FirstName},
+<br>
+<br>
+You successfully created a <u>new account</u> on  our <b>Volunteer Porta</b>l!
+<br>
+<br>
+Your <b>Username</b> is: {!Receiving_User.Username}
+<br>
+<br>
+Set a <b>Password</b> on your new account by clicking the following link. After establishing a password you will be automatically logged in to your new Volunteer Portal account.
+<br>
+{!Community_Url}
+<br>
+<br>
+<b>We look forward to serving with you!</b>
+<br>
+
+Mobile Loaves & Fishes
+</p>

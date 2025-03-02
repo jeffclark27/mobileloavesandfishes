@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "488fd5d4-9693-4eb6-b48f-c13ce16ee6ef",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "f41315cf-e190-42f0-84e9-cb6dbb0c529c",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Indoors_Flow_Component",
+  "id" : "26a82536-da2d-4e33-a606-904abaf2fcad",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StrtTime_Formatted__c</fullName>
+    <description>MLF Customization Fall 2024. Created to deconstruct and format the Shift-Start-Date-Time field on the Volunteer Hours Object so it can be used in SMS text messages. Not surfaced on page layout since the field is not for business use.</description>
+    <externalId>false</externalId>
+    <formula>/* C.Hoffart Fall 2024 */
+StrtTime_Hour__c &amp; &quot;:&quot; &amp; StrtTime_Minute__c &amp; &quot; &quot; &amp;StrtTime_AMorPM__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Not for business use. Contact Admin for more information.</inlineHelpText>
+    <label>StrtTime-Formatted</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

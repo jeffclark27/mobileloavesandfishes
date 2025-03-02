@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "c3b3e31c-b0e2-4f0d-bca9-2b0d279ecc7f",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "afb534af-7478-456d-add8-8defdc3edb07",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Handicap_Accessible_Flow_Component",
+  "id" : "6b83c519-e17f-4db2-8f15-53861c737617",
+  "type" : "experienceVariation"
+}

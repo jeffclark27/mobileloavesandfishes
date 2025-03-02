@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "991e553a-8804-470b-91a6-719b049fd3b9",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "450d12a8-6cfd-4e0f-bb6b-fd297929f207",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Genesis_Gardens_Section_Component",
+  "id" : "e2e6cd6c-b836-46b5-95d8-a5ff881cdec7",
+  "type" : "experienceVariation"
+}

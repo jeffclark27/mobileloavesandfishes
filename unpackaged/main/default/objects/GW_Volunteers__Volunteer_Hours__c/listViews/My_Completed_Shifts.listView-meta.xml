@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Completed_Shifts</fullName>
+    <columns>Date_Time__c</columns>
+    <columns>Job__c</columns>
+    <columns>Hours__c</columns>
+    <columns>Where__c</columns>
+    <columns>GW_Volunteers__Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>My_Volunteer_Hours__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>GW_Volunteers__Status__c</field>
+        <operation>equals</operation>
+        <value>Completed,No-Show,Canceled,MLF Shift Canceled</value>
+    </filters>
+    <label>* My Completed Shifts</label>
+</ListView>

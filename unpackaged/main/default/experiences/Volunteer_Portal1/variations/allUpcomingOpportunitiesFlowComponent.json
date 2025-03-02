@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "84766e1a-b151-4c73-8d3f-060f6cc7b71d",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "036c7250-be53-4926-bbdf-35e56ef359ac",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "All_Upcoming_Opportunities_Flow_Component",
+  "id" : "b2f793b3-1e27-48d6-a530-5d8ad71fd731",
+  "type" : "experienceVariation"
+}

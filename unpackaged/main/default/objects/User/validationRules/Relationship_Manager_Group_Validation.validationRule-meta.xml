@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relationship_Manager_Group_Validation</fullName>
+    <active>true</active>
+    <description>Values can only be 1 or null as of 30May23. Additional values will be allowed as more Accounts come under portfolio management.</description>
+    <errorConditionFormula>Relationship_Manager_Group__c &lt;&gt; &quot;1&quot; &amp;&amp; Relationship_Manager_Group__c &lt;&gt; &quot;2&quot; &amp;&amp; Relationship_Manager_Group__c &lt;&gt; &quot;&quot;</errorConditionFormula>
+    <errorDisplayField>Relationship_Manager_Group__c</errorDisplayField>
+    <errorMessage>Values allowed: 1, 2 or blank</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Export_Sign_Up_List</fullName>
+    <availability>online</availability>
+    <description>Built primarily for Group Serve Jobs. Generate report of Volunteers signed up for a Shift so the report can be exported to Excel then sent to the Group Serve Coordinator. Report name &quot;Shift Sign-Up Sheet&quot;</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Export Sign-Up List</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>https://goodness.lightning.force.com/lightning/r/Report/00O5d000007YxtiEAC/view?queryScope=userFolders&amp;fv0={!GW_Volunteers__Volunteer_Shift__c.Name}</url>
+</WebLink>

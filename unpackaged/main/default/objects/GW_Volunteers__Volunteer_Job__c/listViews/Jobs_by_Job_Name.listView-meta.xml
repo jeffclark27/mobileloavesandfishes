@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jobs_by_Job_Name</fullName>
+    <columns>NAME</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>GW_Volunteers__Inactive__c</columns>
+    <columns>GW_Volunteers__Campaign__c</columns>
+    <columns>GW_Volunteers__Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>Community Inn</value>
+    </filters>
+    <label>Jobs by Job Name</label>
+</ListView>

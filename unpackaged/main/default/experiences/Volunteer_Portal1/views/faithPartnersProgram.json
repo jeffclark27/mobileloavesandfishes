@@ -1,0 +1,48 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "cb206200-2782-434f-893f-f008250c6a3c",
+  "label" : "Faith Partners Program",
+  "regions" : [ {
+    "id" : "d58b3271-db2b-4329-a256-a909e3efb30c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 22px;\">Faith Partners Program</strong></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.faith_partners_pic.1}\"></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "931cc66d-72b1-4eed-9fa7-7a9e4a49f6e2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "93639765-1c4a-47b7-8990-8ffddaa5589a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ce007000-d36b-4550-bb99-4657119e04f1",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Faith Partners Program"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3d04b494-5fe5-45c9-ae26-9122936b21d7",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8acd3f1e-35dd-4f76-86b0-976cb88728a3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-faith-partners-program"
+}

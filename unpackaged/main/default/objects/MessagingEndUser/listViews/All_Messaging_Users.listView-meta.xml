@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Messaging_Users</fullName>
+    <columns>Id</columns>
+    <columns>Contact</columns>
+    <columns>Contact.ContactID_CaseSafeID__c</columns>
+    <columns>Name</columns>
+    <columns>MessagingPlatformKey</columns>
+    <columns>MessagingConsentStatus</columns>
+    <columns>IsFullyOptedIn</columns>
+    <columns>MessagingChannel</columns>
+    <columns>MessageType</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Messaging Users</label>
+</ListView>

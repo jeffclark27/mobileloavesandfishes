@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Link__c</fullName>
+    <description>May 2024. MLF update. Changed Field Label from &quot;Job Link (Old)&quot; to &quot;Registration Link&quot; as a task for the new Volunteer Portal project</description>
+    <externalId>false</externalId>
+    <formula>&quot;https://mlf.secure.force.com/volunteers/GW_Volunteers__VolunteersJobListingFS?jobId=&quot;&amp;Id&amp;&quot;&amp;nMonthstoShow=12&amp;ShowNumberAvailable=1&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Registration Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

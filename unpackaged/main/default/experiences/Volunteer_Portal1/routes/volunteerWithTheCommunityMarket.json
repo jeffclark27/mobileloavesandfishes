@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "453a488a-5f33-4c38-862b-5a203117e744",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Volunteer_at_the_Community_Market__c",
+  "id" : "9fec68f5-4ef6-4b79-969e-ac61a3727c48",
+  "label" : "Volunteer with the Community Market",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-volunteer-market",
+  "type" : "route",
+  "urlPrefix" : "volunteer-market"
+}

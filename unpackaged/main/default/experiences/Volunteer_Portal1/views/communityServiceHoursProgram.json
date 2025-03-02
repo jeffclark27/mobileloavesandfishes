@@ -1,0 +1,48 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "cdc63b70-2d34-4e70-a84e-24ee3814da4f",
+  "label" : "Community Service Hours Program",
+  "regions" : [ {
+    "id" : "b67e7983-7760-4b25-8b3d-5a6902e5fb61",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"font-size: 28px;\">Community Service Hours </span></h1><p><br></p><p><span style=\"font-size: 16px;\">All our volunteer opportunities at Community First! Village count toward required community service hours. Thank you for choosing us!&nbsp;</span></p><p><br></p><p><span style=\"font-size: 16px;\">If you need verification for court, school, or another requirement, please provide your own documentation and bring it to an MLF Volunteer Team staff member or email us a PDF copy for verification and signature. Be sure to include the date you need it returned, if applicable.&nbsp;</span></p><p><br></p><p><span style=\"font-size: 16px;\">If you need documentation for a child or an additional volunteer under your account, please contact us at </span><a href=\"mailto:serve@mlf.org\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; color: rgb(70, 120, 134);\">serve@mlf.org</a><span style=\"font-size: 16px;\">.&nbsp;</span></p><p><br></p><p><strong style=\"font-size: 16px;\">Your documentation should include:&nbsp;</strong></p><p><br></p><ul><li><span style=\"font-size: 16px;\">Your first and last name&nbsp;</span></li><li><span style=\"font-size: 16px;\">Dates and timeframes/number of hours completed&nbsp;</span></li><li><span style=\"font-size: 16px;\">Names of completed volunteer opportunities&nbsp;</span></li></ul><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "8c4aa2e3-f552-43ba-b658-ecd9e259a20b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9e3e3212-8bdc-4ba8-ab0d-b29cf28d8d4a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0c3e40ab-b214-481e-bfa5-8e03dc04ad9f",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Community Service Hours Program"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "016dc6d3-8746-4bdb-9cd2-90c966bef188",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d2516400-4aa9-4af6-9ca3-823478714eb7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-community-service-hours-program"
+}

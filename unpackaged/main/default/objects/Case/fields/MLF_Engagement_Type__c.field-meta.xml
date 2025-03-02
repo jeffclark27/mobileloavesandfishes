@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MLF_Engagement_Type__c</fullName>
+    <description>MLF customization in 2025 for new Experience Cloud based Volunteer Portal. Populated from a Flow.</description>
+    <label>MLF Engagement Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Provide a Meal</fullName>
+                <default>false</default>
+                <label>Provide a Meal</label>
+            </value>
+            <value>
+                <fullName>Provide a Service</fullName>
+                <default>false</default>
+                <label>Provide a Service</label>
+            </value>
+            <value>
+                <fullName>Host an Event</fullName>
+                <default>false</default>
+                <label>Host an Event</label>
+            </value>
+            <value>
+                <fullName>Greatest Need</fullName>
+                <default>false</default>
+                <label>Greatest Need</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

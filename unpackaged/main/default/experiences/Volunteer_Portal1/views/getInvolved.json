@@ -1,0 +1,122 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "f46852f5-6b71-4f4b-97a3-6eb3bcc706ed",
+  "label" : "Get Involved",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0) url(/sfsites/c/file-asset/mobileloavesfishescommunityfirstvil?v=1) center center /cover",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c1ed642f-26b9-4b1f-985a-68e9c26a4d21",
+          "columns" : [ {
+            "UUID" : "b9823fcd-7e60-4ff3-8a0a-81d4c46b7332",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c1ed642f-26b9-4b1f-985a-68e9c26a4d21",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; height: 400px; text-align: center;\">\n    <h1 style=\"font-size: 55px; margin: 0 auto; color: white; padding-top: 150px;\">Get Involved</h1>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "b68bc0a9-a024-47ce-ba01-d7a64e17723c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b9823fcd-7e60-4ff3-8a0a-81d4c46b7332",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 80,
+        "sectionConfig" : {
+          "UUID" : "abd51985-c45f-4942-85f7-74be41bd2202",
+          "columns" : [ {
+            "UUID" : "8e8b8b7e-3d46-4cbd-bd71-15bae29792c4",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "abd51985-c45f-4942-85f7-74be41bd2202",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "Empty_Volunteer_Shifts",
+            "layout" : "COMPACT",
+            "pageSize" : 25,
+            "scope" : "GW_Volunteers__Volunteer_Shift__c",
+            "showActionBar" : false,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : false,
+            "showManualRefreshButton" : true,
+            "showObjectName" : false,
+            "showPinnedList" : false,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "8bdef557-16a5-4f44-b22a-204eace73aa3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8e8b8b7e-3d46-4cbd-bd71-15bae29792c4",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4deb3569-5133-478b-9efd-829df8f8b401",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Get Involved"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "43e7b235-9ee6-4aba-9070-6cb669877ec3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ab174952-5625-4c3a-adf2-bc37d6c14b74",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-get-involved"
+}

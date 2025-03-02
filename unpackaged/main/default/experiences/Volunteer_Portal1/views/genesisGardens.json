@@ -1,0 +1,510 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "ff8b652b-14d7-43b2-a899-cc46f441c77e",
+  "label" : "Genesis Gardens",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0) url(/sfsites/c/file-asset/GenesisGardens_OverheadCommunityFir?v=1) center right /cover",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0.41)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "70fc4f6f-ebd9-48f3-b1d3-df057ba9dbce",
+          "columns" : [ {
+            "UUID" : "6ca06446-2b52-4b83-a3da-dd8ac92307db",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "70fc4f6f-ebd9-48f3-b1d3-df057ba9dbce",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; height: 300px; text-align: center;\">\n    <h1 style=\"font-size: 55px; margin: 0 auto; color: white; padding-top: 100px;\">Genesis Gardens</h1>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "6e472a0f-2a62-4451-9127-68deb43b17f8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6ca06446-2b52-4b83-a3da-dd8ac92307db",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e9184b5c-8477-4c57-ae39-b69daa97b1b1",
+          "columns" : [ {
+            "UUID" : "406096a7-dc9c-428b-b204-faea9ff4e3be",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e9184b5c-8477-4c57-ae39-b69daa97b1b1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a class=\"slds-button slds-button_brand\" title=\"Login or Register\" href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">YOU ARE BROWSING AS A GUEST! PLEASE LOGIN OR REGISTER TO VIEW AND SIGN UP FOR VOLUNTEER OPPORTUNITIES.</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "c0eaad48-6a8b-47f5-81bb-8115283fbb9c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "406096a7-dc9c-428b-b204-faea9ff4e3be",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "d1d6eb29-ea4e-450a-b147-ec18993c732d",
+          "columns" : [ {
+            "UUID" : "b56745db-1ff2-4b60-bd50-10ee7278fdeb",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 400
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d1d6eb29-ea4e-450a-b147-ec18993c732d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<br/>\n<br/>\n<p style= \"font-size:24px; text-align: left;\">Everyone is invited to roll up their sleeves and engage with neighbors in Genesis Gardens at Community First! Village. The bounty from our organic gardens is harvested, washed, bunched, canned, pickled, preserved or cooked and provided to neighbors throughout the Village at our weekly Farmers Market – giving neighbors direct access to the best produce on earth! </p>\n<br/>\n<p style= \"font-size:24px; text-align: left;\">Volunteers have the opportunity to learn the importance of intention, how to steward the land through companion planting and to recall what it means to put down roots, and share the abundance of our yields. </p>\n<br/>\n<br/>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "c117faaa-cb64-4a16-b9d4-5a68e9f9780c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b56745db-1ff2-4b60-bd50-10ee7278fdeb",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0.5)",
+        "contentAreaWidth" : 78,
+        "sectionConfig" : {
+          "UUID" : "29a03210-a16b-4aa5-80ee-1a5006911dc1",
+          "columns" : [ {
+            "UUID" : "eb6d297a-b909-4393-8534-b75e7bb1f995",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "29a03210-a16b-4aa5-80ee-1a5006911dc1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Genesis Gardens Volunteer Roles</span></h2><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Genesis Gardens is making exciting updates! </span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">At this time, we are open exclusively to our recurring volunteers. </span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0712e8c7-a694-4805-8174-2a7aeafb0a05",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px;\">﻿If you are interested in joining us regularly, please fill out </span><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/contactsupport\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 16px;\">this form</a><span style=\"font-size: 16px;\">—we would love to welcome you!</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "8d36e400-6749-4acf-aef3-8ac745be7a65",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "eb6d297a-b909-4393-8534-b75e7bb1f995",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0.5)",
+        "contentAreaWidth" : 78,
+        "sectionConfig" : {
+          "UUID" : "673c5a8f-d078-42d1-a0c8-7ae2d7f2cca6",
+          "columns" : [ {
+            "UUID" : "c8995cb9-26a6-44c6-ba7e-73103366f12e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "673c5a8f-d078-42d1-a0c8-7ae2d7f2cca6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; padding-bottom: 80px; text-align:center;\"><a class=\"slds-button slds-button_brand\" href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/programs\" title=\"Back to All Programs\" style=\"width: 100%; max-width: 350px; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">Back to All Programs</a></div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "d1bcaa90-06c9-4335-aaec-b11a9d20db0b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c8995cb9-26a6-44c6-ba7e-73103366f12e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "95a2b094-507f-4fdb-bc29-57376e3eca82",
+          "columns" : [ {
+            "UUID" : "9aa88a10-d11c-4903-ad2b-735490d14837",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 62
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "95a2b094-507f-4fdb-bc29-57376e3eca82",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Got Specific Requirements?</span></h2><p style=\"text-align: center;\"><span style=\"font-size: 18px;\">We have a way for you to get involved!</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d273b49b-adba-47c4-9e19-0ca5229e1078",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9aa88a10-d11c-4903-ad2b-735490d14837",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "450d12a8-6cfd-4e0f-bb6b-fd297929f207",
+          "columns" : [ {
+            "UUID" : "568696c9-3e98-438c-a6bf-26de40ec56e3",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "1ba44a46-f284-4819-87ff-0e439b8f0e5a",
+            "columnKey" : "02da8",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d36d9db6-0f4e-47df-9906-621166c923fe",
+            "columnKey" : "8a36c",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "a3632645-cd6d-4ef4-a1a4-1317e80de7e9",
+            "columnKey" : "fcb69",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "73e45558-7b6c-4732-b116-effe9bd0f8a3",
+            "columnKey" : "9637b",
+            "columnName" : "Column 5",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "86caa83c-881f-4996-b10d-8a430534a5fc",
+            "columnKey" : "ec199",
+            "columnName" : "Column 6",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "450d12a8-6cfd-4e0f-bb6b-fd297929f207",
+      "regions" : [ {
+        "id" : "568696c9-3e98-438c-a6bf-26de40ec56e3",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\" alt=\"\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\">Family-Friendly</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "aef28d85-b8da-4b69-b4a3-8197d6b37382",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1ba44a46-f284-4819-87ff-0e439b8f0e5a",
+        "regionLabel" : "Column 2",
+        "regionName" : "02da8",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\">Accessible</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ce90a557-5c37-43d4-b5fa-018d15558bf8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d36d9db6-0f4e-47df-9906-621166c923fe",
+        "regionLabel" : "Column 3",
+        "regionName" : "8a36c",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\" alt=\"\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\">Indoors</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "cf4b29a0-9725-4384-b666-3ee5f565ecc9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a3632645-cd6d-4ef4-a1a4-1317e80de7e9",
+        "regionLabel" : "Column 4",
+        "regionName" : "fcb69",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/upcoming-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxstimetallorangetransparent.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/upcoming-shifts\" rel=\"noopener noreferrer\" target=\"_self\">In the Next Two Weeks</a></h3>\n<h3 style=\"text-align: center;\"><br></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "94953e61-f321-40b4-a83b-651ce9eae47a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "73e45558-7b6c-4732-b116-effe9bd0f8a3",
+        "regionLabel" : "Column 5",
+        "regionName" : "9637b",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "86caa83c-881f-4996-b10d-8a430534a5fc",
+        "regionLabel" : "Column 6",
+        "regionName" : "ec199",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d2aa5769-40f2-4e33-b9ca-8fe67d430291",
+          "columns" : [ {
+            "UUID" : "e77a7c39-5e12-4438-b6ea-3d8845697db6",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "25d71c12-9115-42aa-8e13-5f66326324d6",
+            "columnKey" : "02da8",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "a3fd64bf-4408-4888-80e5-3bbc802d90c1",
+            "columnKey" : "8a36c",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "750a9b8c-27e0-49fa-9d8d-7b94a975e7b2",
+            "columnKey" : "fcb69",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "2436ab12-3946-4b42-84a0-b24f59fe27c9",
+            "columnKey" : "9637b",
+            "columnName" : "Column 5",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d2aa5769-40f2-4e33-b9ca-8fe67d430291",
+      "regions" : [ {
+        "id" : "e77a7c39-5e12-4438-b6ea-3d8845697db6",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\" alt=\"\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\">Family-Friendly</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "362bf92d-c6d9-4385-8a7e-e3cfd5a9687a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "25d71c12-9115-42aa-8e13-5f66326324d6",
+        "regionLabel" : "Column 2",
+        "regionName" : "02da8",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\">Accessible</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "87bf3b42-0842-4b54-adaf-0acc21f30bda",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a3fd64bf-4408-4888-80e5-3bbc802d90c1",
+        "regionLabel" : "Column 3",
+        "regionName" : "8a36c",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\" alt=\"\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\">Indoors</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "66e8514c-11f5-4e96-8a88-d2fc0f504f61",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "750a9b8c-27e0-49fa-9d8d-7b94a975e7b2",
+        "regionLabel" : "Column 4",
+        "regionName" : "fcb69",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "2436ab12-3946-4b42-84a0-b24f59fe27c9",
+        "regionLabel" : "Column 5",
+        "regionName" : "9637b",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aba3f8dc-89bd-4480-8ad5-6e9f747d26f0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Genesis Gardens"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f29c267d-8f63-488d-ab9d-e59aef25ac69",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b5eff33b-9bda-4b62-bffc-71dcb11ab13e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-genesis-gardens"
+}

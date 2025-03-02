@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "94f3fd5c-3248-4969-aadc-713a95ce1790",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "My_Upcoming_Shifts__c",
+  "id" : "8540eefa-7ed0-404b-967d-b1013f6e9cde",
+  "label" : "My Upcoming Shifts",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-my-upcoming-shifts",
+  "type" : "route",
+  "urlPrefix" : "my-upcoming-shifts"
+}

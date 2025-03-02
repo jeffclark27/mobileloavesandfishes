@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "629a7b7a-79f0-47d2-b6bd-5efce6431456",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "02d3e630-452f-4fe7-b6c6-0cd2fa787832",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Programs_Flow_Component",
+  "id" : "00e50348-5fd8-4bcc-aa74-86b88d55b715",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "c499a4c4-91d4-4f8f-8251-c25315b82ca8",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "aab5c47c-ac9b-4eb7-aac5-ec3b25a2555d",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Volunteer_at_the_Community_Art_House_Section_5_Component",
+  "id" : "f148dfe7-713e-429b-8653-193a63ed8a0a",
+  "type" : "experienceVariation"
+}

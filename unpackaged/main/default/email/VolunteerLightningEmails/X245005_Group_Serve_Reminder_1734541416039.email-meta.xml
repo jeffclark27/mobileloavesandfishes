@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Group Serve Reminder sent to Group Contact</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>245005 Group Serve Reminder</name>
+    <pageDevName>X245005_Group_Serve_Reminder</pageDevName>
+    <relatedEntityType>GW_Volunteers__Volunteer_Hours__c</relatedEntityType>
+    <style>none</style>
+    <subject>Reminder - upcoming Group Serve Day at Mobile Loaves &amp; Fishes</subject>
+    <textOnly>Hi {{{Recipient.FirstName}}},
+
+This is a friendly reminder about your organization&#39;s upcoming Group Serve Day at Community First! Village on {{{GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Shift_Start_Date_Time__c}}}for {{{GW_Volunteers__Volunteer_Hours__c.Volunteer_Job_Name__c}}}at {{{GW_Volunteers__Volunteer_Hours__c.fortafy_JobLocationFullAddress__c}}}.
+
+We appreciate you coordinating this event with your organization&#39;s attendees. Here is a list of attendees who have signed up for this event. 
+
+&lt;Volunteer Name&gt; &lt;Volunteer Hours Status&gt; &lt;Volunteer Email&gt; &lt;Volunteer Phone&gt;
+
+Please review the attached instructions carefully. 
+
+Click HERE &lt; https://mlf.org/wp-content/uploads/2024/11/front-porch-check-in.jpg &gt; to view a map to help you find your way.
+
+If you need to cancel your organization&#39;s Group Serve day, or if you have any questions, please feel free to respond to this email directly. We are here to help! 
+
+Thank you from all of us at Mobile Loaves &amp; Fishes! We look forward to seeing you soon!
+
+Form: 245005</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

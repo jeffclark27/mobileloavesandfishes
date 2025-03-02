@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "7bd10f37-26c6-4c77-96ce-0843a2c8ae53",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Volunteer_at_the_Community_Inn__c",
+  "id" : "9cb2a71e-6164-44e0-acf1-4143df7584c0",
+  "label" : "Volunteer with the Community Inn",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-volunteer-at-the-community-inn",
+  "type" : "route",
+  "urlPrefix" : "volunteer-at-the-community-inn"
+}

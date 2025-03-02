@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "8f600975-d42d-4181-a1b7-6af43b050349",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Volunteer_with_Neighbor_Care__c",
+  "id" : "a8d36e1e-24b9-47e3-b0f9-634659e3a9b6",
+  "label" : "Volunteer with Neighbor Care",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-volunteer-neighbor-care",
+  "type" : "route",
+  "urlPrefix" : "volunteer-neighbor-care"
+}

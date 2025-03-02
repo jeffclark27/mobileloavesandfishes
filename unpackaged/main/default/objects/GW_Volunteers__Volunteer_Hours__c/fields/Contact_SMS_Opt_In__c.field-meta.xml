@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_SMS_Opt_In__c</fullName>
+    <description>Evaluates the Contact.SMS_Status__c and determines whether Contact is SMS opted in or not.</description>
+    <formula>AND(
+ NOT(ISNULL(TEXT(GW_Volunteers__Contact__r.SMS_Status__c))),
+ NOT(ISPICKVAL(GW_Volunteers__Contact__r.SMS_Status__c, &#39;OptedOut&#39;))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Evaluates the Contact.SMS_Status__c and determines whether Contact is SMS opted in or not.</inlineHelpText>
+    <label>Contact SMS Opt-In</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

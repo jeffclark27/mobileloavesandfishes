@@ -1,0 +1,49 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "64099655-bac7-4485-841c-28ceb002c413",
+  "label" : "Volunteer Shift Detail",
+  "regions" : [ {
+    "id" : "9b166d9d-c5c4-4af4-87c8-0e371b6ccc93",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":true,\"value\":\"{!Record.Id}\"}]",
+        "flowName" : "VolunteerShift_RedirecToVolunteerJob"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "745da815-3b05-4931-bf02-a420a4d46fca",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8eea5d3a-2848-425e-a31e-b0d23c0f71e9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "27bc2c63-52fd-4f8e-8911-db92adce3777",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d3d823c4-26e2-4016-bea2-d56c8afe9010",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "27ba983b-7404-40ae-9bfc-45be8fc7494a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a0f"
+}

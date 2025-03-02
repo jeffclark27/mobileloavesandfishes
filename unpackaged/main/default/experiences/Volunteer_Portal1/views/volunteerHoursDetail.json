@@ -1,0 +1,58 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1e353b5d-80e4-401e-b158-74ff0bc5eebb",
+  "label" : "Volunteer Hours Detail",
+  "regions" : [ {
+    "id" : "46903a92-4c21-4723-8d9f-17122b141021",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><a href=\"/vpstandard/s/my-upcoming-shifts\" rel=\"noopener noreferrer\" target=\"_self\">Back to My Upcoming Shifts</a></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "15b358db-0249-4ba4-959c-a8724ddbb142",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":true,\"value\":\"{!Record.Id}\"}]",
+        "flowName" : "VolunteerHours_PortalUpdateVolunteerHours"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "cbd8c480-d181-4e98-8f0d-c36665168490",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "92d4d515-f55f-4f30-ad67-f6d676b18d45",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b5e65314-f6a4-4e99-99c2-9fd5793d2e1b",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b5b70e59-5ee0-4c07-8e6d-6671c75a354b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b06232c0-3839-42ed-86a4-4963e4a1df9f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a0c"
+}

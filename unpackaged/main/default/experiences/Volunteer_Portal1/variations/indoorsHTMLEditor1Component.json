@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "62eca9b8-5f36-448c-9f9c-4fc2f98e6bf1",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "4825054e-0282-4500-a4bb-27a40c00df05",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Indoors_HTML_Editor_1_Component",
+  "id" : "912b5bb9-1417-4d2d-addf-347c116a9555",
+  "type" : "experienceVariation"
+}

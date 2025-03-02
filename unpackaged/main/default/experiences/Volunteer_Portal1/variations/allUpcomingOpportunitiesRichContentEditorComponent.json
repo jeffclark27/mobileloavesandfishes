@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "226b37f5-2a54-4f59-95e2-eff9e4c17bd5",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "2a149510-8c72-4ea8-b4c2-dd7cd7d1254a",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "All_Upcoming_Opportunities_Rich_Content_Editor_Component",
+  "id" : "8ad319b0-067f-4fd5-a72e-9ded52d66e5e",
+  "type" : "experienceVariation"
+}

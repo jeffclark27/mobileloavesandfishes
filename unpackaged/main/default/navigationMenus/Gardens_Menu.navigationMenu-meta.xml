@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Volunteer Portal</container>
+    <containerType>Network</containerType>
+    <label>Gardens Menu</label>
+    <navigationMenuItem>
+        <label>Farm Animal Friday</label>
+        <menuItemBranding>
+            <tileImage>LeathaGenesisGardenschickens</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/farm-animal-friday</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Farmers Market</label>
+        <menuItemBranding>
+            <tileImage>farmers_market</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/programs</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Farm Helpers</label>
+        <menuItemBranding>
+            <tileImage>gardenswindmill</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/programs</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Harvesting</label>
+        <menuItemBranding>
+            <tileImage>harvesting</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/programs</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "f575b8a0-6e2e-41de-ad65-dcfc43832c70",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "All_Upcoming_Opportunities__c",
+  "id" : "e141fa4a-3918-43fc-9b65-439204879922",
+  "label" : "All Upcoming Opportunities",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-all-upcoming-opportunities",
+  "type" : "route",
+  "urlPrefix" : "all-upcoming-opportunities"
+}

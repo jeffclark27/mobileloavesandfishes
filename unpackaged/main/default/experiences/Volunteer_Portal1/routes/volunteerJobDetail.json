@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "68806f2e-7cbd-4cc2-890a-03a9314384b7",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Volunteer_Job_Detail__c",
+  "id" : "5fc7add5-1f23-48eb-917c-a7d1d36c24a0",
+  "label" : "Volunteer Job Detail",
+  "objectApiName" : "GW_Volunteers__Volunteer_Job__c",
+  "routeType" : "detail-a0d",
+  "type" : "route",
+  "urlPrefix" : "volunteer-job"
+}

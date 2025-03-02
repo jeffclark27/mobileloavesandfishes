@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Thank_you_Appendix__c</fullName>
+    <description>Description and Help Text update by C.Hoffart. This field can be used to include supplemental information into the volunteer Sign Up confirmation email. Unsure why the Field Label and Field Name were setup so drastically different causing confusion when looking to place this field on an email template.</description>
+    <inlineHelpText>Use this field to include supplemental information in the Sign Up Confirmation email sent to volunteers. IMPORTANT NOTE: to access this field in your email template you must use the field named: Thank_you_Appendix__c</inlineHelpText>
+    <label>Sign up Confirmation Appendix</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

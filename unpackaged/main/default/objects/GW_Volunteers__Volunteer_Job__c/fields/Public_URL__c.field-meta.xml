@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Public_URL__c</fullName>
+    <description>The public URL to access this job through the portal.</description>
+    <externalId>false</externalId>
+    <formula>&#39;https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/&#39;&amp;Id</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The public URL to access this job through the portal.</inlineHelpText>
+    <label>Public URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

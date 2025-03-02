@@ -1,0 +1,507 @@
+{
+  "activeBrandingSetId" : "791fa2f8-3018-4bbc-b795-64d51bd10a90",
+  "customCSS" : "/* tables background */\n.slds-th__action {\n    background-color: #eee !important;\n}\n\n/* main menu desktop style adjustments */\n.slds-button_icon-bare, .slds-button--icon-bare, .forceListViewManagerGrid th.sortable.ascending a.toggle:after {\ndisplay: none !important;\n}\n\n.slds-th__action {\ntext-transform: uppercase !important;\n}\n\n/* main menu desktop style adjustments */\nnav.lwc-59kp5sov61j a.lwc-59kp5sov61j, nav.lwc-59kp5sov61j button.lwc-59kp5sov61j {\n    padding: 10px 30px !important;\n    text-transform: uppercase;\n}\n/* grey box with padding */\n.mlf-volunteer-box {\npadding: 40px;\nmargin-top:40px;\nborder: 0px solid #000;\nwidth: 100%;\nbackground-color: #eeeeee;\n}\n/* remove list view picker from list views desktop */\n.slds-page-header_object-home.slds-page-header--object-home.slds-page-header.forceListViewManagerHeader {\n    display: none !important;\n}\n/* remove list view picker from list views mobile */\n.listTitleContainer.uiBlock, .forceCommunityRecordListStandard .listTitle {\n    display: none !important;\n}\n/* remove view all button from list views */\n.viewAllLink {\n    display: none !important;\n}\n/* remove list view actions on mobile */\n.forceCommunityActionsContainerMobile {\n    display: none !important;\n}\n/* remove list view actions drop down on desktop */\n.forceVirtualActionMarker.forceVirtualAction,\n.slds-dropdown-trigger.slds-dropdown-trigger_click.keyboardMode--trigger.keyboard--default-focus.forceListViewManagerGridColumnHeaderMenu {\n    display: none !important;\n}\n/* remove screen flow borders */\n.forceCommunityFlowCommunity {\n    border: none !important;\n}\n/* forgot your password on login form */\n.salesforceIdentityLoginForm2 .inverseTextColor {\n    color: rgba(0, 0, 0, 0.8) !important;\n}  \n/* list view minimum height */\n.forceCommunityRecordListDesktop.forceListViewManager .listDisplays {\n    min-height: 200px !important;\n}\n/* remove mobile list view swipe actions */\n.swipeBody {\n    display: none !important;\n}\n.slds-list--horizontal .slds-item--label {\n    width: 40% !important;\n}\n.slds-list--horizontal .slds-item--detail {\n    width: 60% !important; \n}\n\n@media only screen and (max-width: 600px) {\n    /* login button on mobile */\n    .comm-user-profile-menu__login-button[lwc-sf4l3atjv5] {\n        font-size: .75em;\n        padding: 0 10px;\n    }\n}\n/* table hinting on mobile */\n#mobile-tables-hint {\n background:#ff5e00;\n    text-align:center;\n    width: 100%; \npadding: 0.5em; \nmargin: 20px auto; \ncolor:white;\n    }\n\n@media (min-width:801px) {\n #mobile-tables-hint {\n    display:none;\n}}",
+  "developerName" : "ember",
+  "id" : "33300aed-9e10-4716-91ca-fbfcf7587022",
+  "label" : "Ember",
+  "layouts" : {
+    "CuSoruPNF3ERE0ID3nwUcsJJSoW8dE" : "72475356-0c6b-437b-9163-2b9c4414ebe8",
+    "Inner" : "4c024ef3-a9fb-4f9b-b1be-e3dad279e382",
+    "Login" : "ee20ba6b-0ea9-41f0-b3ec-060f74c9393f",
+    "ServiceNotAvailable" : "14d5791a-fe3d-412d-b587-871258f4bc76"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "ee20ba6b-0ea9-41f0-b3ec-060f74c9393f",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "f78717c3-e666-4c8d-aac3-40a8b4bad83e",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "2e25899c-5484-4088-88d6-d512c929d3d2",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "0245b8b2-c8cb-4922-86af-627de153f957",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1920,
+      "headerBgColor" : "rgba(255, 255, 255, 0.8)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : false
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "4c024ef3-a9fb-4f9b-b1be-e3dad279e382",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: rgb(255,255,255)",
+          "backgroundOverlayColor" : "rgba(0, 0, 0, 0.3)",
+          "borderBottomColor" : "rgba(0, 15, 89, 0.8)",
+          "borderTopColor" : "rgba(0, 15, 89, 0.8)",
+          "bottomRowHeight" : 5,
+          "bottomRowOverlayColor" : "rgb(0, 15, 89)",
+          "containHeader" : true,
+          "containHeaderWidth" : 1440,
+          "dropdownBackgroundColor" : "rgb(255, 255, 255)",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "rgb(255, 255, 255)",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "iconLinkColor" : "rgb(245, 94, 3)",
+          "iconLinkHoverColor" : "rgb(245, 94, 3)",
+          "iconLinkTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "linkActiveBorderColor" : "",
+          "linkColor" : "rgb(255, 255, 255)",
+          "linkHoverColor" : "rgba(255, 255, 255, 0.9)",
+          "linkTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "logoWidth" : 180,
+          "searchPosition" : "right",
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNotifications" : false,
+          "showProfileMenu" : true,
+          "showSearch" : false,
+          "topRowHeight" : 20
+        },
+        "componentName" : "forceCommunity:themeHeaderStacked",
+        "id" : "56559066-fb0d-404e-9e33-fc83dcfd03e6",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "",
+              "buttonBorderColor" : "rgba(0, 0, 0, 0)",
+              "buttonBorderRadius" : 4,
+              "buttonText" : "Login or Register",
+              "buttonTextColor" : "",
+              "buttonTextHoverColor" : "",
+              "customizableUserProfileMenuEditor" : "MLF_User_Profile_Menu",
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"iconOnly\",\"selectedIconSetting\":\"userAvatar\",\"includeCompanyName\":false,\"selectedTextOrientationSetting\":\"right\"}"
+            },
+            "componentName" : "forceCommunity:customizableUserProfileMenu",
+            "id" : "9fd046f7-b020-4cf7-9a61-10964530ca92",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "14dc3104-584c-4106-8103-7782c3f1151d",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgb(255, 255, 255)",
+              "borderColor" : "rgba(0, 15, 89, 0.5)",
+              "borderRadius" : 4,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : [ {
+                "isPublic" : true,
+                "name" : "FeedItem"
+              } ],
+              "iconColor" : "rgba(0, 0, 0, 0.8)",
+              "placeholderText" : "Search...",
+              "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
+              "showInputFocusOutline" : true,
+              "showSearchButton" : false,
+              "textColor" : "rgba(0, 0, 0, 0.8)",
+              "typeaheadResultMax" : 5,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearch",
+            "id" : "1b589421-70ff-483a-ba62-2b89fcd3ba89",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "1b21eff8-6477-4cbf-83bd-d3b627855192",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "NavigationMenuEditorRefresh" : "MLF_Volunteer_Portal",
+              "alignment" : "left",
+              "showAppLauncher" : false,
+              "showBackLabel" : false,
+              "showHomeLink" : true
+            },
+            "componentName" : "forceCommunity:multiLevelNavigationWrapper",
+            "id" : "6b0c669e-f13b-4f19-8d93-855259c65ede",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "8e5caf40-058c-48a5-b32e-89af698409fb",
+          "regionName" : "nav",
+          "type" : "region"
+        }, {
+          "id" : "aaa54651-115c-41e6-9e1b-82ff480b9254",
+          "regionName" : "cartIcon",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "b60123c0-41ca-4b1b-bdb7-e711f09bffc9",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "bgImage" : "background: rgb(241,241,241) url(/sfsites/c/file-asset/Screenshot_20240712_at_91016AM?v=1) center center /cover",
+          "bgOverlayColor" : "rgba(255, 255, 255, 0)",
+          "captionText" : "Community First! Village volunteers create beauty and a sense of home for our formerly homeless neighbors. \n\n﻿Our volunteers provide much needed support to our various programs that engage neighbors in dignified work. ",
+          "captionTextColor" : "rgba(255, 255, 255, 0.9)",
+          "captionTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "contentAlignment" : "center",
+          "contentWidth" : 45,
+          "ctaBtnOneBgColor" : "",
+          "ctaBtnOneBgHoverColor" : "",
+          "ctaBtnOneBorderColor" : "rgba(0, 0, 0, 0)",
+          "ctaBtnOneOpenNewTab" : false,
+          "ctaBtnOneText" : "UPCOMING VOLUNTEER SHIFTS",
+          "ctaBtnOneTextColor" : "",
+          "ctaBtnOneTextHoverColor" : "",
+          "ctaBtnOneUrl" : "",
+          "ctaBtnRadius" : 0,
+          "ctaBtnTwoBgColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnTwoBgHoverColor" : "rgba(255, 255, 255, 0.9)",
+          "ctaBtnTwoBorderColor" : "rgba(255, 255, 255, 0.8)",
+          "ctaBtnTwoOpenNewTab" : false,
+          "ctaBtnTwoText" : "Get Involed",
+          "ctaBtnTwoTextColor" : "rgba(255, 255, 255, 0.8)",
+          "ctaBtnTwoTextHoverColor" : "rgba(255, 255, 255, 0.8)",
+          "ctaBtnTwoUrl" : "/vpstandard/get-involved",
+          "ctaShowBtnOne" : true,
+          "ctaShowBtnTwo" : false,
+          "fixedHeroWidth" : true,
+          "heroHeight" : 171,
+          "heroWidth" : 1440,
+          "showCaption" : false,
+          "showSubtitle" : true,
+          "showTitle" : true,
+          "subtitleText" : "",
+          "subtitleTextColor" : "rgba(0, 0, 0, 0.8)",
+          "subtitleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "titleText" : "It Takes a Village",
+          "titleTextColor" : "rgba(255, 255, 255, 0.9)",
+          "titleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "type" : "callToAction"
+        },
+        "componentName" : "forceCommunity:themeHeroStarter",
+        "id" : "4f5ff942-82fe-4f75-afec-d18e8107164b",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgb(255, 255, 255)",
+              "borderColor" : "rgba(0, 0, 0, 0.2)",
+              "borderRadius" : 4,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "rgb(255, 255, 255)",
+              "placeholderText" : "Ask a question...",
+              "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
+              "publicDropdownBackgroundColor" : "rgb(255, 255, 255)",
+              "publicDropdownBackgroundHoverColor" : "",
+              "publicDropdownBorderColor" : "rgb(240, 240, 240)",
+              "publicDropdownTextColor" : "",
+              "publicDropdownTextHoverColor" : "",
+              "showInputFocusOutline" : true,
+              "showSearchButton" : true,
+              "textColor" : "rgba(0, 0, 0, 0.8)",
+              "typeaheadResultMax" : 6,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearchHero",
+            "id" : "f5b154b2-894f-4129-b47d-33c69208e9be",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "01b257cd-0022-4e1a-94a8-fb5f1397056d",
+          "regionName" : "search",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "6e103352-d1b8-4e31-b1c6-60afed2dd6ef",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div class=\"footer\" style=\"background-color: #333333; padding: 40px; margin-top: auto; color: white;\">\n    <div class=\"footer-content\">\n        <div style=\"font-size: 36px;\">\n            <p>Serving Goodness Since 1998</p>\n        </div>\n        <div class=\"footer-nav\">\n            <a href=\"https://mlf.org/careers\">CAREERS</a>&nbsp;|&nbsp;\n            <a href=\"https://mlf.org/faqs/\">FAQs</a>&nbsp;|&nbsp;\n            <a href=\"https://tracker.mlf.org/\" target=\"_blank\" rel=\"noopener noreferrer\">TRACKER LOGIN</a>&nbsp;|&nbsp;\n            <a href=\"https://mlf.org/email-signup/\">GET OUR EMAILS</a>&nbsp;|&nbsp;\n            <a href=\"https://mlf.org/privacy-policy/\">PRIVACY POLICY</a>&nbsp;|&nbsp;\n             <a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/delete-my-information\">DELETE MY INFORMATION</a>\n            <br/><br/>\n           <a href=\"https://mlf.org/truck-schedules/\">FIND A TRUCK</a>&nbsp;|&nbsp;\n           <a href=\"https://mlf.org/apply-for-a-home/\">APPLY FOR A HOME</a>&nbsp;|&nbsp;\n           <a href=\"https://mlf.org/volunteer/\">VOLUNTEER</a>&nbsp;|&nbsp;\n           <a href=\"https://shop.mlf.org/\" target=\"_blank\" rel=\"noopener noreferrer\">SHOP</a>&nbsp;|&nbsp;\n           <a href=\"https://give.mlf.org/give/138838/#!/donation/checkout?utm_source=website&amp;utm_medium=footer-button&amp;utm_campaign=give-now\">GIVE NOW</a>&nbsp;|&nbsp;\n           <a href=\"https://give.mlf.org/campaign/everyday-angels/c192404?utm_source=website&amp;utm_medium=footer-button&amp;utm_campaign=give-monthly\">GIVE MONTHLY</a>\n        </div>\n        <div class=\"copyright\" style=\"padding-top: 40px; margin: 0 auto; text-align: center;\">\n            <p>© Mobile Loaves &amp; Fishes, 2015-Present | 9301 Hog Eye Road, Suite 950, Austin, TX 78724</p>\n \t\t\t<p>Mobile Loaves &amp; Fishes is a US 501 (c)(3) public charity, EIN 74-2956081.</p>\n        </div>\n    </div>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "1cacf8cd-aea0-4f03-8d1c-d912cca097a0",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "66848910-d931-4af0-8756-ab85d342dc2f",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "14d5791a-fe3d-412d-b587-871258f4bc76",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "44251c11-2f4a-4b0b-962e-2d807c922c42",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "5fd16723-f0b0-43f4-84ab-b63a8213d900",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(255, 255, 255, 0.8)",
+      "isHeaderPinned" : true,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "72475356-0c6b-437b-9163-2b9c4414ebe8",
+    "label" : "Home",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: rgb(255,255,255)",
+          "backgroundOverlayColor" : "rgba(0, 0, 0, 0.3)",
+          "borderBottomColor" : "rgba(0, 15, 89, 0.8)",
+          "borderTopColor" : "rgba(0, 15, 89, 0.8)",
+          "bottomRowHeight" : 5,
+          "bottomRowOverlayColor" : "rgb(0, 15, 89)",
+          "containHeader" : true,
+          "containHeaderWidth" : 1440,
+          "dropdownBackgroundColor" : "rgb(255, 255, 255)",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "rgb(255, 255, 255)",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "iconLinkColor" : "rgb(245, 94, 3)",
+          "iconLinkHoverColor" : "rgb(245, 94, 3)",
+          "iconLinkTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "linkActiveBorderColor" : "",
+          "linkColor" : "rgb(255, 255, 255)",
+          "linkHoverColor" : "rgba(255, 255, 255, 0.9)",
+          "linkTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "logoWidth" : 180,
+          "searchPosition" : "right",
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNotifications" : false,
+          "showProfileMenu" : true,
+          "showSearch" : false,
+          "topRowHeight" : 20
+        },
+        "componentName" : "forceCommunity:themeHeaderStacked",
+        "id" : "0035deed-dac1-4de9-8abe-d4b4ffe0ea6b",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "",
+              "buttonBorderColor" : "rgba(0, 0, 0, 0)",
+              "buttonBorderRadius" : 4,
+              "buttonText" : "Login or Register",
+              "buttonTextColor" : "",
+              "buttonTextHoverColor" : "",
+              "customizableUserProfileMenuEditor" : "MLF_User_Profile_Menu",
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"iconOnly\",\"selectedIconSetting\":\"userAvatar\",\"includeCompanyName\":false,\"selectedTextOrientationSetting\":\"right\"}"
+            },
+            "componentName" : "forceCommunity:customizableUserProfileMenu",
+            "id" : "3d51c316-2dcf-47d4-8d03-f947019af42f",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "daf87907-4afb-4b6a-834d-26fdf65c8be8",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgb(255, 255, 255)",
+              "borderColor" : "rgba(0, 15, 89, 0.5)",
+              "borderRadius" : 4,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : [ {
+                "isPublic" : true,
+                "name" : "FeedItem"
+              } ],
+              "iconColor" : "rgba(0, 0, 0, 0.8)",
+              "placeholderText" : "Search...",
+              "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
+              "showInputFocusOutline" : true,
+              "showSearchButton" : false,
+              "textColor" : "rgba(0, 0, 0, 0.8)",
+              "typeaheadResultMax" : 5,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearch",
+            "id" : "b5f6c0f3-b88a-418a-be36-4a4884b0a72f",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "3adc7b2a-01a0-4df5-b349-a70d8eb60cf5",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "NavigationMenuEditorRefresh" : "MLF_Volunteer_Portal",
+              "alignment" : "left",
+              "showAppLauncher" : false,
+              "showBackLabel" : false,
+              "showHomeLink" : true
+            },
+            "componentName" : "forceCommunity:multiLevelNavigationWrapper",
+            "id" : "81048f9e-1510-4ecc-844a-4f01ccf73915",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "f7e7bebd-dc2d-4233-b3b7-2f5334132270",
+          "regionName" : "nav",
+          "type" : "region"
+        }, {
+          "id" : "d7e13d2d-a04c-4b56-a256-e368164243dc",
+          "regionName" : "cartIcon",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "69dad6b5-a713-478e-97cf-6146944bca0f",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "bgImage" : "background: rgb(241,241,241) url(/sfsites/c/file-asset/Screenshot_20240712_at_91016AM?v=1) center center /cover",
+          "bgOverlayColor" : "rgba(84, 84, 84, 0.4)",
+          "captionText" : "VOLUNTEER WITH",
+          "captionTextColor" : "rgba(255, 255, 255, 0.9)",
+          "captionTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "contentAlignment" : "center",
+          "contentWidth" : 45,
+          "ctaBtnOneBgColor" : "",
+          "ctaBtnOneBgHoverColor" : "",
+          "ctaBtnOneBorderColor" : "rgba(0, 0, 0, 0)",
+          "ctaBtnOneOpenNewTab" : false,
+          "ctaBtnOneText" : "Programs",
+          "ctaBtnOneTextColor" : "",
+          "ctaBtnOneTextHoverColor" : "",
+          "ctaBtnOneUrl" : "/vpstandard/programs",
+          "ctaBtnRadius" : 4,
+          "ctaBtnTwoBgColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnTwoBgHoverColor" : "rgba(255, 255, 255, 0.9)",
+          "ctaBtnTwoBorderColor" : "rgba(255, 255, 255, 0.8)",
+          "ctaBtnTwoOpenNewTab" : false,
+          "ctaBtnTwoText" : "Get Involved",
+          "ctaBtnTwoTextColor" : "rgba(255, 255, 255, 0.8)",
+          "ctaBtnTwoTextHoverColor" : "rgba(255, 255, 255, 0.8)",
+          "ctaBtnTwoUrl" : "/vpstandard/get-involved",
+          "ctaShowBtnOne" : false,
+          "ctaShowBtnTwo" : false,
+          "fixedHeroWidth" : true,
+          "heroHeight" : 111,
+          "heroWidth" : 1440,
+          "showCaption" : false,
+          "showSubtitle" : true,
+          "showTitle" : true,
+          "subtitleText" : "",
+          "subtitleTextColor" : "rgba(0, 0, 0, 0.8)",
+          "subtitleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "titleText" : "It Takes A Village",
+          "titleTextColor" : "rgba(255, 255, 255, 0.9)",
+          "titleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "type" : "callToAction"
+        },
+        "componentName" : "forceCommunity:themeHeroStarter",
+        "id" : "7e75a844-06b8-478e-b215-ae081d906530",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgb(255, 255, 255)",
+              "borderColor" : "rgba(0, 0, 0, 0.2)",
+              "borderRadius" : 4,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "rgb(255, 255, 255)",
+              "placeholderText" : "Ask a question...",
+              "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
+              "publicDropdownBackgroundColor" : "rgb(255, 255, 255)",
+              "publicDropdownBackgroundHoverColor" : "",
+              "publicDropdownBorderColor" : "rgb(240, 240, 240)",
+              "publicDropdownTextColor" : "",
+              "publicDropdownTextHoverColor" : "",
+              "showInputFocusOutline" : true,
+              "showSearchButton" : true,
+              "textColor" : "rgba(0, 0, 0, 0.8)",
+              "typeaheadResultMax" : 6,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearchHero",
+            "id" : "1f7cf7e6-8741-4c20-9134-adb15fc3548e",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "8d8eb945-b29c-40b9-9874-08d8965263e9",
+          "regionName" : "search",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "c82ea46f-4fc8-492b-80a4-87cc29297d07",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div class=\"footer\" style=\"background-color: #333333; padding: 40px; margin-top: auto; color: white;\">\n    <div class=\"footer-content\">\n        <div style=\"font-size: 36px;\">\n            <p>Serving Goodness Since 1998 </p>\n        </div>\n        <div class=\"footer-nav\">\n            <a href=\"https://mlf.org/careers\">CAREERS</a>&nbsp;|&nbsp;\n            <a href=\"https://mlf.org/faqs/\">FAQs</a>&nbsp;|&nbsp;\n            <a href=\"https://tracker.mlf.org/\" target=\"_blank\" rel=\"noopener noreferrer\">TRACKER LOGIN</a>&nbsp;|&nbsp;\n            <a href=\"https://mlf.org/email-signup/\">GET OUR EMAILS</a>&nbsp;|&nbsp;\n            <a href=\"https://mlf.org/privacy-policy/\">PRIVACY POLICY</a>&nbsp;|&nbsp;\n             <a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/delete-my-information\">DELETE MY INFORMATION</a>\n            <br/><br/>\n           <a href=\"https://mlf.org/truck-schedules/\">FIND A TRUCK</a>&nbsp;|&nbsp;\n           <a href=\"https://mlf.org/apply-for-a-home/\">APPLY FOR A HOME</a>&nbsp;|&nbsp;\n           <a href=\"https://mlf.org/volunteer/\">VOLUNTEER</a>&nbsp;|&nbsp;\n           <a href=\"https://shop.mlf.org/\" target=\"_blank\" rel=\"noopener noreferrer\">SHOP</a>&nbsp;|&nbsp;\n           <a href=\"https://give.mlf.org/give/138838/#!/donation/checkout?utm_source=website&amp;utm_medium=footer-button&amp;utm_campaign=give-now\">GIVE NOW</a>&nbsp;|&nbsp;\n           <a href=\"https://give.mlf.org/campaign/everyday-angels/c192404?utm_source=website&amp;utm_medium=footer-button&amp;utm_campaign=give-monthly\">GIVE MONTHLY</a>\n        </div>\n        <div class=\"copyright\" style=\"padding-top: 40px; margin: 0 auto; text-align: center;\">\n            <p>© Mobile Loaves &amp; Fishes, 2015-Present | 9301 Hog Eye Road, Suite 950, Austin, TX 78724</p>\n \t\t\t<p>Mobile Loaves &amp; Fishes is a US 501 (c)(3) public charity, EIN 74-2956081.</p>\n        </div>\n    </div>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "2ca120a8-5476-4b7c-80f9-3238f522923e",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "511168f3-59ce-40a0-832d-23554ee9f0de",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

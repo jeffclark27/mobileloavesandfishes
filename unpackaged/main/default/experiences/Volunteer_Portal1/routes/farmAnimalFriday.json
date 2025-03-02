@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "53a41e3c-bda9-4851-a874-b49c86efb857",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Farm_Animal_Friday__c",
+  "id" : "519f2a11-6ca7-4e0e-8670-6ff0014da852",
+  "label" : "Farm Animal Friday",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-farm-animal-friday",
+  "type" : "route",
+  "urlPrefix" : "farm-animal-friday"
+}

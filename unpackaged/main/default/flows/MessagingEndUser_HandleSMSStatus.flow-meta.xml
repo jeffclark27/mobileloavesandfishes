@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <description>Trigger on MessagingEndUser and sync the SMS opt in status (MessagingConsentStatus) up to the Contact.SMS_Status__c.</description>
+    <environments>Default</environments>
+    <interviewLabel>MessagingEndUser {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>MessagingEndUser.HandleSMSStatus</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Contact_SMS_Status</name>
+        <label>Update Contact SMS Status</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>SMS_Status__c</field>
+            <value>
+                <elementReference>$Record.MessagingConsentStatus</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Contact</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Contact_SMS_Status</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>MessagingChannelId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>0MjWC000000xRk90AE</stringValue>
+            </value>
+        </filters>
+        <object>MessagingEndUser</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

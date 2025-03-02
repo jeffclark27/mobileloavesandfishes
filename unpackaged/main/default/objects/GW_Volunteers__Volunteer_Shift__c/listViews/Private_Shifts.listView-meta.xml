@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private_Shifts</fullName>
+    <columns>fortafy_Job_Name__c</columns>
+    <columns>NAME</columns>
+    <columns>GW_Volunteers__Start_Date_Time__c</columns>
+    <columns>Private_Shift__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>GW_Volunteers__Start_Date_Time__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>GW_Volunteers__Volunteer_Job__c</field>
+        <operation>contains</operation>
+        <value>austin blessing</value>
+    </filters>
+    <label>Private Shifts</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

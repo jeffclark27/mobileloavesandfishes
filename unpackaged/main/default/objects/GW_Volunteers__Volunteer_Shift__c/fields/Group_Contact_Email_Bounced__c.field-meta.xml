@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Contact_Email_Bounced__c</fullName>
+    <description>If Group Contact Email Bounce Date is set</description>
+    <formula>NOT(ISNULL(fortafy_Group_Contact__r.EmailBouncedDate))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If Group Contact Email Bounce Date is set</inlineHelpText>
+    <label>Group Contact Email Bounced</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

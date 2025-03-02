@@ -1,0 +1,81 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "e00acf2d-4a20-410e-8a2e-fabdb0fa47ea",
+  "label" : "Group Serve Program",
+  "regions" : [ {
+    "id" : "52157833-6fb0-471f-a425-c93aa54ec64a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h3><span style=\"font-size: 28px; color: rgb(0, 0, 0);\">We would love for your group to serve alongside us in the most talked-about neighborhood in Austin!﻿</span></h3><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">We typically host groups of five or more volunteers&nbsp;</span><strong style=\"color: rgb(0, 0, 0); font-size: 16px;\">Tuesday – Saturday</strong><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">&nbsp;from&nbsp;</span><strong style=\"color: rgb(0, 0, 0); font-size: 16px;\">9 AM – 12 PM</strong><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">&nbsp;</span><strong style=\"color: rgb(0, 0, 0); font-size: 16px;\">(October – April)</strong><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">&nbsp;and&nbsp;</span><strong style=\"color: rgb(0, 0, 0); font-size: 16px;\">8 AM – 11 AM (May – September)</strong><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">.&nbsp;A Group Serve may include working in our gardens, dry landscaping yards for micro-homes, laying pathways, tending chicken coops, or other beautification projects. Additional projects may be available based on current needs.&nbsp;</span></p><p><br></p><h3><span style=\"font-size: 22px;\">How It Works:&nbsp;&nbsp;</span></h3><p><br></p><p><span style=\"font-size: 16px;\">All Group Serve days must be coordinated&nbsp;</span><strong style=\"font-size: 16px;\">at least two weeks&nbsp;in advance&nbsp;</strong><span style=\"font-size: 16px;\">with MLF Staff. For groups of&nbsp;</span><strong style=\"font-size: 16px;\">more than 50 people</strong><span style=\"font-size: 16px;\">, we recommend planning at least</span><strong style=\"font-size: 16px;\">&nbsp;three months in advance</strong><span style=\"font-size: 16px;\">&nbsp;due to additional funding and coordination needs.&nbsp;&nbsp;</span></p><p><br></p><p><span style=\"font-size: 16px;\">Tell us more about your group by filling out the form on this page, and a member of our Volunteer Team will follow up to confirm your reservation.&nbsp;</span></p><p><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "16bce4d1-8a7b-4d9d-9a8c-4efd3c374ff7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"mlf-volunteer-box\">\n    <h3 style=\"font-size: 28px;\">Dignified Income & Neighbor Leadership</h3>\n    <br/>\n<span style=\"font-size: 16px;\">Every volunteer group is led by a current neighbor of Community First! Village. Hosting groups like yours provides our neighbors with a dignified income, helping them pay rent, buy groceries, and build stability. To support this, we ask groups to contribute $10 per person, which helps cover the neighbor’s wages and any necessary tools or materials for your project. </span>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "b5b69f8b-1d58-40f6-983e-027296ab2959",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "Replace this text with content of your own."
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c81abe68-d201-44dc-a7a2-89aba60d32c5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b27dccdf-1414-4891-bd3c-0b1535f191da",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "03f41731-57e9-4369-b488-f6ad23d055a3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Group Serve Program"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "03fbe673-f4d5-4133-be3c-790fd5669072",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1bf23575-b211-450d-b440-8faf8f55fde6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"GroupsForm\",\"dataType\":\"Boolean\",\"supportsRecordId\":false,\"value\":true}]",
+        "flowName" : "Portal_CaseContactUsForm"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "f11de70f-29ca-41c9-9396-0e7c8a8a04c8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "491ded20-4285-404e-85e2-83e477d8cccc",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-group-serve-program"
+}

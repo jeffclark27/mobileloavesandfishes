@@ -1,0 +1,39 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8735b6b6-4b30-48f9-b674-4afde3b29a82",
+  "label" : "Volunteer Hours Related List",
+  "regions" : [ {
+    "id" : "9edd9143-a3aa-4f70-940b-583c2275b2fa",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "8a58a5f2-d3bf-4e0d-b08e-937e2bc521bf",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "67282e8f-0811-47c8-9223-62fccb24810a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "1f7b1028-a621-4906-b2c3-195968de295b",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a0c"
+}

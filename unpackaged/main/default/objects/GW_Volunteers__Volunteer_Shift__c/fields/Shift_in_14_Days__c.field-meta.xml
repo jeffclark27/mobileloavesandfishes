@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shift_in_14_Days__c</fullName>
+    <description>Evaluates the true when the shift is in 14 days from today.</description>
+    <formula>(fortafy_Start_Date_Day__c + 14) = TODAY()</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Evaluates the true when the shift is in 14 days from today.</inlineHelpText>
+    <label>Shift in 14 Days</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

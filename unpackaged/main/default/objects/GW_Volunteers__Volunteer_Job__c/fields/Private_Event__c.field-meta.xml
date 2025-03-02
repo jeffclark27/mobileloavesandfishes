@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private_Event__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>MLF customization may 2024. Used to flag a Job as a private event.</description>
+    <inlineHelpText>Select this if the Job is a private event that you do not want posted on the public facing Volunteer Calendar</inlineHelpText>
+    <label>Private Event</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

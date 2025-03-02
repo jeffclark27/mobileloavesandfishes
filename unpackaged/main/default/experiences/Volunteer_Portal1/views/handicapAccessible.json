@@ -1,0 +1,308 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "de282fc3-4a6b-4342-9686-e8a20d5e95b1",
+  "label" : "Handicap Accessible",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "8f64ac08-d9ac-4823-98c4-50d967a3a21b",
+          "columns" : [ {
+            "UUID" : "86e94b9e-992d-456c-8a0c-17f942420a09",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "9",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "739496f5-7ff0-40c2-9bfe-469d1415a6c6",
+            "columnKey" : "b6dbb",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "8f64ac08-d9ac-4823-98c4-50d967a3a21b",
+      "regions" : [ {
+        "id" : "86e94b9e-992d-456c-8a0c-17f942420a09",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "739496f5-7ff0-40c2-9bfe-469d1415a6c6",
+        "regionLabel" : "Column 2",
+        "regionName" : "b6dbb",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "small" : "80bc9f1b-1d5a-468a-8995-c179716cc0a9"
+      },
+      "renditions" : [ {
+        "id" : "80bc9f1b-1d5a-468a-8995-c179716cc0a9",
+        "renditionValue" : {
+          "isVisible" : false
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "18fc9d67-2eb8-47ef-b185-0ed4b37279a0",
+          "columns" : [ {
+            "UUID" : "b77761cf-3d26-4209-8d8d-f9342f1e1dc6",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "9",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "a5658fe4-c100-4180-a8cf-ce2c655aea33",
+            "columnKey" : "b2d32",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "18fc9d67-2eb8-47ef-b185-0ed4b37279a0",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3><span style=\"font-size: 36px;\">Accessible Volunteer Shifts at Community First! Village</span></h3><p><span style=\"font-size: 16px; background-color: transparent; color: rgb(0, 0, 0);\">At Community First! Village, we are committed to ensuring that everyone has the opportunity to serve. We offer a variety of accessible volunteer opportunities that allow everyone to contribute meaningfully to our mission. Whether it is assisting with art projects, helping in the Community Market, participating in light administrative tasks or engaging in relationship-building activities, there are roles designed for everyone.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "310b7159-a850-4abc-b0bd-8af5d2910c4e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div id=\"mobile-tables-hint\">Swipe left to right for more shift details below.</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "50d4b4df-bfcf-4bed-8918-7a5783922945",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"FilterName\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"handicap\"}]",
+            "flowName" : "VolunteerShifts_SpotlightOpportunities"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "afb534af-7478-456d-add8-8defdc3edb07",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\">To See A Full List &amp; Sign Up for Volunteer Shifts:</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6f4bd005-1468-4c97-9bc3-20aa907bd7b3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; padding-bottom: 0px; text-align:center;\"><a class=\"slds-button slds-button_brand\" href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/\" title=\"Login or Register\" style=\"width: 100%; max-width: 350px; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">LOGIN OR REGISTER</a></div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "46e47aa2-c936-435d-812c-2cf0f54561de",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "Handicap_Accessible_Opportunities",
+            "layout" : "STANDARD",
+            "pageSize" : 75,
+            "scope" : "GW_Volunteers__Volunteer_Shift__c",
+            "showActionBar" : false,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : false,
+            "showManualRefreshButton" : false,
+            "showObjectName" : true,
+            "showPinnedList" : false,
+            "showSearchBar" : false
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "78fd054c-b757-47e6-a195-904830cf2e15",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b77761cf-3d26-4209-8d8d-f9342f1e1dc6",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\">Browse by Category</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d6c804a3-b4da-4606-8ab0-7a41603c5fe0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255);\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\" style=\"width: 71.625px; height: 70.9141px;\"></a></p>\n<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Indoor&nbsp;&nbsp;Shifts</a></p>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "06aa8b25-1f5e-4140-81c0-4f1acae3795f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\" style=\"width: 71.1953px; height: 70.4844px;\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Family-Friendly</a><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/handicap-accessible\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">&nbsp;</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0c8320fc-a319-471a-9d96-7f71cc85d021",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\">Browse by Program</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "1a856c07-c726-4f91-ac9a-37adf377b14b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerPosition" : "top",
+            "bannerSizePercent" : 35,
+            "borderRadius" : 0,
+            "boxShadow" : true,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(76, 75, 75, 0.6)",
+            "templateType" : "full",
+            "tileMenuEditor" : "Programs_Menu",
+            "titleFontSize" : "large",
+            "titleHorizontalAlign" : "center"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "f15d7959-69f3-401c-9c58-099ecce4ff53",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a5658fe4-c100-4180-a8cf-ce2c655aea33",
+        "regionLabel" : "Column 2",
+        "regionName" : "b2d32",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d63c199a-3b36-4a5f-a433-500415d9527b",
+          "columns" : [ {
+            "UUID" : "a5d75cbe-e475-405d-8cdd-4526960ff927",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d63c199a-3b36-4a5f-a433-500415d9527b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 24px;\">More Ways to Get Involved</span></h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f3cb3951-9916-46fe-aefe-37da9e94f887",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerPosition" : "top",
+            "bannerSizePercent" : 35,
+            "borderRadius" : 0,
+            "boxShadow" : true,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(70, 70, 70, 0.31)",
+            "templateType" : "full",
+            "tileMenuEditor" : "More_Ways_to_Get_Involved",
+            "titleFontSize" : "large",
+            "titleHorizontalAlign" : "center"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "38b791fa-419c-4bf8-bdde-a9fe1f0017b9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a5d75cbe-e475-405d-8cdd-4526960ff927",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b0da1314-98e6-4673-b4f6-391523df833d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "Accessible Volunteer Jobs at Community First! Village"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "44d2d32a-65d4-48f4-aa68-586706eb1e51",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "39d7cad6-2706-4670-8fb8-6bcd2ceac4b3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-handicap-accessible"
+}

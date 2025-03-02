@@ -1,0 +1,113 @@
+{
+  "appPageId" : "1463f440-5a96-4fe0-8743-655bc4249ffe",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "02d7989e-3607-4e1f-92fc-880f4635b795",
+  "label" : "MLF Register",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(246,246,246)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "863bda45-b1a1-4365-aabd-d9d668cfb326",
+          "columns" : [ {
+            "UUID" : "9247b1ce-07eb-4cda-a206-5c31329a3409",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "95a60a6e-077e-46e6-b864-1c2042741b06",
+            "columnKey" : "efdf4",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "e29b71fc-5dd9-48e7-bee9-9ca5f0a0c12f",
+            "columnKey" : "73eed",
+            "columnName" : "Column 3",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "863bda45-b1a1-4365-aabd-d9d668cfb326",
+      "regions" : [ {
+        "id" : "9247b1ce-07eb-4cda-a206-5c31329a3409",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><strong>New Users</strong></h2><p style=\"text-align: center;\">Please create a profile before proceeding with volunteer registration. If already a user, please&nbsp;<a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\">Login</a>&nbsp;here.</p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "52bff1b5-a164-440d-a42a-b35d50c968f6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "Portal_Registration"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "20725cfb-8382-43a1-b244-9af737120176",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p><br></p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ad6d6566-6fab-42d8-ac9b-d6f17b929117",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "95a60a6e-077e-46e6-b864-1c2042741b06",
+        "regionLabel" : "Column 2",
+        "regionName" : "efdf4",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "e29b71fc-5dd9-48e7-bee9-9ca5f0a0c12f",
+        "regionLabel" : "Column 3",
+        "regionName" : "73eed",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ae1a777a-a87e-4f12-8876-33b5fb199065",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "db47d986-d2e3-422c-bd27-305283ec4b95",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c07f50cc-ed0e-4b03-bad4-ef03e7110036",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "self-register"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "9bcfb900-ec36-4cb4-99f4-c193a3c2b7f4",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "195eb32f-0dc6-4201-ae25-c668f2dd4ff2",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Indoors_Record_List_Component",
+  "id" : "4fe85ac6-a357-49d7-9fc3-c2731cbf48ab",
+  "type" : "experienceVariation"
+}

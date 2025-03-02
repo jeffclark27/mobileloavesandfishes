@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "8ee7b594-c838-4183-8410-f56265e1b7c4",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Indoors__c",
+  "id" : "98c1e943-38f3-4f7f-ae59-dd555f3ea73f",
+  "label" : "Indoors",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-indoors",
+  "type" : "route",
+  "urlPrefix" : "indoors"
+}

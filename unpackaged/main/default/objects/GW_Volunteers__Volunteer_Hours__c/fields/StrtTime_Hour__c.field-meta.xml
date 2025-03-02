@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StrtTime_Hour__c</fullName>
+    <description>MLF Customization Fall 2024. Created to deconstruct and format the Shift-Start-Date-Time field on the Volunteer Hours Object so it can be used in SMS text messages. Not surfaced on page layout since the field is not for business use.</description>
+    <externalId>false</externalId>
+    <formula>/* C.Hoffart Fall 2024 */
+/* Adjusts Shift Start Hour to account for timezone difference between */
+/* UTC and Central Time Zone. SFDC stores time in UTC 24 hour (military) */
+/* format. CST is 5 hours behind UTC which is why 5 is used as an offset in */
+/* the formula. Because the format is 24 hour (military)we must subtract 12 */
+/* for all times greater than 12 noon. The 17 value referenced in formula */
+/* is derived from 5 hours time zone offest plus 12 hours to account for */
+/* the 24 hour (military) format so we can represent time as 1pm versus 13pm */
+IF (
+FLOOR(HOUR(TIMEVALUE( GW_Volunteers__Shift_Start_Date_Time__c ))-5) &gt; 12,
+TEXT(FLOOR(HOUR(TIMEVALUE( GW_Volunteers__Shift_Start_Date_Time__c )) - 17)),
+TEXT(FLOOR(HOUR(TIMEVALUE( GW_Volunteers__Shift_Start_Date_Time__c ))-5))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Not for business use. Contact Admin for more information.</inlineHelpText>
+    <label>StrtTime-Hour</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

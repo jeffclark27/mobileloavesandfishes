@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Background_Check__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>MLF customization in 2017. Can be used by the Volunteer Team to identify Jobs that require a Background Check be completed on the volunteer.</description>
+    <inlineHelpText>Select this box if a Background Check must be completed on volunteers before they can perform this volunteer opportunity.</inlineHelpText>
+    <label>Background Check</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,237 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "253b21ff-4353-46b1-a042-859e4fa474d8",
+  "label" : "Neighbor Engagement",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "ccbbd1be-db5b-4d26-8705-edc6249d1de5",
+          "columns" : [ {
+            "UUID" : "dd6f9686-4809-4325-a35a-656c56ec9a77",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ccbbd1be-db5b-4d26-8705-edc6249d1de5",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Serve Our Neighbors</span></h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "20878529-84fa-4818-bf36-4411e4974118",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "dd6f9686-4809-4325-a35a-656c56ec9a77",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "fe11b327-27b2-4bae-bf80-35d6d2b00243",
+          "columns" : [ {
+            "UUID" : "53a4f330-ee03-43cb-83b5-bf43a7d101c9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "a632666d-8aff-48fb-b048-8ba9e2446185",
+            "columnKey" : "b6341",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b7d62d60-3365-47c0-b686-7a696d7ebc99",
+            "columnKey" : "d1a40",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "3f2b8e4b-8fd0-4e50-b38e-a0e338e53fd7",
+            "columnKey" : "4c209",
+            "columnName" : "Column 4",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "fe11b327-27b2-4bae-bf80-35d6d2b00243",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.mealcsanctuaryvolunteersservingfood.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3234e5a1-7b76-437c-8940-ccb056c88d1a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "53a4f330-ee03-43cb-83b5-bf43a7d101c9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.bingosanctuarywideshot.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "08f3b303-a5d3-4421-9c96-20719ed0a8c3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a632666d-8aff-48fb-b048-8ba9e2446185",
+        "regionLabel" : "Column 2",
+        "regionName" : "b6341",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.mealcommunitytableneighborservefood.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "9d2eedf8-fde8-4ebc-8ba3-42076902fa01",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b7d62d60-3365-47c0-b686-7a696d7ebc99",
+        "regionLabel" : "Column 3",
+        "regionName" : "d1a40",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.bingoneighborengagementevent.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "397f6b88-241b-4c92-90d2-65a72fed9aa5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3f2b8e4b-8fd0-4e50-b38e-a0e338e53fd7",
+        "regionLabel" : "Column 4",
+        "regionName" : "4c209",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 88,
+        "sectionConfig" : {
+          "UUID" : "6ca4308f-2a3c-4e04-9ef1-329ece357ae4",
+          "columns" : [ {
+            "UUID" : "80538fbe-ae71-4fae-ab12-ad5b85305a42",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "ec2362ca-60b8-4ba4-8a59-4d281653165b",
+            "columnKey" : "fcbd7",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "6ca4308f-2a3c-4e04-9ef1-329ece357ae4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3><span style=\"font-size: 28px;\">Interested in hosting an event or providing a service for our neighbors?</span></h3><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">Hosting a&nbsp;</span><strong style=\"color: rgb(0, 0, 0); font-size: 16px;\">Neighbor Engagement Event&nbsp;</strong><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">allows volunteers to build relationships while offering a fun activity or helpful service to our formerly homeless neighbors.&nbsp;&nbsp;</span></p><h3><br></h3><p><br></p><h3><span style=\"font-size: 22px;\">Ways to Engage:&nbsp;</span></h3><p><br></p><ul><li><strong style=\"font-size: 16px;\">Host a Bingo </strong><span style=\"font-size: 16px;\">– Bring small prizes and enthusiasm for a fun-filled game with our neighbors.&nbsp;</span></li><li><strong style=\"font-size: 16px;\">Provide &amp; Serve a Meal</strong><span style=\"font-size: 16px;\">&nbsp;– Cook or cater a meal and share it side-by-side with our neighbors.&nbsp;</span></li><li><strong style=\"font-size: 16px;\">Plan a Fun Activity</strong><span style=\"font-size: 16px;\">&nbsp;– Organize games, arts and crafts, music events, or another creative way to spend time with our neighbors.&nbsp;</span></li><li><strong style=\"font-size: 16px;\">Offer a Helpful Service</strong><span style=\"font-size: 16px;\">&nbsp;– Provide free haircuts, bike repairs, wellness check-ups, or other professional services that support our neighbors’ well-being.&nbsp;</span></li></ul><p><br></p><p><br></p><h3><span style=\"font-size: 22px;\">How It Works:&nbsp;</span></h3><p><span style=\"font-size: 16px;\">&nbsp;</span></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 16px;\">All </span><strong style=\"background-color: rgb(255, 255, 255); font-size: 16px;\">Neighbor Engagement Events</strong><span style=\"background-color: rgb(255, 255, 255); font-size: 16px;\"> must be&nbsp;</span><strong style=\"background-color: rgb(255, 255, 255); font-size: 16px;\">coordinated with MLF Staff in advance. </strong><span style=\"background-color: rgb(255, 255, 255); font-size: 16px;\">With guidance and clear instruction, groups provide all necessary supplies, food, or materials for their event or service. A member of our team will assist with planning logistics and provide day-of coordination and support to ensure a seamless and meaningful experience.&nbsp;</span></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 16px;\">Does this event sound like a great fit for you? Fill out the form on this page, and a member of our team will reach out!&nbsp;</span></p><p><br></p><p><br></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b11b4c46-4f7c-4b77-b7cb-cdf4e586a594",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "80538fbe-ae71-4fae-ab12-ad5b85305a42",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"GroupsForm\",\"dataType\":\"Boolean\",\"supportsRecordId\":false,\"value\":true},{\"label\":\"vDefaultChoice\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"Service\"}]",
+            "flowName" : "Portal_CaseContactUsForm"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "2b38291d-3034-46e9-8bd2-b617cd6cd1fb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ec2362ca-60b8-4ba4-8a59-4d281653165b",
+        "regionLabel" : "Column 2",
+        "regionName" : "fcbd7",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "229abff4-222b-4a78-aafa-096282261120",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Neighbor Engagement Program"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "982d9601-55a1-472f-935a-405ced1702b0",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b2b1219f-5b14-42a6-8aee-3067b9215d91",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-neighbor-engagement-program"
+}

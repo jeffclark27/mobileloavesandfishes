@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Serve_Event__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Winter 2024. Field has been re-purposed for use in the new Exp Cloud Volunteer Portal solution. The field was originally created in 2018 but its use had never been expanded or used to drive our business process. The field was re-labeled from &quot;Group&quot; to &quot;Group Serve Event&quot;. It will be used by the volunteer team to identify a job as a Group Serve job which will then trigger a different Flow used within the Exp Cloud Volunteer Portal.</description>
+    <inlineHelpText>Select this box if the Job is a Group Event.</inlineHelpText>
+    <label>Group Serve Event</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_Shift__c</fullName>
+    <description>MLF Custom Mar 2024. Not surfaced on page layout. Used for reporting only. Identifies if a Volunteer Hours Status = Completed to facilitate counting the number of Completed Volunteer Hours within a Shift when building Summary Reports.</description>
+    <externalId>false</externalId>
+    <formula>IF(  ISPICKVAL( GW_Volunteers__Status__c , &quot;Completed&quot;), 1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Completed Shift?</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

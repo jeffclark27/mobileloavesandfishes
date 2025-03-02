@@ -1,0 +1,496 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b28a0538-890c-45b1-99c5-b569e776d39f",
+  "label" : "Programs",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0) url(/sfsites/c/file-asset/all_otherbackgroundheaderimage2024?v=1) bottom center /cover",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a8a4be30-957c-4e82-b53e-fb5440c21912",
+          "columns" : [ {
+            "UUID" : "41e69e4d-4bb6-4c97-a6ce-0d970652f651",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 142
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a8a4be30-957c-4e82-b53e-fb5440c21912",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; height: 400px; text-align: center;\">\n    <h1 style=\"font-size: 55px; margin: 0 auto; color: white; padding-top: 150px;\">Programs</h1>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "771c364a-0c26-48e9-b447-9b314074c60b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "41e69e4d-4bb6-4c97-a6ce-0d970652f651",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f79789c6-4646-43b7-b278-d53a78e89aa7",
+          "columns" : [ {
+            "UUID" : "71d89e17-ece1-4388-b517-50a91c4c2612",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f79789c6-4646-43b7-b278-d53a78e89aa7",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; margin: 0 auto; text-align: center; background-color: #f55e03; color: white; padding: 1em; text-size: 1em;\">YOU ARE BROWSING AS A GUEST! PLEASE <a href=\"/vpstandard/s/login\" style=\"color: white; text-decoration: underline;\">LOGIN OR REGISTER</a> TO VIEW AND SIGN UP FOR VOLUNTEER OPPORTUNITIES.</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "7ae27d93-60a3-4216-a64a-d2228fe04c35",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "71d89e17-ece1-4388-b517-50a91c4c2612",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "3b3ff43a-0669-4daa-a259-9c4be21b209e",
+          "columns" : [ {
+            "UUID" : "1d8b1684-6009-45b6-afdd-674962c33961",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3b3ff43a-0669-4daa-a259-9c4be21b209e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p><span style=\"font-size: 22px; color: rgb(0, 0, 0);\">We have a variety of different programs at the Village and beyond that help support our formerly and currently homeless friends. Whether you want to get creative, get your hands dirty, or engage with neighbors in a forward-facing role, we have the volunteer opportunity for you, your family, and your community! </span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "46c6f0f1-6e11-4257-89e2-1de9a07cca61",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1d8b1684-6009-45b6-afdd-674962c33961",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 60,
+        "sectionConfig" : {
+          "UUID" : "93f01e37-0dd7-461e-8d9b-3df159a42a9a",
+          "columns" : [ {
+            "UUID" : "7ef4e581-2e1c-477d-b32a-3e4c76e3157d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "93f01e37-0dd7-461e-8d9b-3df159a42a9a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p style=\"text-align: center;\"><strong style=\"font-size: 28px;\">Spotlight Opportunities</strong></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "95730d63-e976-49af-8b6d-f083729b4cef",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div id=\"mobile-tables-hint\">Swipe left to right for more shift details below.</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "34e28de6-3f8e-4f00-a723-8c7fff69f0fa",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "[]",
+            "flowName" : "VolunteerShifts_SpotlightOpportunities"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "02d3e630-452f-4fe7-b6c6-0cd2fa787832",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "Spotlight_Opportunities",
+            "layout" : "FULL",
+            "pageSize" : 15,
+            "scope" : "GW_Volunteers__Volunteer_Shift__c",
+            "showActionBar" : false,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : false,
+            "showManualRefreshButton" : false,
+            "showObjectName" : false,
+            "showPinnedList" : false,
+            "showSearchBar" : false
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "4896bfa7-6a5f-4709-897e-de2ef09fa9b4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "",
+            "bannerPosition" : "top",
+            "bannerSizePercent" : 35,
+            "borderRadius" : 0,
+            "boxShadow" : true,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(43, 43, 43, 0.47)",
+            "templateType" : "full",
+            "tileMenuEditor" : "Programs_Menu",
+            "titleColor" : "",
+            "titleFontSize" : "large",
+            "titleHorizontalAlign" : "center"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "b104a592-a0ac-46d2-92a5-08c779ac42a9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><strong style=\"font-size: 28px;\">Specific Requirements?</strong></h2><h3 style=\"text-align: center;\"><span style=\"font-size: 18px;\">We have a way for you to get involved!</span></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f05ebf12-dbb6-4cc7-85a2-7e02b82afa28",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7ef4e581-2e1c-477d-b32a-3e4c76e3157d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 80,
+        "sectionConfig" : {
+          "UUID" : "7ee8365e-52b1-45b3-9919-350379d1ec74",
+          "columns" : [ {
+            "UUID" : "9f64ef5c-9c4a-4a72-a2ff-873ab9f4301a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "66d829c0-010a-44d7-a654-c5b8c90738f9",
+            "columnKey" : "d1ed0",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "89546d91-7f8c-49e4-bf3b-760182a1f69d",
+            "columnKey" : "8b284",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "108588a1-6afd-452d-bf00-2dcfcd500e9e",
+            "columnKey" : "254b6",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "22b912ba-54ae-4f8c-a575-c16f3d0f705f",
+            "columnKey" : "bee90",
+            "columnName" : "Column 5",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "4e5643f3-247c-4083-b6cb-d28cf8351902",
+            "columnKey" : "d47e6",
+            "columnName" : "Column 6",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7ee8365e-52b1-45b3-9919-350379d1ec74",
+      "regions" : [ {
+        "id" : "9f64ef5c-9c4a-4a72-a2ff-873ab9f4301a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\">Family-Friendly</a><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/handicap-accessible\" rel=\"noopener noreferrer\" target=\"_self\">&nbsp;</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a6bd8221-a04d-4633-a026-bb4712986282",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "66d829c0-010a-44d7-a654-c5b8c90738f9",
+        "regionLabel" : "Column 2",
+        "regionName" : "d1ed0",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\">Accessible</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "75ee1d39-5cac-49ed-a21c-4163c30be015",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "89546d91-7f8c-49e4-bf3b-760182a1f69d",
+        "regionLabel" : "Column 3",
+        "regionName" : "8b284",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\">Indoors</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "28a5482d-b647-4b0a-86a7-97d9e0c922a2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "108588a1-6afd-452d-bf00-2dcfcd500e9e",
+        "regionLabel" : "Column 4",
+        "regionName" : "254b6",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/upcoming-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxstimetallorangetransparent.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/upcoming-shifts\" rel=\"noopener noreferrer\" target=\"_self\">In the Next Two Weeks</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c446f88a-98c2-4b0f-99d8-5657d3c82c01",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "22b912ba-54ae-4f8c-a575-c16f3d0f705f",
+        "regionLabel" : "Column 5",
+        "regionName" : "bee90",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "4e5643f3-247c-4083-b6cb-d28cf8351902",
+        "regionLabel" : "Column 6",
+        "regionName" : "d47e6",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 80,
+        "sectionConfig" : {
+          "UUID" : "492ffedf-ee34-45e7-85a4-34f3fa019619",
+          "columns" : [ {
+            "UUID" : "72411abd-6bae-4890-82d0-40044cdec1b8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "02fcb375-1b2c-4f3d-b795-5384b191a54d",
+            "columnKey" : "d1ed0",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "3ef9b8b0-eff8-4c34-918d-98a892242435",
+            "columnKey" : "8b284",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "11e5d947-228a-444a-a925-3b9ea5e56c47",
+            "columnKey" : "254b6",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "cc3fd999-5a46-4698-a1de-17f2fc474578",
+            "columnKey" : "bee90",
+            "columnName" : "Column 5",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "492ffedf-ee34-45e7-85a4-34f3fa019619",
+      "regions" : [ {
+        "id" : "72411abd-6bae-4890-82d0-40044cdec1b8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\">Family-Friendly</a><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/handicap-accessible\" rel=\"noopener noreferrer\" target=\"_self\">&nbsp;</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "357b4493-067a-44b3-b798-e49245bc699a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "02fcb375-1b2c-4f3d-b795-5384b191a54d",
+        "regionLabel" : "Column 2",
+        "regionName" : "d1ed0",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\">Accessible</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "5c64a516-d8d5-4264-a57f-2b6b2898fa3c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3ef9b8b0-eff8-4c34-918d-98a892242435",
+        "regionLabel" : "Column 3",
+        "regionName" : "8b284",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\">Indoors</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ba5b95d0-c32f-4e26-b211-c8f1062a4d03",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "11e5d947-228a-444a-a925-3b9ea5e56c47",
+        "regionLabel" : "Column 4",
+        "regionName" : "254b6",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "cc3fd999-5a46-4698-a1de-17f2fc474578",
+        "regionLabel" : "Column 5",
+        "regionName" : "bee90",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "298cfce2-6c50-4092-86c4-cf6bc66b177f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Programs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8a8db7f9-f95b-41d0-8e70-e5b792682b14",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "47e125bf-031e-456a-b83a-6de4a2e21566",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-programs"
+}

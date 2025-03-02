@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Background_Check_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL( GW_Volunteers__Contact__r.Background_Check_Status__c  ,&quot;None&quot;)||
+   ISPICKVAL( GW_Volunteers__Contact__r.Background_Check_Status__c  ,&quot;&quot;), &quot;None&quot;, 
+   IF(ISPICKVAL( GW_Volunteers__Contact__r.Background_Check_Status__c  ,&quot;Needed&quot;), &quot;Needed&quot;,
+      IF(ISPICKVAL( GW_Volunteers__Contact__r.Background_Check_Status__c  ,&quot;Pass&quot;), &quot;Pass&quot;, &quot;Failed&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Background Check Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

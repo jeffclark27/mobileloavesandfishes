@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "838e7b7e-a1e4-4319-a995-f0c0d1137b39",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "2a154f9c-2c9f-4436-a76d-711560631c2f",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "All_Upcoming_Opportunities_Record_List_Component",
+  "id" : "bce160f0-bae3-4f4b-a7f4-4366299d59a3",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Volunteer_Hours__c</fullName>
+    <description>A formula that determines whether the current logged in portal user is the same as the contact associated with this record.</description>
+    <formula>$User.ContactId =  GW_Volunteers__Contact__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>A formula that determines whether the current logged in portal user is the same as the contact associated with this record.</inlineHelpText>
+    <label>My Volunteer Hours</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

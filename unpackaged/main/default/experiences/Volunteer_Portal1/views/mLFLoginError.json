@@ -1,0 +1,94 @@
+{
+  "appPageId" : "1463f440-5a96-4fe0-8743-655bc4249ffe",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "6491a94a-f006-4dd5-98c5-bb4c12f05678",
+  "label" : "MLF Login Error",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "7b508d75-3dec-46b6-af41-7c82ada92df3",
+          "columns" : [ {
+            "UUID" : "84611ba1-c427-4418-8ab1-6ca5e681e6cc",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "40eaf7cf-bc68-4164-8a0b-e159eabf0864",
+            "columnKey" : "1f0a3",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "76ba2985-e68e-4ebd-ad38-edfb118fcd80",
+            "columnKey" : "906a8",
+            "columnName" : "Column 3",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7b508d75-3dec-46b6-af41-7c82ada92df3",
+      "regions" : [ {
+        "id" : "84611ba1-c427-4418-8ab1-6ca5e681e6cc",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"error-page\">\n    <h1>404</h1>\n    <h2>Oops! Page not found</h2>\n    <p>Sorry, the page you are looking for does not exist. It might have been moved or deleted.</p>\n    <a href=\"/vpstandard/s/\" class=\"home-link\">Return to Homepage</a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "45f7f804-b845-463d-b26c-12fd8dfd959e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "40eaf7cf-bc68-4164-8a0b-e159eabf0864",
+        "regionLabel" : "Column 2",
+        "regionName" : "1f0a3",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "76ba2985-e68e-4ebd-ad38-edfb118fcd80",
+        "regionLabel" : "Column 3",
+        "regionName" : "906a8",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6bd2af3a-ded2-43c5-b072-8deb36249c5f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2f8e7a72-58bc-4ee2-b0a0-3ed899c5f621",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ddb5a32b-82e1-475f-b932-3db2dab71728",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "login-error"
+}

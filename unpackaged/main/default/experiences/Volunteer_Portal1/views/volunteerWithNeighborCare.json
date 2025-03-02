@@ -1,0 +1,625 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8f600975-d42d-4181-a1b7-6af43b050349",
+  "label" : "Volunteer with Neighbor Care",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0) url(/sfsites/c/file-asset/neighborcarebackgroundheaderimage20?v=1) center right /cover",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "0c2b5579-c80d-4313-badf-e76b343a8dc6",
+          "columns" : [ {
+            "UUID" : "b4e4891a-85b8-4d9c-9d60-9eb3b205cfc2",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "0c2b5579-c80d-4313-badf-e76b343a8dc6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; height: 300px; text-align: center;\">\n    <h1 style=\"font-size: 55px; margin: 0 auto; color: white; padding-top: 100px;\">Neighbor Care</h1>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "77608ac7-a066-4421-83f3-76f4677ecea5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b4e4891a-85b8-4d9c-9d60-9eb3b205cfc2",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f886526d-bc39-4412-bc1c-32e8eb7094c9",
+          "columns" : [ {
+            "UUID" : "f5d0e364-d440-4a45-a087-6a427105336b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f886526d-bc39-4412-bc1c-32e8eb7094c9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a class=\"slds-button slds-button_brand\" title=\"Login or Register\" href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">YOU ARE BROWSING AS A GUEST! PLEASE LOGIN OR REGISTER TO VIEW AND SIGN UP FOR VOLUNTEER OPPORTUNITIES.</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "9106c4e0-58b6-463e-9d50-d2ff034a41cd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f5d0e364-d440-4a45-a087-6a427105336b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "a5eb2570-d885-4fb5-9284-f766c5143bf3",
+          "columns" : [ {
+            "UUID" : "c1efb510-8e7d-431b-a4b9-4ab716f8e03f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a5eb2570-d885-4fb5-9284-f766c5143bf3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<br/>\n<br/>\n<p style= \"font-size:24px; text-align: left;\">Neighbor Care exists to support the neighbors living in Community First! Village—both current and future neighbors. Through a variety of responsibilities, this program works to ensure that every neighbor feels welcomed, supported and at home in our community. \n</p>\n<br/>\n<p style= \"font-size:24px; text-align: left;\">Volunteers are essential to this program by assisting with home decorating, furniture preparation, providing rides or helping out with various tasks to support neighbors. Join us in creating a warm, supportive and thriving environment for all who call the Village home! </p>\n<br/>\n<br/>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "19b25565-af5d-4af8-8cc8-7613cdd6c8d2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c1efb510-8e7d-431b-a4b9-4ab716f8e03f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "4d126208-c14b-4c3d-875a-88d56f8f23fc",
+          "columns" : [ {
+            "UUID" : "2ec57b36-5234-47da-b62e-778662c31d5f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4d126208-c14b-4c3d-875a-88d56f8f23fc",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p style=\"text-align: center;\"><strong style=\"font-size: 28px;\">Neighbor Care Volunteer Roles</strong></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7268ad3f-e9c2-4add-8967-e8d0506e8078",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2ec57b36-5234-47da-b62e-778662c31d5f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "855c114b-ed5d-44d5-bcb9-4e18bfc0b350",
+          "columns" : [ {
+            "UUID" : "3067b223-3d9a-49e0-92ac-ac603690ef7d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "855c114b-ed5d-44d5-bcb9-4e18bfc0b350",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "",
+            "bannerPosition" : "top",
+            "bannerSizePercent" : 35,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(33, 29, 29, 0.55)",
+            "templateType" : "full",
+            "tileMenuEditor" : "Neighbor_Care_Jobs_Guest_View",
+            "titleColor" : "",
+            "titleFontSize" : "large",
+            "titleHorizontalAlign" : "center"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "4b473bc7-d7f4-41dd-8c3d-6d66d1ea0bb8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3067b223-3d9a-49e0-92ac-ac603690ef7d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "7a8afb86-863f-4dac-8de9-0ee33c7fe32b",
+          "columns" : [ {
+            "UUID" : "14b5606b-5896-429a-b275-b6085cd43a67",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7a8afb86-863f-4dac-8de9-0ee33c7fe32b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 20px;\">To Learn More &amp; Sign Up for Volunteer Shifts:</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4ff64ec2-1817-487b-b4e7-19469933c2ae",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; padding-bottom: 0px; text-align:center;\"><a class=\"slds-button slds-button_brand\" href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/\" title=\"Login or Register\" style=\"width: 100%; max-width: 350px; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">Login or Register</a></div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "0ef984c6-b255-4cf3-9548-90f069b007c6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "14b5606b-5896-429a-b275-b6085cd43a67",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "e9cfdded-b6cd-4aea-a798-ac411d6c3baf",
+          "columns" : [ {
+            "UUID" : "cad05302-bc78-43fc-aa31-ab9fae756f51",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e9cfdded-b6cd-4aea-a798-ac411d6c3baf",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "",
+            "bannerPosition" : "top",
+            "bannerSizePercent" : 35,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(33, 29, 29, 0.55)",
+            "templateType" : "full",
+            "tileMenuEditor" : "Neighbor_Care_Jobs",
+            "titleColor" : "",
+            "titleFontSize" : "large",
+            "titleHorizontalAlign" : "center"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "1b07f4d8-5082-498d-bcbd-d3af70667c7b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; padding-bottom: 80px; text-align:center;\"><a class=\"slds-button slds-button_brand\" href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/programs\" title=\"Back to All Programs\" style=\"width: 100%; max-width: 350px; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">Back to All Programs</a></div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "a082c97a-61c8-447a-9b88-5f091f00d657",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "cad05302-bc78-43fc-aa31-ab9fae756f51",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "995fc8ba-8cf6-4bf7-b102-5c528d443cb4",
+          "columns" : [ {
+            "UUID" : "5c2ce1c5-0918-47fd-b976-dcfe11222cf7",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "995fc8ba-8cf6-4bf7-b102-5c528d443cb4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><strong style=\"font-size: 28px;\">Got Specific Requirements?</strong></h2><p style=\"text-align: center;\"><span style=\"font-size: 18px;\">No matter who you are, we have a way for you to get involved!</span></p><p style=\"text-align: center;\">&nbsp;</p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d9a6eca1-4380-4f5d-b4b1-7b150e4db982",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5c2ce1c5-0918-47fd-b976-dcfe11222cf7",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "7b98f95f-0500-48bf-b1f6-77cad3d298f0",
+          "columns" : [ {
+            "UUID" : "77c3d512-3bc0-45ad-82bf-292c0cf624d8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "46f21e1a-c465-4e8d-a167-0be59c7c06c9",
+            "columnKey" : "9f4fb",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "6b8ba7dc-fb29-44b2-85fb-e9cf3a319e35",
+            "columnKey" : "2f3b9",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "9f95f27a-de2e-4ae9-926f-255367dad17b",
+            "columnKey" : "5b953",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b8513e2b-5f9a-4b0b-9579-be330d102e65",
+            "columnKey" : "21703",
+            "columnName" : "Column 5",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "2a56cb26-2f56-4ec3-ae75-2e75eaf2664a",
+            "columnKey" : "85305",
+            "columnName" : "Column 6",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7b98f95f-0500-48bf-b1f6-77cad3d298f0",
+      "regions" : [ {
+        "id" : "77c3d512-3bc0-45ad-82bf-292c0cf624d8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\">Family-Friendly</a><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/handicap-accessible\" rel=\"noopener noreferrer\" target=\"_self\">&nbsp;</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6d73fc46-e0f7-483a-ba72-5b03e0f4ba2d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "46f21e1a-c465-4e8d-a167-0be59c7c06c9",
+        "regionLabel" : "Column 2",
+        "regionName" : "9f4fb",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\">Accessible</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f04bd0a2-7b4a-4b5f-bf15-78100b06c815",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6b8ba7dc-fb29-44b2-85fb-e9cf3a319e35",
+        "regionLabel" : "Column 3",
+        "regionName" : "2f3b9",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\">Indoors</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a28ceee4-8ef0-4730-8909-7c1d46018bf4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9f95f27a-de2e-4ae9-926f-255367dad17b",
+        "regionLabel" : "Column 4",
+        "regionName" : "5b953",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/upcoming-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxstimetallorangetransparent.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/upcoming-shifts\" rel=\"noopener noreferrer\" target=\"_self\">In the Next Two Weeks</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "dd1b080a-7d73-43df-a29d-124bb8e4c3ad",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b8513e2b-5f9a-4b0b-9579-be330d102e65",
+        "regionLabel" : "Column 5",
+        "regionName" : "21703",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "2a56cb26-2f56-4ec3-ae75-2e75eaf2664a",
+        "regionLabel" : "Column 6",
+        "regionName" : "85305",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "934778ad-5d66-4f5c-9131-2e744e3aa9c9",
+          "columns" : [ {
+            "UUID" : "e57e8bff-ebe1-4f73-a5d4-fd73b742a927",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "f3539733-b17d-48c7-a027-04038205ca63",
+            "columnKey" : "9f4fb",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "795632f6-d30b-4b74-8932-379bfb8918f0",
+            "columnKey" : "2f3b9",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "2cf1a220-0b5e-47d7-b869-1100e28279b7",
+            "columnKey" : "5b953",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "f1e41814-4d3b-4ab6-80a1-7b3b52965391",
+            "columnKey" : "21703",
+            "columnName" : "Column 5",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "934778ad-5d66-4f5c-9131-2e744e3aa9c9",
+      "regions" : [ {
+        "id" : "e57e8bff-ebe1-4f73-a5d4-fd73b742a927",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\">Family-Friendly</a><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/handicap-accessible\" rel=\"noopener noreferrer\" target=\"_self\">&nbsp;</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2f934ae1-f19d-4b9e-a4a0-901dbb6d6439",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f3539733-b17d-48c7-a027-04038205ca63",
+        "regionLabel" : "Column 2",
+        "regionName" : "9f4fb",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\">Accessible</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "937fef33-602e-49a7-a617-58df3ca8a5cf",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "795632f6-d30b-4b74-8932-379bfb8918f0",
+        "regionLabel" : "Column 3",
+        "regionName" : "2f3b9",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\"></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\">Indoors</a></h3>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3de26bd1-b3ca-4d78-87f2-4985c6024404",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2cf1a220-0b5e-47d7-b869-1100e28279b7",
+        "regionLabel" : "Column 4",
+        "regionName" : "5b953",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "f1e41814-4d3b-4ab6-80a1-7b3b52965391",
+        "regionLabel" : "Column 5",
+        "regionName" : "21703",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1ecc0d4c-0742-4a50-bc25-187eeb2966a1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Volunteer with Neighbor Care"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "dcd52875-31a3-40ac-80f5-1b6811f64083",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "31b0b1d1-6219-40a1-8800-1559f99e3d3e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-volunteer-neighbor-care"
+}

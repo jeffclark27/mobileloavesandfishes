@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "24c7fba9-3573-4b13-8199-e4d8d5dea2a8",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "8d36e400-6749-4acf-aef3-8ac745be7a65",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Genesis_Gardens_Rich_Content_Editor_1_Component",
+  "id" : "245795ea-c74f-44f3-8784-38c1646e97a7",
+  "type" : "experienceVariation"
+}

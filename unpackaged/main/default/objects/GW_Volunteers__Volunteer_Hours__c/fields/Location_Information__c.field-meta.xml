@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Information__c</fullName>
+    <description>Rich Text fields are not supported in Field Formulas. Field update from Volunteer Locations object.</description>
+    <inlineHelpText>Source is similar field on Volunteer Job</inlineHelpText>
+    <label>Location Information</label>
+    <length>32768</length>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

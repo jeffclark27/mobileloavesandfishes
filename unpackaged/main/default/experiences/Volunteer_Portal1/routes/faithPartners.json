@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "cb206200-2782-434f-893f-f008250c6a3c",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "faith_partners_program__c",
+  "id" : "0401e689-b7fd-4e4e-8c56-19fb1456fccb",
+  "label" : "Faith Partners",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-faith-partners-program",
+  "type" : "route",
+  "urlPrefix" : "faith-partners-program"
+}

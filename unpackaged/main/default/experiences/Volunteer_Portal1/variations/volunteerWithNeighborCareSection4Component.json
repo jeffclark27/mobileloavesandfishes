@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "d219291f-5dd7-48d6-9b11-f76aa883aee8",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "7a8afb86-863f-4dac-8de9-0ee33c7fe32b",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Volunteer_with_Neighbor_Care_Section_4_Component",
+  "id" : "3eac8715-631e-4ef2-9c64-d988b2171d6e",
+  "type" : "experienceVariation"
+}

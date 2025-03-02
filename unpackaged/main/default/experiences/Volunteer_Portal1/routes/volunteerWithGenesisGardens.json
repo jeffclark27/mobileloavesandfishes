@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "ff8b652b-14d7-43b2-a899-cc46f441c77e",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Genesis_Gardens__c",
+  "id" : "aee424a5-402a-4e7a-8f2f-87881f8dc001",
+  "label" : "Volunteer with Genesis Gardens",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-genesis-gardens",
+  "type" : "route",
+  "urlPrefix" : "genesis-gardens"
+}

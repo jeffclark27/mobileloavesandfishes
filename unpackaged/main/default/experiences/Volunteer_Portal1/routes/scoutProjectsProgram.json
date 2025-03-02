@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "0c350375-b5ec-49f5-b6fe-e2d481b6fd6d",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "scout_projects_program__c",
+  "id" : "854df922-57fd-4cce-9a4d-5425f2d9d98e",
+  "label" : "Scout Projects Program",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-scout-projects-program",
+  "type" : "route",
+  "urlPrefix" : "scout-projects-program"
+}

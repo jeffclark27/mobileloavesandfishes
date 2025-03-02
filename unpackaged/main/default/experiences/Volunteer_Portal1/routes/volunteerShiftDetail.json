@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "64099655-bac7-4485-841c-28ceb002c413",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Volunteer_Shift_Detail__c",
+  "id" : "640d73f9-6988-4245-a92d-ba4d6b9b1fd1",
+  "label" : "Volunteer Shift Detail",
+  "objectApiName" : "GW_Volunteers__Volunteer_Shift__c",
+  "routeType" : "detail-a0f",
+  "type" : "route",
+  "urlPrefix" : "volunteer-shift"
+}

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Group_Leader_Email</name>
+        <label>Send Group Leader Email</label>
+        <locationX>176</locationX>
+        <locationY>852</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>serve@mlf.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Reminder - Upcoming Group Serve with Mobile Loaves &amp; Fishes</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>tt_EmailBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>relatedRecordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientId</name>
+            <value>
+                <elementReference>$Record.fortafy_Group_Contact__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>logEmailOnSend</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>63.0</apiVersion>
+    <assignments>
+        <name>Add_No_Volunteer_to_Text_Variable</name>
+        <label>Add No Volunteer to Text Variable</label>
+        <locationX>284</locationX>
+        <locationY>468</locationY>
+        <assignmentItems>
+            <assignToReference>v_VolunteerList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>At this time, no volunteers have signed up.</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Send_Group_Leader_Email</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Add_Volunteer_to_Text_Variable</name>
+        <label>Add Volunteer to Text Variable</label>
+        <locationX>156</locationX>
+        <locationY>576</locationY>
+        <assignmentItems>
+            <assignToReference>v_VolunteerList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>loopVar_VolunteerDetails</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>v_VolunteerList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>tt_LineBreak</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Volunteer_Hours</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Were_records_found</name>
+        <label>Were records found?</label>
+        <locationX>176</locationX>
+        <locationY>360</locationY>
+        <defaultConnector>
+            <targetReference>Add_No_Volunteer_to_Text_Variable</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Records_were_found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Volunteer_Hours</leftValueReference>
+                <operator>IsEmpty</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Loop_Volunteer_Hours</targetReference>
+            </connector>
+            <label>Records were found</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>loopVar_VolunteerDetails</name>
+        <dataType>String</dataType>
+        <expression>{!Loop_Volunteer_Hours.fortafy_volunteer_first_name__c} &amp; &quot; &quot; &amp; {!Loop_Volunteer_Hours.fortafy_volunteer_last_name__c} &amp; &quot;, &quot; &amp; TEXT({!Loop_Volunteer_Hours.GW_Volunteers__Status__c}) &amp; &quot;, &quot; &amp; {!Loop_Volunteer_Hours.GW_Volunteers__Contact__r.Email} &amp; &quot;, &quot; &amp; {!Loop_Volunteer_Hours.GW_Volunteers__Contact__r.Phone}</expression>
+    </formulas>
+    <interviewLabel>Group Serve: Email Group Contact 14 Days Before {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Group Serve: Email Group Contact 14 Days Before</label>
+    <loops>
+        <name>Loop_Volunteer_Hours</name>
+        <label>Loop Volunteer Hours</label>
+        <locationX>68</locationX>
+        <locationY>468</locationY>
+        <collectionReference>Get_Volunteer_Hours</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Add_Volunteer_to_Text_Variable</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Send_Group_Leader_Email</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Volunteer_Hours</name>
+        <label>Get Volunteer Hours</label>
+        <locationX>176</locationX>
+        <locationY>252</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Were_records_found</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>GW_Volunteers__Volunteer_Shift__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>GW_Volunteers__Volunteer_Hours__c</object>
+        <sortField>fortafy_volunteer_last_name__c</sortField>
+        <sortOrder>Desc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Volunteer_Hours</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>fortafy_Group_Contact__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>fortafy_Group_Contact_Email__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>fortafy_ShiftStatus__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>EventScheduled</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Shift_in_14_Days__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Group_Contact_Email_Bounced__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>GW_Volunteers__Volunteer_Shift__c</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2025-01-20</startDate>
+            <startTime>08:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>tt_EmailBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>&lt;p&gt;Hi {!$Record.fortafy_Group_Contact__r.FirstName},&lt;/p&gt;
+&lt;p&gt;
+  This is a friendly reminder about your organization&#39;s upcoming Group Serve Day
+  at Community First! Village on
+  &lt;strong&gt;{!$Record.GW_Volunteers__Start_Date_Time__c}&lt;/strong&gt; for&lt;strong&gt;
+    {!$Record.fortafy_Job_Name__c}&lt;/strong
+  &gt;
+  at &lt;strong&gt;{!$Record.fortafy_Location_Address__c}&lt;/strong&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  We appreciate you coordinating this event with your organization&#39;s attendees.
+  Here is a list of attendees who have signed up for this event.
+&lt;/p&gt;
+&lt;p&gt;{!v_VolunteerList}&lt;/p&gt;
+&lt;p&gt;Please review the attached instructions carefully.&lt;/p&gt;
+&lt;p&gt;
+  Click
+  &lt;a
+    href=&quot;https://mlf.org/wp-content/uploads/2024/11/front-porch-check-in.jpg&quot;
+    target=&quot;_blank&quot;
+    &gt;HERE&lt;/a
+  &gt;
+  to view a map to help you find your way.
+&lt;/p&gt;
+&lt;p&gt;
+  If you need to cancel your organization&#39;s Group Serve day, or if you have any
+  questions, please feel free to respond to this email directly. We are here to
+  help!
+&lt;/p&gt;
+&lt;p&gt;
+  Thank you from all of us at &lt;strong&gt;Mobile Loaves &amp;amp; Fishes&lt;/strong&gt;! We
+  look forward to seeing you soon!
+&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>tt_LineBreak</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>&lt;br&gt;&lt;/br&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>v_VolunteerList</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

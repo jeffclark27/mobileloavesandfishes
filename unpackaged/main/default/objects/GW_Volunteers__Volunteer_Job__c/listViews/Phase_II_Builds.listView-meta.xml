@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phase_II_Builds</fullName>
+    <columns>Phase_II_Build__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>GW_Volunteers__First_Shift__c</columns>
+    <columns>GW_Volunteers__Number_of_Volunteers__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Phase_II_Build__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Phase II Builds</label>
+</ListView>

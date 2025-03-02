@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "b1d3d2e4-f7e1-4395-9551-3ca3883a2e0d",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "community_service_hours_program__c",
+  "id" : "739c22de-6b6c-4c19-b570-87826a0424b3",
+  "label" : "Community Service Hours Program",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-community-service-hours-program",
+  "type" : "route",
+  "urlPrefix" : "community-service-hours-program"
+}

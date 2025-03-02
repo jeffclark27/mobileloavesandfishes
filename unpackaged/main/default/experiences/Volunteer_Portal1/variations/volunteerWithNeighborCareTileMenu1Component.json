@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "594cdf3d-2b4a-43dc-961f-f79a510885a3",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "4b473bc7-d7f4-41dd-8c3d-6d66d1ea0bb8",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Volunteer_with_Neighbor_Care_Tile_Menu_1_Component",
+  "id" : "f6188a00-5138-4e3f-b78e-3b4750d0b6c2",
+  "type" : "experienceVariation"
+}

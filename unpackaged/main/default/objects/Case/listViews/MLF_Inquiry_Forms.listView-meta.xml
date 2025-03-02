@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MLF_Inquiry_Forms</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.NAME</columns>
+    <columns>NAME</columns>
+    <filterScope>Mine</filterScope>
+    <label>MLF Inquiry Forms</label>
+</ListView>

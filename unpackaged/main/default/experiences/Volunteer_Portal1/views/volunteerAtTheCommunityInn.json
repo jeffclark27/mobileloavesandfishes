@@ -1,0 +1,664 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "7bd10f37-26c6-4c77-96ce-0843a2c8ae53",
+  "label" : "Volunteer at the Community Inn",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0) url(/sfsites/c/file-asset/innbackgroundheaderimage2024_1?v=1) center center /cover",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "26fe8e86-de1d-4c12-9623-e76f745a3cd3",
+          "columns" : [ {
+            "UUID" : "dd158e9d-1417-4753-bb3d-2616bd1bcf5c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "26fe8e86-de1d-4c12-9623-e76f745a3cd3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; height: 300px; text-align: center;\">\n    <h1 style=\"font-size: 55px; margin: 0 auto; color: white; padding-top: 100px;\">Community Inn</h1>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "ef9d9477-bf72-4a8f-9e2e-a86a75e743a9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "dd158e9d-1417-4753-bb3d-2616bd1bcf5c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "fb8281ca-158d-4d0e-ac46-5c82d0acdf61",
+          "columns" : [ {
+            "UUID" : "f5448b53-5c77-4b8c-b1a5-8249b27c7325",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "fb8281ca-158d-4d0e-ac46-5c82d0acdf61",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a class=\"slds-button slds-button_brand\" title=\"Login or Register\" href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">YOU ARE BROWSING AS A GUEST! PLEASE LOGIN OR REGISTER TO VIEW AND SIGN UP FOR VOLUNTEER OPPORTUNITIES.</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "c00f346e-234f-434d-893f-5d13f6b3eb0e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f5448b53-5c77-4b8c-b1a5-8249b27c7325",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "9657223e-0264-4dc9-aff3-d8cd3b57ba83",
+          "columns" : [ {
+            "UUID" : "1d73888e-427c-4a45-8118-48e6f21f96c9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "9657223e-0264-4dc9-aff3-d8cd3b57ba83",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<br/>\n<br/>\n<p style= \"font-size:24px; text-align: left;\"> The Community Inn is a unique collection of <a href=\"https://communityinn.mlf.org/\"  target=\"_blank\">vacation rentals</a> that welcomes guests from all over to experience Community First! Village firsthand. Thoughtfully designed and cared for, each unit features art and handcrafted products created by our formerly homeless neighbor artists who now call our community home.  </p>\n<br/>\n<p style= \"font-size:24px; text-align: left;\">Volunteers play a role in the success of the Community Inn by assisting with hospitality, administration, organizing and cleaning. Their efforts help create a warm and welcoming experience for guests while supporting our staff and neighbors. </p>\n<br/>\n<br/>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "812dbe9a-7176-4bb7-9113-ca7679f91091",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1d73888e-427c-4a45-8118-48e6f21f96c9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "621be181-1052-46ec-ba35-7bf0d2d83c9f",
+          "columns" : [ {
+            "UUID" : "b512774c-1a71-4d57-bca4-e634802ab2f3",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "621be181-1052-46ec-ba35-7bf0d2d83c9f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p style=\"text-align: center;\"><strong style=\"font-size: 28px;\">Community Inn Volunteer Roles</strong></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3415e7af-ceac-455f-b292-06f8eed84765",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b512774c-1a71-4d57-bca4-e634802ab2f3",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "d7e8e872-93a9-480f-a977-bc0e36f240c7",
+          "columns" : [ {
+            "UUID" : "5e5e6111-274f-4c03-82dc-6935cb0dfc32",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d7e8e872-93a9-480f-a977-bc0e36f240c7",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "",
+            "bannerPosition" : "top",
+            "bannerSizePercent" : 35,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(33, 29, 29, 0.55)",
+            "templateType" : "full",
+            "tileMenuEditor" : "Inn_Jobs_Guest_View",
+            "titleColor" : "",
+            "titleFontSize" : "large",
+            "titleHorizontalAlign" : "center"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "54fa6b35-ab75-48fe-a039-ac1d1ea14afc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5e5e6111-274f-4c03-82dc-6935cb0dfc32",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "9a5d44c8-4285-431a-b05f-ec36eb896f73",
+          "columns" : [ {
+            "UUID" : "946e4a7d-c9f6-41cd-845e-5d43da6c1ea9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "9a5d44c8-4285-431a-b05f-ec36eb896f73",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 20px;\">To Learn More &amp; Sign Up for Volunteer Shifts:</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "9f90a5d9-757c-4533-a407-156405ed6f36",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; padding-bottom: 0px; text-align:center;\"><a class=\"slds-button slds-button_brand\" href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/\" title=\"Login or Register\" style=\"width: 100%; max-width: 350px; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">Login or Register</a></div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "715d6bd9-3d8b-46b1-886e-d171f0579f61",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "946e4a7d-c9f6-41cd-845e-5d43da6c1ea9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "7335706c-8ede-4bbe-b3e7-448eec5015a3",
+          "columns" : [ {
+            "UUID" : "7696d44b-bcc8-48ce-ac1a-c7a002ef0786",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7335706c-8ede-4bbe-b3e7-448eec5015a3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "",
+            "bannerPosition" : "top",
+            "bannerSizePercent" : 35,
+            "borderRadius" : 0,
+            "boxShadow" : true,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(33, 29, 29, 0.55)",
+            "templateType" : "full",
+            "tileMenuEditor" : "Inn_Jobs",
+            "titleColor" : "",
+            "titleFontSize" : "large",
+            "titleHorizontalAlign" : "center"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "cd913882-7cc6-4417-8651-2cacffa983cf",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"width: 100%; padding-bottom: 80px; text-align:center;\"><a class=\"slds-button slds-button_brand\" href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/programs\" title=\"Back to All Programs\" style=\"width: 100%; max-width: 350px; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">Back to All Programs</a></div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "f4263fbe-ea44-4738-af9e-ff78702916b3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7696d44b-bcc8-48ce-ac1a-c7a002ef0786",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "b3711812-e88e-456a-b606-d4b3661bee4e",
+          "columns" : [ {
+            "UUID" : "46750c0f-4b70-4843-86f4-47e0b4031d4c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b3711812-e88e-456a-b606-d4b3661bee4e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><strong> </strong></h2><h2 style=\"text-align: center;\"><strong style=\"font-size: 28px;\">Got Specific Requirements?</strong></h2><p style=\"text-align: center;\"><span style=\"font-size: 18px;\">We have a way for you to get involved!</span></p><p style=\"text-align: center;\">&nbsp;</p><p style=\"text-align: center;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b6ac9542-8444-47ff-8757-d5cbc3280620",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "46750c0f-4b70-4843-86f4-47e0b4031d4c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "26659f44-3d0e-4be1-9670-04cbd85c9e81",
+          "columns" : [ {
+            "UUID" : "f92f2724-5a89-4339-8b7c-55ee03309c8e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "1c72fe1e-8e2f-435c-bf0e-6fe87bb7482c",
+            "columnKey" : "5fa86",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "c2e07581-a199-48b1-aac1-463760efd384",
+            "columnKey" : "84e6e",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "169c9d04-3908-43bf-9a29-672ef9464156",
+            "columnKey" : "440d7",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "4e0d036f-39fb-481e-bf57-7e087176e33b",
+            "columnKey" : "c7548",
+            "columnName" : "Column 5",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "2f7779b5-cd5a-4d1f-82e1-eb31a4c369ce",
+            "columnKey" : "f8731",
+            "columnName" : "Column 6",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "26659f44-3d0e-4be1-9670-04cbd85c9e81",
+      "regions" : [ {
+        "id" : "f92f2724-5a89-4339-8b7c-55ee03309c8e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><strong><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\"></strong></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\">Family-Friendly</a><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/handicap-accessible\" rel=\"noopener noreferrer\" target=\"_self\">&nbsp;</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d1cf0267-7f3f-4f90-a096-3fe06e9636a4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1c72fe1e-8e2f-435c-bf0e-6fe87bb7482c",
+        "regionLabel" : "Column 2",
+        "regionName" : "5fa86",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><strong><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\"></strong></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\">Accessible</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "aa70d33a-d9a9-413c-9208-7e23c7d96c8f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c2e07581-a199-48b1-aac1-463760efd384",
+        "regionLabel" : "Column 3",
+        "regionName" : "84e6e",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\"><strong><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\"></strong></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\">Indoors</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d763daa9-ad9d-4b15-8c3f-dad55302a21c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "169c9d04-3908-43bf-9a29-672ef9464156",
+        "regionLabel" : "Column 4",
+        "regionName" : "440d7",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/upcoming-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><strong><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxstimetallorangetransparent.1}\"></strong></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/upcoming-shifts\" rel=\"noopener noreferrer\" target=\"_self\">In the Next Two Weeks</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "274ae3ae-196a-473e-881c-e73451ec72db",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4e0d036f-39fb-481e-bf57-7e087176e33b",
+        "regionLabel" : "Column 5",
+        "regionName" : "c7548",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "2f7779b5-cd5a-4d1f-82e1-eb31a4c369ce",
+        "regionLabel" : "Column 6",
+        "regionName" : "f8731",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "b3f1e299-e587-4e85-be10-65be7775480d",
+          "columns" : [ {
+            "UUID" : "ba38679d-50ad-445f-b53a-ad47aca73128",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "9ad4e4c8-efcd-4e15-8f11-3488a7c6133b",
+            "columnKey" : "5fa86",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "26f92c26-82e1-4b2c-84cc-02a3db8c00e7",
+            "columnKey" : "84e6e",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d297f0c6-933f-4dde-8e10-aa926c359181",
+            "columnKey" : "440d7",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "082961b7-96a5-49c5-9f12-aaf5940f9900",
+            "columnKey" : "c7548",
+            "columnName" : "Column 5",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b3f1e299-e587-4e85-be10-65be7775480d",
+      "regions" : [ {
+        "id" : "ba38679d-50ad-445f-b53a-ad47aca73128",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><strong><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\"></strong></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\">Family-Friendly</a><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/handicap-accessible\" rel=\"noopener noreferrer\" target=\"_self\">&nbsp;</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3ea7b733-9817-43e6-a6fb-4f06931347cf",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9ad4e4c8-efcd-4e15-8f11-3488a7c6133b",
+        "regionLabel" : "Column 2",
+        "regionName" : "5fa86",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><strong><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\"></strong></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\">Accessible</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0be5b6da-beaa-49b3-a950-60ffdd09b3ca",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "26f92c26-82e1-4b2c-84cc-02a3db8c00e7",
+        "regionLabel" : "Column 3",
+        "regionName" : "84e6e",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\"><strong><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\"></strong></a></p>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\">Indoors</a></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0cb254be-6323-45a3-8b79-9bd9b0371bb2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d297f0c6-933f-4dde-8e10-aa926c359181",
+        "regionLabel" : "Column 4",
+        "regionName" : "440d7",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "082961b7-96a5-49c5-9f12-aaf5940f9900",
+        "regionLabel" : "Column 5",
+        "regionName" : "c7548",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a0426c64-4f1b-4dc3-b443-423a718eebc4",
+          "columns" : [ {
+            "UUID" : "99298a35-cdbb-4acf-834f-7c454251e7d3",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 52
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a0426c64-4f1b-4dc3-b443-423a718eebc4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><br></h2><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d2a0e1a8-5653-4535-a926-0683a3692863",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "99298a35-cdbb-4acf-834f-7c454251e7d3",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a7aaca98-9448-4c26-9e4b-88fd18ab34b3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Volunteer at the Community Inn"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "fc2303a2-7cb3-40f8-a0c5-d05642e5f03d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6f8a0cdb-c156-4619-9d41-35b9cf3bb38c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-volunteer-at-the-community-inn"
+}

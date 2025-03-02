@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>of_Excess_Volunteers__c</fullName>
+    <description>Fortafy created field in March 2024 to help track and mitigate Volunteer Portal problems. This field is not required and not used within MLF&#39;s established business processes.</description>
+    <externalId>false</externalId>
+    <formula>IF(GW_Volunteers__Total_Volunteers__c - GW_Volunteers__Desired_Number_of_Volunteers__c &gt; 0, GW_Volunteers__Total_Volunteers__c - GW_Volunteers__Desired_Number_of_Volunteers__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If the Total Number of Volunteers &gt; Desired No. of Volunteers then show value, else show 0.</inlineHelpText>
+    <label># of Excess Volunteers</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

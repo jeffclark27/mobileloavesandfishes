@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phase_II_Build__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Sept 2019-C.Hoffart This field was added to identify the recurring groups of sponsored home builds to build out Phase II. This field will enable us to identify and manage these jobs in a unique way since they differ from other mainstream Volunteer Jobs.</description>
+    <inlineHelpText>Select this box -only- if this Volunteer Job is for the recurring group of home builds for Phase II</inlineHelpText>
+    <label>Phase II Build</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

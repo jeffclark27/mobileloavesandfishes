@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "fc1d2f25-9174-4f83-ae4a-2bcc979faaee",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Family_Friendly__c",
+  "id" : "2cc12f6c-9ae4-41e0-a84a-6f194fc1537c",
+  "label" : "Family Friendly",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-family-friendly",
+  "type" : "route",
+  "urlPrefix" : "family-friendly"
+}

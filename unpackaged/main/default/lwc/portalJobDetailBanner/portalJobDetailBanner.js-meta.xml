@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <description>Job Detail Banner</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Portal Job Detail Banner</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property
+                    type="String"
+                    name="recordId"
+                    label="recordId"
+                    default="{!recordId}"
+            />
+            <property
+                    type="String"
+                    name="backgroundImage"
+                    label="Default Background Image"
+                    description="Use either the name of a Static Resource or give a URL starting with https. Make sure to add external URLs to the Trusted Sites list in Setup."
+            />
+            <property
+                    type="Boolean"
+                    name="invertColor"
+                    label="Invert Text Color"
+                    description="Change the text color from white to black. May help readability on certain background images."
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

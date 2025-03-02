@@ -1,0 +1,71 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "66bf0bb5-bc50-44e0-b78f-5904252628d6",
+  "label" : "Delete my Information",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a4be3c0a-2f59-4eda-ae29-a7b440fd6bfb",
+          "columns" : [ {
+            "UUID" : "586a6b06-d280-49d6-811f-ca2c79699715",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a4be3c0a-2f59-4eda-ae29-a7b440fd6bfb",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "Experience_Cloud_Screen_Delete_My_Data_Request"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "2639bbe0-e237-4229-9902-67551896ef6a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "586a6b06-d280-49d6-811f-ca2c79699715",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5c65cb99-b699-4487-847a-3f2f66331e21",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Delete my Information"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6dd2e051-f973-4b5c-a25a-6f285f4d8fd8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "284d69de-56bb-48cf-809c-ce889c7ed094",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-delete-my-information"
+}

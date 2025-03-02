@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Volunteer Portal</container>
+    <containerType>Network</containerType>
+    <label>Gardens Jobs Guest View</label>
+    <navigationMenuItem>
+        <label>Farm Helpers</label>
+        <menuItemBranding>
+            <tileImage>gardenspropertybeautificationvolunt</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Market Stand</label>
+        <menuItemBranding>
+            <tileImage>farmersmarketgardensvolunteer1</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Harvesting</label>
+        <menuItemBranding>
+            <tileImage>harvestingvolunteer2</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Farm Animal Fridays</label>
+        <menuItemBranding>
+            <tileImage>farmanimalgardens1</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

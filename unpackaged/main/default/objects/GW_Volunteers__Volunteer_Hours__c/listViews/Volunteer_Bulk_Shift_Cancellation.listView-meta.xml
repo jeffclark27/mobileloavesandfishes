@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volunteer_Bulk_Shift_Cancellation</fullName>
+    <columns>GW_Volunteers__Contact__c</columns>
+    <columns>GW_Volunteers__Number_of_Volunteers__c</columns>
+    <columns>Volunteer_Job_Name__c</columns>
+    <columns>GW_Volunteers__Shift_Start_Date_Time__c</columns>
+    <columns>GW_Volunteers__Status__c</columns>
+    <columns>Shift_Duration__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>GW_Volunteers__Status__c</field>
+        <operation>equals</operation>
+        <value>Canceled</value>
+    </filters>
+    <filters>
+        <field>GW_Volunteers__Shift_Start_Date_Time__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>5/1/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>GW_Volunteers__Shift_Start_Date_Time__c</field>
+        <operation>lessOrEqual</operation>
+        <value>8/31/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>GW_Volunteers__Volunteer_Campaign_Name__c</field>
+        <operation>equals</operation>
+        <value>Genesis Gardens</value>
+    </filters>
+    <label>Volunteer - Bulk Shift Cancellation</label>
+</ListView>

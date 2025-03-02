@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "f46852f5-6b71-4f4b-97a3-6eb3bcc706ed",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Get_Involved__c",
+  "id" : "3919178d-5461-4239-a355-2eb67501e1e9",
+  "label" : "Get Involved",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-get-involved",
+  "type" : "route",
+  "urlPrefix" : "get-involved"
+}

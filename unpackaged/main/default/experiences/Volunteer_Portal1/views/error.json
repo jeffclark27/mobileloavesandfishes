@@ -1,0 +1,48 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9d395b61-7cad-4bda-849b-8eca3fcf96ac",
+  "label" : "Error",
+  "regions" : [ {
+    "id" : "5755734a-32c5-4baf-b8fb-8389755cbe62",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class='slds-grid slds-grid--vertical slds-align--absolute-center slds-container--large'>\n     <div class='slds-align-middle slds-m-bottom--xx-large slds-m-top--xx-large' alt='Page not available'>\n         <img src='/sfsites/c/img/community/slds/messaging/illustration-page-not-found.png' class='slds-p-horizontal--large'/> \n     </div>\n     <div class=\"error-page\">\n        <h1>404</h1>\n        <h2>Oops! Page not found</h2>\n        <p>Sorry, the page you are looking for does not exist. It might have been moved or deleted.</p>\n        <a href=\"/vpstandard/s/\" class=\"home-link\">Return to Homepage</a>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "d34300ed-18e4-4320-b2fa-1302f461a2c6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cbd42adb-4284-45ee-9f10-77e917d0b16f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "11d40d83-ac1b-478a-8ac8-590feaba871a",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Error"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "904a5a94-22cc-4753-a58c-5b0d0956ef37",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "afd2fc80-5015-4058-87c8-44de3c80de50",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "error"
+}

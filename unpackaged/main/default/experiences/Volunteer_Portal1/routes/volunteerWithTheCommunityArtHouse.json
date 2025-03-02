@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "332f9aca-0c48-4cc1-8689-c2f63d75590d",
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "configurationTags" : [ ],
+  "devName" : "Volunteer_at_the_Community_Art_House__c",
+  "id" : "a0eee601-501d-41ae-af9b-bbbb8ff9816d",
+  "label" : "Volunteer with the Community Art House",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-volunteer-art-house",
+  "type" : "route",
+  "urlPrefix" : "volunteer-art-house"
+}

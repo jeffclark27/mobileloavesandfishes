@@ -1,0 +1,240 @@
+{
+  "appPageId" : "020a44fa-e229-431c-a5da-a05dbdaadb58",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "94f3fd5c-3248-4969-aadc-713a95ce1790",
+  "label" : "My Upcoming Shifts",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "68510570-702f-4a0d-9147-213ab6351e51",
+          "columns" : [ {
+            "UUID" : "12028f7d-b96f-4eea-9486-df52b571d148",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "68510570-702f-4a0d-9147-213ab6351e51",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong>Upcoming Volunteer Shifts&nbsp;</strong></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4cead2f0-a362-4032-8c4a-64de1fc48e10",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "12028f7d-b96f-4eea-9486-df52b571d148",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 84,
+        "sectionConfig" : {
+          "UUID" : "eec31bd4-cc19-4e97-ad06-457e6afa186e",
+          "columns" : [ {
+            "UUID" : "64a24913-4d0e-4053-83f1-9addff4f2610",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "eec31bd4-cc19-4e97-ad06-457e6afa186e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><br></p><p>Your decision to share your time and talents with us means the world. Volunteers like you are the heartbeat of our organization, making everything we do possible. Your willingness to step forward and serve demonstrates your dedication to our mission, and we’re incredibly grateful for your support.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "dec52981-1537-491b-8281-0d63fe1ddd98",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "My_Upcoming_Shifts",
+            "layout" : "FULL",
+            "pageSize" : 15,
+            "scope" : "GW_Volunteers__Volunteer_Hours__c",
+            "showActionBar" : false,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : false,
+            "showManualRefreshButton" : false,
+            "showObjectName" : false,
+            "showPinnedList" : false,
+            "showSearchBar" : false
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "4e7394ba-9925-4c7a-b6b2-f0a796c94321",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "64a24913-4d0e-4053-83f1-9addff4f2610",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,238,238)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b6d04bf3-6c41-4a27-be20-978fd7dbdbe2",
+          "columns" : [ {
+            "UUID" : "c80f4f17-69dd-421b-8ec8-1de56719bc43",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "26cee3ed-adb6-47e8-aaba-1ac8a59d3adf",
+            "columnKey" : "a764b",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "fb4790fc-29c3-49b1-a9f2-b4f0deaf883d",
+            "columnKey" : "ebe53",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "690f9438-fbf3-4f06-90ee-2bd18bf24f9e",
+            "columnKey" : "9c295",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "480d728a-ed22-40d8-a763-c0c190ebe2e7",
+            "columnKey" : "aba6f",
+            "columnName" : "Column 5",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "9e319916-d614-497b-8def-8ee5f385970e",
+            "columnKey" : "c8080",
+            "columnName" : "Column 6",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b6d04bf3-6c41-4a27-be20-978fd7dbdbe2",
+      "regions" : [ {
+        "id" : "c80f4f17-69dd-421b-8ec8-1de56719bc43",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "26cee3ed-adb6-47e8-aaba-1ac8a59d3adf",
+        "regionLabel" : "Column 2",
+        "regionName" : "a764b",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "fb4790fc-29c3-49b1-a9f2-b4f0deaf883d",
+        "regionLabel" : "Column 3",
+        "regionName" : "ebe53",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "690f9438-fbf3-4f06-90ee-2bd18bf24f9e",
+        "regionLabel" : "Column 4",
+        "regionName" : "9c295",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-account\" class=\"slds-button slds-button_brand\" title=\"My Account\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">My Account</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "e4233d61-18fb-40ad-9d08-be039bc7510a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "480d728a-ed22-40d8-a763-c0c190ebe2e7",
+        "regionLabel" : "Column 5",
+        "regionName" : "aba6f",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-volunteer-history\" class=\"slds-button slds-button_brand\" title=\"Volunteer History\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">Volunteer History</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "5b81140d-4fee-46cc-8d09-8eab23343938",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9e319916-d614-497b-8def-8ee5f385970e",
+        "regionLabel" : "Column 6",
+        "regionName" : "c8080",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7340aac7-c4b0-45b6-82c5-7859f6a2a006",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Upcoming Shifts"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "74d853ea-41bf-4177-8abf-88864b4f20e4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "78c4fe2d-93a2-4fd7-a6a0-4229a0ab3d6a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-my-upcoming-shifts"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "569ce387-6432-45e8-a8ea-7e55a3b48653",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "46e47aa2-c936-435d-812c-2cf0f54561de",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Handicap_Accessible_HTML_Editor_Component",
+  "id" : "e9a608cd-ae9d-4d78-a72a-dbc77f2043bf",
+  "type" : "experienceVariation"
+}
