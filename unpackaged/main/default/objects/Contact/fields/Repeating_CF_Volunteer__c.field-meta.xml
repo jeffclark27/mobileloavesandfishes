@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Repeating_CF_Volunteer__c</fullName>
+    <description>How many time this contact has volunteered at CF</description>
+    <inlineHelpText>Number of volunteer opportunities completed by the Contact.</inlineHelpText>
+    <label>Repeating CF Volunteer</label>
+    <summaryFilterItems>
+        <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Contact__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

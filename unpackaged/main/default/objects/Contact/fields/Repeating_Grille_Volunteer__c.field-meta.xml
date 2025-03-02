@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Repeating_Grille_Volunteer__c</fullName>
+    <inlineHelpText>Number of volunteer opportunities the Contact has completed in this volunteer area.</inlineHelpText>
+    <label>Repeating Grille Volunteer</label>
+    <summaryFilterItems>
+        <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Volunteer_Job__c</field>
+        <operation>equals</operation>
+        <value>a0d1Y00000C9WwS,a0d1Y00000DFUWoQAP</value>
+    </summaryFilterItems>
+    <summaryForeignKey>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Contact__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

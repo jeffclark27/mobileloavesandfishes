@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volunteer_Direct_Service_Interests__c</fullName>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <label>DEPRECATED: Vol Direct Service Interests</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cooking</fullName>
+                <default>false</default>
+                <label>Cooking</label>
+            </value>
+            <value>
+                <fullName>Errand Transport</fullName>
+                <default>false</default>
+                <label>Errand Transport</label>
+            </value>
+            <value>
+                <fullName>Serving Food</fullName>
+                <default>false</default>
+                <label>Serving Food</label>
+            </value>
+            <value>
+                <fullName>Sorting</fullName>
+                <default>false</default>
+                <label>Sorting</label>
+            </value>
+            <value>
+                <fullName>Visiting Residents</fullName>
+                <default>false</default>
+                <label>Visiting Residents</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

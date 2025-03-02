@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Education_Help_Text__c</fullName>
+    <defaultValue>&quot;The Email Opt Out selection box listed next should be selected if the contact does not want to receive email communications from MLF.&quot;</defaultValue>
+    <description>Created to provide the Edu Team a Help Text for the standard Contact Email Opt Out field. Standard fields do not support the use of Help Text.</description>
+    <externalId>false</externalId>
+    <label>Education Help Text</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

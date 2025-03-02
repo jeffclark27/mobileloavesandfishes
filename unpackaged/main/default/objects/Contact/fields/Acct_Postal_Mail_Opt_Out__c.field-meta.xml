@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acct_Postal_Mail_Opt_Out__c</fullName>
+    <description>MLF Customization July 2021. DO NOT DELETE this field. Doing so will impact Acknowledgment Letters. Not surfaced on a page layout</description>
+    <formula>Account.Postal_Mail_Opt_Out__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Acct Postal Mail Opt Out</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

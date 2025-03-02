@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Stmt_Grp_2_500_999</fullName>
+    <columns>Account_Type__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Tax_Stmnt_Amt3_Last_Year__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>npsp__Deceased__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.EMAIL_OPT_OUT</columns>
+    <columns>Acct_Formal_Greeting__c</columns>
+    <columns>Acct_Informal_Greeting__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL_OPT_OUT</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>npsp__Primary_Contact__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Account_Record_Type__c</field>
+        <operation>equals</operation>
+        <value>Household Account</value>
+    </filters>
+    <filters>
+        <field>CONTACT.LAST_NAME</field>
+        <operation>notContain</operation>
+        <value>Anonymous</value>
+    </filters>
+    <filters>
+        <field>Tax_Stmnt_Amt3_Last_Year__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>500</value>
+    </filters>
+    <filters>
+        <field>Tax_Stmnt_Amt3_Last_Year__c</field>
+        <operation>lessOrEqual</operation>
+        <value>999.99</value>
+    </filters>
+    <filters>
+        <field>npsp__Deceased__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Tax Stmt - Grp 3: $500-$999</label>
+    <sharedTo>
+        <group>Sys_Admin_Team</group>
+    </sharedTo>
+</ListView>

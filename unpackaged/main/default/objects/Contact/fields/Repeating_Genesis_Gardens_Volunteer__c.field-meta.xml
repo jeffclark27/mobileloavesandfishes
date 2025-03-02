@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Repeating_Genesis_Gardens_Volunteer__c</fullName>
+    <description>Sept 2019-C.Hoffart
+Aggregate of how many volunteer opportunities this person has completed. See other fields with similar name.
+ 
+Note:
+For, Report Type = Volunteer Jobs with Shifts &amp; Hours - Customizable, this field has a label of Repeat-Volunteer
+
+The Report Type field properties for this field were modified to reduce the length of the original name.</description>
+    <inlineHelpText>Number of volunteer opportunities the Contact has completed in this volunteer area.</inlineHelpText>
+    <label>Repeating Genesis Gardens Volunteer</label>
+    <summaryFilterItems>
+        <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Volunteer_Job__c</field>
+        <operation>equals</operation>
+        <value>a0di0000006lbaK,a0di0000007lThS,a0d1Y00000DFJRn,a0di0000007kh8V,a0di0000002h1LE,a0d1Y00000C9WBN,a0d1Y00000FQdja,a0d1Y00000FQdjV,a0d1Y00000Ezp6zQAB</value>
+    </summaryFilterItems>
+    <summaryForeignKey>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Contact__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

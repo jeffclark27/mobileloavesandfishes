@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Donor__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Has this contact donated to MLF?</description>
+    <inlineHelpText>Has this contact donated to MLF?</inlineHelpText>
+    <label>Donor</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

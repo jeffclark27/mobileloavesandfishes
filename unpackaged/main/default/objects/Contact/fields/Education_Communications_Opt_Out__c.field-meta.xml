@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Education_Communications_Opt_Out__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Education Team Use Only. Select this box if the Contact wants to opt out (unsubscribe) from communications sent by the Edu Team. Does not unsubscribe the Contact from other communications sent by MLF.</inlineHelpText>
+    <label>Education Communications Opt Out</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

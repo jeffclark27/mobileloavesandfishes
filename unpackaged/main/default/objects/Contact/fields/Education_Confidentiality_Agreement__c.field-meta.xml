@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Education_Confidentiality_Agreement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Select this box if the Contact has completed and returned the Education Confidentiality Agreement. A copy of the agreement should be attached to the Contact record.</inlineHelpText>
+    <label>Education Confidentiality Agreement</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

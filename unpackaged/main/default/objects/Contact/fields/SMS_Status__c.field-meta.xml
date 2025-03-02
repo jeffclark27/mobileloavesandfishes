@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMS_Status__c</fullName>
+    <description>This field is automatically set via flow automation on the MessagingEndUser.</description>
+    <inlineHelpText>This field is automatically set when a Contact opts in or out of SMS messages.</inlineHelpText>
+    <label>SMS Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DoublyOptedIn</fullName>
+                <default>false</default>
+                <label>DoublyOptedIn</label>
+            </value>
+            <value>
+                <fullName>ExplicitlyOptedIn</fullName>
+                <default>false</default>
+                <label>ExplicitlyOptedIn</label>
+            </value>
+            <value>
+                <fullName>ImplicitlyOptedIn</fullName>
+                <default>false</default>
+                <label>ImplicitlyOptedIn</label>
+            </value>
+            <value>
+                <fullName>OptedOut</fullName>
+                <default>false</default>
+                <label>OptedOut</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Include_This_Contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>See Help below. The Admin should set (select) this field then revert this field whenever the 1-off event is over.</description>
+    <inlineHelpText>Admin use. Checkbox is used for exception processing only when there is a need to identify a group of Contacts that do not share any other common characteristic. IE: 1-off email or postal mail to an identified  set of Contacts.</inlineHelpText>
+    <label>Include This Contact</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

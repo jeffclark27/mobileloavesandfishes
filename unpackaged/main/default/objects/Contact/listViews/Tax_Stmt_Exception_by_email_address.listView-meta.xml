@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Stmt_Exception_by_email_address</fullName>
+    <columns>Account_Record_Type__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Tax_Stmnt_Amt3_Last_Year__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.EMAIL_OPT_OUT</columns>
+    <columns>Acct_Formal_Greeting__c</columns>
+    <columns>Acct_Informal_Greeting__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>equals</operation>
+        <value>kmc.ellington@gmail.com</value>
+    </filters>
+    <filters>
+        <field>Account_Record_Type__c</field>
+        <operation>equals</operation>
+        <value>Household Account</value>
+    </filters>
+    <label>Tax Stmt - Exception - by email address</label>
+    <sharedTo>
+        <group>Sys_Admin_Team</group>
+    </sharedTo>
+</ListView>

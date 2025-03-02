@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CG_AccountID__c</fullName>
+    <description>Old CG account ID</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Old CG account ID</inlineHelpText>
+    <label>DEPRECATED: CG Account ID</label>
+    <length>18</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

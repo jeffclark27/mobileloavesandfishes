@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CF_Volunteer__c</fullName>
+    <formula>IF( CF_Volunteer_Hours__c &gt; 0, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If Volunteer Hours (Lifetime) is greater than 0 then Volunteer equals TRUE.</inlineHelpText>
+    <label>CF Volunteer</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

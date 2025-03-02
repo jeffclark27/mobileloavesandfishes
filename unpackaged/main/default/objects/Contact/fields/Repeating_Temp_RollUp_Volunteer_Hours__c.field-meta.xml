@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Repeating_Temp_RollUp_Volunteer_Hours__c</fullName>
+    <description>WARNING: This field is used for one-time reporting to facilitate analyzing Volunteer Hours completed by a Contact within a specific time period. This field must not be used in on-going reporting. Date Of Last Use: April 2024 By: C.Hoffart For counting how many Volunteer Opportunities completed by a Contact in the last year</description>
+    <inlineHelpText>Admin Use Only. Contact Admin for more info. Have Admin review field named Repeating-Temp-RollUp-Volunteer-Hours on Contact Object.</inlineHelpText>
+    <label>Repeating-Temp-RollUp-Volunteer-Hours</label>
+    <summaryFilterItems>
+        <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Start_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>4/19/2023</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Volunteer_Job__c</field>
+        <operation>notEqual</operation>
+        <value>a0di0000007V7GeAAK</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>GW_Volunteers__Volunteer_Hours__c.Recurring_Volunteer__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Contact__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

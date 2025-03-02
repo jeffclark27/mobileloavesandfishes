@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Donor_Classification__c</fullName>
+    <label>Donor Classification</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pave the Way Home - Committed</fullName>
+                <default>false</default>
+                <label>Pave the Way Home - Committed</label>
+            </value>
+            <value>
+                <fullName>Pave the Way Home - Crowdfunding</fullName>
+                <default>false</default>
+                <label>Pave the Way Home - Crowdfunding</label>
+            </value>
+            <value>
+                <fullName>Steward</fullName>
+                <default>false</default>
+                <label>Steward</label>
+            </value>
+            <value>
+                <fullName>CAP - Committed</fullName>
+                <default>false</default>
+                <label>CAP - Committed</label>
+            </value>
+            <value>
+                <fullName>CAP - Considering</fullName>
+                <default>false</default>
+                <label>CAP - Considering</label>
+            </value>
+            <value>
+                <fullName>CAP - Cultivating</fullName>
+                <default>false</default>
+                <label>CAP - Cultivating</label>
+            </value>
+            <value>
+                <fullName>CAP - Prospect</fullName>
+                <default>false</default>
+                <label>CAP - Prospect</label>
+            </value>
+            <value>
+                <fullName>CAP - Small Donors</fullName>
+                <default>false</default>
+                <label>CAP - Small Donors</label>
+            </value>
+            <value>
+                <fullName>Phase 2 Prospect</fullName>
+                <default>false</default>
+                <label>Phase 2 Prospect</label>
+            </value>
+            <value>
+                <fullName>Stakeholders</fullName>
+                <default>false</default>
+                <label>Stakeholders</label>
+            </value>
+            <value>
+                <fullName>Grant</fullName>
+                <default>false</default>
+                <label>Grant</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Spouse</fullName>
+                <default>false</default>
+                <label>Spouse</label>
+            </value>
+            <value>
+                <fullName>BYNAH</fullName>
+                <default>false</default>
+                <label>BYNAH</label>
+            </value>
+            <value>
+                <fullName>CF Construction Partner</fullName>
+                <default>false</default>
+                <label>CF Construction Partner</label>
+            </value>
+            <value>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+                <label>Board Member</label>
+            </value>
+            <value>
+                <fullName>Christmas in August 2017</fullName>
+                <default>false</default>
+                <label>Christmas in August 2017</label>
+            </value>
+            <value>
+                <fullName>TYP - Committed</fullName>
+                <default>false</default>
+                <label>TYP - Committed</label>
+            </value>
+            <value>
+                <fullName>TYP - Considering</fullName>
+                <default>false</default>
+                <label>TYP - Considering</label>
+            </value>
+            <value>
+                <fullName>TYP - Cultivating</fullName>
+                <default>false</default>
+                <label>TYP - Cultivating</label>
+            </value>
+            <value>
+                <fullName>TYP - Prospect</fullName>
+                <default>false</default>
+                <label>TYP - Prospect</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

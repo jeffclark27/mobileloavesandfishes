@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Stmnt_Current_Date__c</fullName>
+    <description>MLF Customization Jan 2020. DO NOT DELETE or RENAME this field. Refer to the Parent field on the Account record for purpose. The field was intentionally surfaced on the Contact Object in order to generate Tax Statements using SEND LIST EMAIL. In addition, this field is used by Acknowledgment Letter Email templates to render the date in a more friendly format to the user. DELETING or RENAMING this field will have downstream impacts.</description>
+    <externalId>false</externalId>
+    <formula>Account.Tax_Stmnt_Current_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Date Formatter, used to display date as &quot;Month Day, Year&quot;, ie: &quot;January 1, 2020&quot;</inlineHelpText>
+    <label>Current Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interests__c</fullName>
+    <description>Which areas this contact is interested in</description>
+    <inlineHelpText>Which areas this contact is interested in</inlineHelpText>
+    <label>DEPRECATED: Interests</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>12 Baskets Magazine</fullName>
+                <default>false</default>
+                <label>12 Baskets Magazine</label>
+            </value>
+            <value>
+                <fullName>Annual Appeal</fullName>
+                <default>false</default>
+                <label>Annual Appeal</label>
+            </value>
+            <value>
+                <fullName>Backyard Garden Host</fullName>
+                <default>false</default>
+                <label>Backyard Garden Host</label>
+            </value>
+            <value>
+                <fullName>Book Signing</fullName>
+                <default>false</default>
+                <label>Book Signing</label>
+            </value>
+            <value>
+                <fullName>Bread Ministry</fullName>
+                <default>false</default>
+                <label>Bread Ministry</label>
+            </value>
+            <value>
+                <fullName>Community First!</fullName>
+                <default>false</default>
+                <label>Community First!</label>
+            </value>
+            <value>
+                <fullName>CSA Host</fullName>
+                <default>false</default>
+                <label>CSA Host</label>
+            </value>
+            <value>
+                <fullName>Disaster Relief</fullName>
+                <default>false</default>
+                <label>Disaster Relief</label>
+            </value>
+            <value>
+                <fullName>Egg Ministry</fullName>
+                <default>false</default>
+                <label>Egg Ministry</label>
+            </value>
+            <value>
+                <fullName>Food Pick-Up</fullName>
+                <default>false</default>
+                <label>Food Pick-Up</label>
+            </value>
+            <value>
+                <fullName>Fundraising Event</fullName>
+                <default>false</default>
+                <label>Fundraising Event</label>
+            </value>
+            <value>
+                <fullName>Gardener</fullName>
+                <default>false</default>
+                <label>Gardener</label>
+            </value>
+            <value>
+                <fullName>GardenLife Partner</fullName>
+                <default>false</default>
+                <label>GardenLife Partner</label>
+            </value>
+            <value>
+                <fullName>Garden Maintenance Team</fullName>
+                <default>false</default>
+                <label>Garden Maintenance Team</label>
+            </value>
+            <value>
+                <fullName>Harvest Crew</fullName>
+                <default>false</default>
+                <label>Harvest Crew</label>
+            </value>
+            <value>
+                <fullName>Housing</fullName>
+                <default>false</default>
+                <label>Housing</label>
+            </value>
+            <value>
+                <fullName>Karpophoreo Project</fullName>
+                <default>false</default>
+                <label>Karpophoreo Project</label>
+            </value>
+            <value>
+                <fullName>Make Ready-Team</fullName>
+                <default>false</default>
+                <label>Make Ready-Team</label>
+            </value>
+            <value>
+                <fullName>Meals</fullName>
+                <default>false</default>
+                <label>Meals</label>
+            </value>
+            <value>
+                <fullName>MLF in the News</fullName>
+                <default>false</default>
+                <label>MLF in the News</label>
+            </value>
+            <value>
+                <fullName>MLF Truck Servicing &amp; Maintenance</fullName>
+                <default>false</default>
+                <label>MLF Truck Servicing &amp; Maintenance</label>
+            </value>
+            <value>
+                <fullName>MLF Volunteer</fullName>
+                <default>false</default>
+                <label>MLF Volunteer</label>
+            </value>
+            <value>
+                <fullName>Monthly Newsletter</fullName>
+                <default>false</default>
+                <label>Monthly Newsletter</label>
+            </value>
+            <value>
+                <fullName>Multiply</fullName>
+                <default>false</default>
+                <label>Multiply</label>
+            </value>
+            <value>
+                <fullName>Office Help</fullName>
+                <default>false</default>
+                <label>Office Help</label>
+            </value>
+            <value>
+                <fullName>One-time Volunteer Opportunities</fullName>
+                <default>false</default>
+                <label>One-time Volunteer Opportunities</label>
+            </value>
+            <value>
+                <fullName>Prayer Card Artist</fullName>
+                <default>false</default>
+                <label>Prayer Card Artist</label>
+            </value>
+            <value>
+                <fullName>Prayer Warriors</fullName>
+                <default>false</default>
+                <label>Prayer Warriors</label>
+            </value>
+            <value>
+                <fullName>Produce Washing and Bunching</fullName>
+                <default>false</default>
+                <label>Produce Washing and Bunching</label>
+            </value>
+            <value>
+                <fullName>Raffles</fullName>
+                <default>false</default>
+                <label>Raffles</label>
+            </value>
+            <value>
+                <fullName>Sandwiches &amp; More</fullName>
+                <default>false</default>
+                <label>Sandwiches &amp; More</label>
+            </value>
+            <value>
+                <fullName>Solicit Toiletry Donations</fullName>
+                <default>false</default>
+                <label>Solicit Toiletry Donations</label>
+            </value>
+            <value>
+                <fullName>Special Individual Fundraisers</fullName>
+                <default>false</default>
+                <label>Special Individual Fundraisers</label>
+            </value>
+            <value>
+                <fullName>Special Initiative</fullName>
+                <default>false</default>
+                <label>Special Initiative</label>
+            </value>
+            <value>
+                <fullName>Stone Soup Breakfast Crew</fullName>
+                <default>false</default>
+                <label>Stone Soup Breakfast Crew</label>
+            </value>
+            <value>
+                <fullName>Third-Party Donations</fullName>
+                <default>false</default>
+                <label>Third-Party Donations</label>
+            </value>
+            <value>
+                <fullName>Those We Serve</fullName>
+                <default>false</default>
+                <label>Those We Serve</label>
+            </value>
+            <value>
+                <fullName>Truck Team</fullName>
+                <default>false</default>
+                <label>Truck Team</label>
+            </value>
+            <value>
+                <fullName>Truck Washing</fullName>
+                <default>false</default>
+                <label>Truck Washing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

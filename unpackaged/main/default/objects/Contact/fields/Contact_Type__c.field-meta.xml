@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Type__c</fullName>
+    <description>This field is used to indicate if a Contact is a MLF Staff member, Missional or Board Member.</description>
+    <inlineHelpText>Used to indicate if the Contact is a MLF Staff member, Missional or Board Member. For non-MLF Contacts the field is blank. For MLF Contacts, select the option that best describes their MLF role.</inlineHelpText>
+    <label>Contact Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MLF Staff</fullName>
+                <default>false</default>
+                <label>MLF Staff</label>
+            </value>
+            <value>
+                <fullName>MLF Missional</fullName>
+                <default>false</default>
+                <label>MLF Missional</label>
+            </value>
+            <value>
+                <fullName>MLF Staff and Missional</fullName>
+                <default>false</default>
+                <label>MLF Staff and Missional</label>
+            </value>
+            <value>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+                <label>Board Member</label>
+            </value>
+            <value>
+                <fullName>MLF Support Corp Board Member</fullName>
+                <default>false</default>
+                <label>MLF Support Corp Board Member</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

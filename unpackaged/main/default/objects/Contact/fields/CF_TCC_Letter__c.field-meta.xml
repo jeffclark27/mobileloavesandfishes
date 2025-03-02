@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CF_TCC_Letter__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This contact has signed a petition to TCC for CF Village in Aug/Sept 2013</description>
+    <inlineHelpText>This contact has signed a petition to TCC for CF Village in Aug/Sept 2013</inlineHelpText>
+    <label>DEPRECATED: CF TCC Letter</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

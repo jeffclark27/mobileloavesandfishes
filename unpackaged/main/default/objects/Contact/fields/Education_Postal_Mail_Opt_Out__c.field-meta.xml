@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Education_Postal_Mail_Opt_Out__c</fullName>
+    <description>13Feb23 MLF Custom created for the Education Team to give them visibility to the Account field Postal Mail Opt Out</description>
+    <formula>Account.Postal_Mail_Opt_Out__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Use to opt out (unsubscribe) the Contact from MLF postal communications. To update this field, go to the Account Household page and update the field there.</inlineHelpText>
+    <label>Postal Mail Opt Out (Reference)</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

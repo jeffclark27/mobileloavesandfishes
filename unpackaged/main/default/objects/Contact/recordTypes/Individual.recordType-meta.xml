@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Individual</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>MLF_Contact_Compact_Layout</compactLayoutAssignment>
+    <description>A single contact, i.e. an individual.</description>
+    <label>Individual</label>
+    <picklistValues>
+        <picklist>Background_Check_Status__c</picklist>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Partial-Fail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pass</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CF_Village_Classification__c</picklist>
+        <values>
+            <fullName>Board Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAP Investors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAP Stakeholder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CF Tours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volunteer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_Type__c</picklist>
+        <values>
+            <fullName>Board Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLF Missional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLF Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLF Staff and Missional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLF Support Corp Board Member</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Education_Status__c</picklist>
+        <values>
+            <fullName>Academic %2F Researcher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aspiring Replicator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Market Player</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replicator</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Donor_Classification__c</picklist>
+        <values>
+            <fullName>BYNAH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Board Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAP - Committed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAP - Considering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAP - Cultivating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAP - Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAP - Small Donors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CF Construction Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christmas in August 2017</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pave the Way Home - Committed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pave the Way Home - Crowdfunding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phase 2 Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stakeholders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steward</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TYP - Committed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TYP - Considering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TYP - Cultivating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TYP - Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Donor_Primary_Relationship__c</picklist>
+        <values>
+            <fullName>Alan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elizabeth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heidi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sarah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teresa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tricia</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Donor_Segment__c</picklist>
+        <values>
+            <fullName>Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sustainer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Email_Subscriptions__c</picklist>
+        <values>
+            <fullName>CommunityFirst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General MLF Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GenesisGardens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROADS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SJNCommissary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GW_Volunteers__Volunteer_Availability__c</picklist>
+        <values>
+            <fullName>Afternoon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekdays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekends</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GW_Volunteers__Volunteer_Skills__c</picklist>
+        <values>
+            <fullName>Computer usage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundraising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscaping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual labor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quilting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GW_Volunteers__Volunteer_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Sign Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospective</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interests__c</picklist>
+        <values>
+            <fullName>12 Baskets Magazine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Appeal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backyard Garden Host</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Signing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bread Ministry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSA Host</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community First%21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disaster Relief</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egg Ministry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Pick-Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundraising Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garden Maintenance Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GardenLife Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gardener</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harvest Crew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Karpophoreo Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLF Truck Servicing %26 Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLF Volunteer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLF in the News</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Make Ready-Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly Newsletter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multiply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Help</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One-time Volunteer Opportunities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prayer Card Artist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prayer Warriors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produce Washing and Bunching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raffles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandwiches %26 More</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicit Toiletry Donations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Individual Fundraisers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Initiative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stone Soup Breakfast Crew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third-Party Donations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Those We Serve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Truck Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Truck Washing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_Adult_Child__c</picklist>
+        <values>
+            <fullName>Adult</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Child</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Accuity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amplify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day To Shine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecommerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holiday Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IATS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Join Email List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memorial Gift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movie Night</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paypal Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Tour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Tour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remote Volunteer Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self Directed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Village of Lights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Volunteer Signup</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rev%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SMS_Status__c</picklist>
+        <values>
+            <fullName>DoublyOptedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ExplicitlyOptedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ImplicitlyOptedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OptedOut</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sustainer_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lapsed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tracker_Access_Level__c</picklist>
+        <values>
+            <fullName>Community Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HQ Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volunteer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volunteer Coordinator</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Artistic_Interests__c</picklist>
+        <values>
+            <fullName>Arts%2FCrafts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Designing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Music</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Photography</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sewing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Communications_Interests__c</picklist>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media%2FVideography</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outreach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Socializing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Direct_Service_Interests__c</picklist>
+        <values>
+            <fullName>Cooking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Errand Transport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serving Food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sorting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visiting Residents</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Genesis_Gardens_Interests__c</picklist>
+        <values>
+            <fullName>Animal Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building Projects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cooking%2FHospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Display%2FPresentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gardening</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good%2FFood Distribution Team</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Office_Interests__c</picklist>
+        <values>
+            <fullName>Admin Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer%2FIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Entry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scanning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Physical_Work_Interests__c</picklist>
+        <values>
+            <fullName>Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carpentry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gardening</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Painting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair RV</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Program_Interests__c</picklist>
+        <values>
+            <fullName>Any Program or Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Culinary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genesis Gardens</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Special_Skills__c</picklist>
+        <values>
+            <fullName>Care Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundraising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT%2FTechnical%2FScientific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Languages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing%2FAdvertising%2FPromotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychology%2FMental Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teaching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Writer%2FBlogger</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Teaching_Interests__c</picklist>
+        <values>
+            <fullName>Coaching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mentoring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tutoring</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Work_Style__c</picklist>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    
+    <picklistValues>
+        <picklist>npe01__PreferredPhone__c</picklist>
+        <values>
+            <fullName>Household</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Preferred_Email__c</picklist>
+        <values>
+            <fullName>Alternate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Primary_Address_Type__c</picklist>
+        <values>
+            <fullName>Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Secondary_Address_Type__c</picklist>
+        <values>
+            <fullName>Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__SystemAccountProcessor__c</picklist>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One-to-One</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npo02__Level__c</picklist>
+        <values>
+            <fullName>Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secondary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npo02__Naming_Exclusions__c</picklist>
+        <values>
+            <fullName>Household%5F%5Fc%2EFormal_Greeting%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Household%5F%5Fc%2EInformal_Greeting%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Household%5F%5Fc%2EName</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npo02__SystemHouseholdProcessor__c</picklist>
+        <values>
+            <fullName>All Individual Contacts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All New or Edited Contacts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Contacts</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    
+</RecordType>

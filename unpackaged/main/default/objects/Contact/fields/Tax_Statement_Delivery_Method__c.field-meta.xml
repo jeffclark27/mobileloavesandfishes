@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Statement_Delivery_Method__c</fullName>
+    <description>Created 16Jan23. Tax Statement Use. Created in order to group Accounts by their Tax Statement delivery method. Interrogates the Email and Mailing Street fields to determine if values exist for those fields.</description>
+    <externalId>false</externalId>
+    <formula>IF( npsp__Primary_Contact__c = False, &quot;&quot;,
+
+( IF( ISBLANK( Email ) ,
+
+( IF( ISBLANK( MailingStreet ) , &quot;Undeliverable&quot;, &quot;Print&quot;)),
+
+&quot;Email&quot;))
+
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Not Editable. Used only for Primary Contact. Value is set by Salesforce based on the Contact&#39;s Email and Mailing Street. If no email address and no mailing street then set to &quot;Undeliverable&quot;. If no email but mailing street exists then set to &quot;Print&quot;. If email exists then set to &quot;Email&quot;</inlineHelpText>
+    <label>Tax Statement Delivery Method</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

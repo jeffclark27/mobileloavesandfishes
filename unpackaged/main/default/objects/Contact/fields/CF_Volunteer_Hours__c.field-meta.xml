@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CF_Volunteer_Hours__c</fullName>
+    <description>Total hours volunteering with CFV, based on status Confirmed, Checked-In or Completed</description>
+    <label>CF Volunteer Hours</label>
+    <summarizedField>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Hours_Worked__c</summarizedField>
+    <summaryFilterItems>
+        <field>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Status__c</field>
+        <operation>contains</operation>
+        <value>Confirmed, Completed, Checked-In</value>
+    </summaryFilterItems>
+    <summaryForeignKey>GW_Volunteers__Volunteer_Hours__c.GW_Volunteers__Contact__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

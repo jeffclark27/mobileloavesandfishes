@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Mgt_Country_identifier_cleansing</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.ADDRESS2_COUNTRY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>CONTACT.ADDRESS2_STREET</columns>
+    <columns>CONTACT.ADDRESS2_CITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Individual</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Data Mgt - Country identifier cleansing</label>
+    <sharedTo>
+        <group>Sys_Admin_Team</group>
+    </sharedTo>
+</ListView>

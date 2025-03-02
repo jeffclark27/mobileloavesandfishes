@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Mgt_State_identifier_cleansing</fullName>
+    <booleanFilter>1 AND 5 AND 6 AND 7 AND (2 OR 3 OR 4)</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>CONTACT.ADDRESS2_STREET</columns>
+    <columns>CONTACT.ADDRESS2_CITY</columns>
+    <columns>CONTACT.ADDRESS2_COUNTRY</columns>
+    <columns>CONTACT.ADDRESS2_ZIP</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Individual</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+        <value>US</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+        <value>united states</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STREET</field>
+        <operation>notContain</operation>
+        <value>hog eye</value>
+    </filters>
+    <filters>
+        <field>Account.Last_HC_or_SC__c</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2010</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STREET</field>
+        <operation>contains</operation>
+        <value>.</value>
+    </filters>
+    <label>Data Mgt - State identifier cleansing</label>
+    <sharedTo>
+        <group>Sys_Admin_Team</group>
+    </sharedTo>
+</ListView>

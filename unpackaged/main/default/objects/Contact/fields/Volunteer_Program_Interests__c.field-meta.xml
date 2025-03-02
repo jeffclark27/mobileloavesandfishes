@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volunteer_Program_Interests__c</fullName>
+    <description>Volunteer Interests syncs with VolExp website. Any change to the picklist values must be updated in Wordpress as well.</description>
+    <inlineHelpText>Volunteer Interests are sync&#39;d with the User Profile on the VolExp website.</inlineHelpText>
+    <label>Volunteer Interests</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Art House</fullName>
+                <default>false</default>
+                <label>Art House</label>
+            </value>
+            <value>
+                <fullName>Community Inn</fullName>
+                <default>false</default>
+                <label>Community Inn</label>
+            </value>
+            <value>
+                <fullName>Community Market</fullName>
+                <default>false</default>
+                <label>Community Market</label>
+            </value>
+            <value>
+                <fullName>Culinary</fullName>
+                <default>false</default>
+                <label>Culinary</label>
+            </value>
+            <value>
+                <fullName>Genesis Gardens</fullName>
+                <default>false</default>
+                <label>Genesis Gardens</label>
+            </value>
+            <value>
+                <fullName>New Home Prep</fullName>
+                <default>false</default>
+                <label>New Home Prep</label>
+            </value>
+            <value>
+                <fullName>Property Beautification / Landscaping</fullName>
+                <default>false</default>
+                <label>Property Beautification / Landscaping</label>
+            </value>
+            <value>
+                <fullName>Any Program or Project</fullName>
+                <default>false</default>
+                <label>Any Program or Project</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

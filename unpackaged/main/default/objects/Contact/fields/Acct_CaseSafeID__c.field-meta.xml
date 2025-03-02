@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acct_CaseSafeID__c</fullName>
+    <description>MLF Customization July 2021. DO NOT DELETE this field. Doing so will impact Acknowledgment Letters. Not surfaced on a page layout</description>
+    <externalId>false</externalId>
+    <formula>Account.AcctID_CaseSafeID__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Acct CaseSafeID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

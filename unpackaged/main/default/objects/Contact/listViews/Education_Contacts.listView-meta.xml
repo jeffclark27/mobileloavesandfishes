@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Education_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Current_Education_Status__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>First_Education_Contact_Date__c</columns>
+    <columns>Education_Confidentiality_Agreement__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Individual</value>
+    </filters>
+    <filters>
+        <field>First_Education_Contact_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Education Contacts</label>
+    <sharedTo>
+        <group>Education_Team</group>
+    </sharedTo>
+</ListView>
