@@ -3,7 +3,7 @@
     <fullName>Job_URL__c</fullName>
     <description>MLF customization Winter 2025. Change required for new Exp Cloud based Volunteer Portal. This new field, with a shortened Label, is used for display within the Vol Portal to eliminate Label truncation within the Vol Portal mobile experience. Also reference the Job field on the Volunteer Shift Object.</description>
     <externalId>false</externalId>
-    <formula>&#39;https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/&#39;&amp;Id</formula>
+    <formula>&#39;https://serve.mlf.org/s/volunteer-job/&#39;&amp;Id</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Job URL</label>
     <required>false</required>

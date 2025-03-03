@@ -130,7 +130,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255);\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\" style=\"width: 71.625px; height: 70.9141px;\"></a></p>\n<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoor-shifts\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Indoor&nbsp;&nbsp;Shifts</a></p>\n<p>&nbsp;</p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255);\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\" style=\"width: 71.625px; height: 70.9141px;\"></a></p>\n<p style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/indoor-shifts\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Indoor&nbsp;&nbsp;Shifts</a></p>\n<p>&nbsp;</p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "8e885b0d-a14d-4ffc-8c1c-915762eec5e5",
@@ -139,7 +139,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\" style=\"width: 71.8359px; height: 71.8359px;\"></a>&nbsp;</p>\n<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Accessible</a></p>\n<p><span style=\"font-size: 14px;\">&nbsp;</span></p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\" style=\"width: 71.8359px; height: 71.8359px;\"></a>&nbsp;</p>\n<p style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Accessible</a></p>\n<p><span style=\"font-size: 14px;\">&nbsp;</span></p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "24dddf82-050a-4d86-a799-14c6835a054a",
@@ -148,7 +148,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\" style=\"width: 71.1953px; height: 70.4844px;\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly-shifts\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Family-Friendly</a></h3>\n<p>&nbsp;</p>"
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\" style=\"width: 71.1953px; height: 70.4844px;\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/family-friendly-shifts\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Family-Friendly</a></h3>\n<p>&nbsp;</p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "2176b360-e99f-41b3-a784-95582e73230b",

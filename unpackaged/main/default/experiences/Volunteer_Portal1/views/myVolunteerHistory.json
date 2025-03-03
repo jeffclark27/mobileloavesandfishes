@@ -72,7 +72,7 @@
       "regions" : [ {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<p><br></p><p><span style=\"font-size: 14px;\">Your decision to share your time and talents with us means the world. Volunteers like you are the heartbeat of our organization, making everything we do possible. Your willingness to step forward and serve demonstrates your dedication to our mission, and we’re incredibly grateful for your support.</span><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/community-service-hours-program\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\"> </a></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">All our volunteer opportunities at Community First! Village count toward required community service hours. </span><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/community-service-hours-program\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">Learn more about Community Service hours.</a></p><p><span style=\"font-size: 14px;\">&nbsp;</span></p>"
+            "richTextValue" : "<p><br></p><p><span style=\"font-size: 14px;\">Your decision to share your time and talents with us means the world. Volunteers like you are the heartbeat of our organization, making everything we do possible. Your willingness to step forward and serve demonstrates your dedication to our mission, and we’re incredibly grateful for your support.</span><a href=\"https://serve.mlf.org/s/community-service-hours-program\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\"> </a></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">All our volunteer opportunities at Community First! Village count toward required community service hours. </span><a href=\"https://serve.mlf.org/s/community-service-hours-program\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">Learn more about Community Service hours.</a></p><p><span style=\"font-size: 14px;\">&nbsp;</span></p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "300596a5-c531-4903-b6cb-90bf070f2d73",
@@ -233,7 +233,7 @@
       }, {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-upcoming-shifts\" class=\"slds-button slds-button_brand\" title=\"My Upcoming Shifts\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">My Upcoming Shifts</a>"
+            "richTextValue" : "<a href=\"https://serve.mlf.org/s/my-upcoming-shifts\" class=\"slds-button slds-button_brand\" title=\"My Upcoming Shifts\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">My Upcoming Shifts</a>"
           },
           "componentName" : "forceCommunity:htmlBlock",
           "id" : "859dcb04-6296-469f-b95e-b228c5b2d255",
@@ -249,7 +249,7 @@
       }, {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-account\" class=\"slds-button slds-button_brand\" title=\"My Account\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">My Account</a>"
+            "richTextValue" : "<a href=\"https://serve.mlf.org/s/my-account\" class=\"slds-button slds-button_brand\" title=\"My Account\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">My Account</a>"
           },
           "componentName" : "forceCommunity:htmlBlock",
           "id" : "872f045c-d08e-4b09-9b46-06592961c613",

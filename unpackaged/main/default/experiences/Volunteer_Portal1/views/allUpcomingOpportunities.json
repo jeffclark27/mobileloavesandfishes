@@ -120,7 +120,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<div style=\"width: 100%; padding-bottom: 80px; text-align:center;\"><a class=\"slds-button slds-button_brand\" href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/\" title=\"Login or Register\" style=\"margin: 0 auto; text-align: center; color:white;\">Login or Register</a></div>"
+            "richTextValue" : "<div style=\"width: 100%; padding-bottom: 80px; text-align:center;\"><a class=\"slds-button slds-button_brand\" href=\"https://serve.mlf.org/s/login/\" title=\"Login or Register\" style=\"margin: 0 auto; text-align: center; color:white;\">Login or Register</a></div>"
           },
           "componentName" : "forceCommunity:htmlBlock",
           "id" : "125983b2-4b7a-4873-9da2-ef0a5ab4e98e",
@@ -167,7 +167,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\" style=\"width: 71.1953px; height: 70.4844px;\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Family-Friendly</a><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/handicap-accessible\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">&nbsp;</a></h3>\n<p>&nbsp;</p>"
+            "richTextValue" : "<h3 style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsfamilyorangetransparent.1}\" style=\"width: 71.1953px; height: 70.4844px;\"></a></h3>\n<h3 style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/family-friendly\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Family-Friendly</a><a href=\"https://serve.mlf.org/s/handicap-accessible\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">&nbsp;</a></h3>\n<p>&nbsp;</p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "7a61527f-7657-4c73-8be6-3d8f3d0fd70c",
@@ -176,7 +176,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\" style=\"width: 69.3594px; height: 69.3594px;\"></a></p>\n<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Accessible</a></p>\n<p><span style=\"font-size: 14px;\">&nbsp;</span></p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxshandicappedorangetransparent1.1}\" style=\"width: 69.3594px; height: 69.3594px;\"></a></p>\n<p style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/accessible-shifts\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Accessible</a></p>\n<p><span style=\"font-size: 14px;\">&nbsp;</span></p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "781f3687-276f-49cf-b06d-455db834bf06",
@@ -185,7 +185,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255);\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\" style=\"width: 71.625px; height: 70.9141px;\"></a></p>\n<p style=\"text-align: center;\"><a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/indoor-shifts\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Indoor&nbsp;&nbsp;Shifts</a></p>\n<p>&nbsp;</p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/indoors\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255);\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.xxsindoorsorangetransparent.1}\" style=\"width: 71.625px; height: 70.9141px;\"></a></p>\n<p style=\"text-align: center;\"><a href=\"https://serve.mlf.org/s/indoor-shifts\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 14px;\">Indoor&nbsp;&nbsp;Shifts</a></p>\n<p>&nbsp;</p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "40c40a15-8409-4d53-ba41-f4392c826f80",

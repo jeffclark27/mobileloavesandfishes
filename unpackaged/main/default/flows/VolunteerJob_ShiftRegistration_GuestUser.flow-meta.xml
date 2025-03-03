@@ -11,7 +11,7 @@
         <inputParameters>
             <name>url</name>
             <value>
-                <stringValue>https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-upcoming-shifts</stringValue>
+                <stringValue>https://serve.mlf.org/s/my-upcoming-shifts</stringValue>
             </value>
         </inputParameters>
         <nameSegment>c:fsc_openUrl</nameSegment>

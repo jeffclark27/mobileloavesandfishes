@@ -10,7 +10,7 @@
         </menuItemBranding>
         <position>1</position>
         <publiclyAvailable>true</publiclyAvailable>
-        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/a0d5d00000MADrwAAH</target>
+        <target>https://serve.mlf.org/s/volunteer-job/a0d5d00000MADrwAAH</target>
         <targetPreference>OpenExternalLinkInSameTab</targetPreference>
         <type>ExternalLink</type>
     </navigationMenuItem>
@@ -21,7 +21,7 @@
         </menuItemBranding>
         <position>2</position>
         <publiclyAvailable>true</publiclyAvailable>
-        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/a0d1Y00000HqUaYQAV</target>
+        <target>https://serve.mlf.org/s/volunteer-job/a0d1Y00000HqUaYQAV</target>
         <targetPreference>OpenExternalLinkInSameTab</targetPreference>
         <type>ExternalLink</type>
     </navigationMenuItem>
@@ -32,7 +32,7 @@
         </menuItemBranding>
         <position>3</position>
         <publiclyAvailable>true</publiclyAvailable>
-        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/a0d5d00000IINkOAAX</target>
+        <target>https://serve.mlf.org/s/volunteer-job/a0d5d00000IINkOAAX</target>
         <targetPreference>OpenExternalLinkInSameTab</targetPreference>
         <type>ExternalLink</type>
     </navigationMenuItem>
@@ -43,7 +43,7 @@
         </menuItemBranding>
         <position>4</position>
         <publiclyAvailable>true</publiclyAvailable>
-        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/a0d5d00000MgXK6AAN</target>
+        <target>https://serve.mlf.org/s/volunteer-job/a0d5d00000MgXK6AAN</target>
         <targetPreference>OpenExternalLinkInSameTab</targetPreference>
         <type>ExternalLink</type>
     </navigationMenuItem>
@@ -54,7 +54,7 @@
         </menuItemBranding>
         <position>5</position>
         <publiclyAvailable>true</publiclyAvailable>
-        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/a0dVu000000cIwnIAE</target>
+        <target>https://serve.mlf.org/s/volunteer-job/a0dVu000000cIwnIAE</target>
         <targetPreference>OpenExternalLinkInSameTab</targetPreference>
         <type>ExternalLink</type>
     </navigationMenuItem>
@@ -65,7 +65,7 @@
         </menuItemBranding>
         <position>6</position>
         <publiclyAvailable>true</publiclyAvailable>
-        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/a0d5d00000KSnwiAAD</target>
+        <target>https://serve.mlf.org/s/volunteer-job/a0d5d00000KSnwiAAD</target>
         <targetPreference>OpenExternalLinkInSameTab</targetPreference>
         <type>ExternalLink</type>
     </navigationMenuItem>
@@ -76,7 +76,7 @@
         </menuItemBranding>
         <position>7</position>
         <publiclyAvailable>true</publiclyAvailable>
-        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/a0dVu000000VGRtIAO</target>
+        <target>https://serve.mlf.org/s/volunteer-job/a0dVu000000VGRtIAO</target>
         <type>ExternalLink</type>
     </navigationMenuItem>
 </NavigationMenu>

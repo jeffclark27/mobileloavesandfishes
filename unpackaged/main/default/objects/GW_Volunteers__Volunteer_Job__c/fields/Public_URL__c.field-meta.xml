@@ -3,7 +3,7 @@
     <fullName>Public_URL__c</fullName>
     <description>The public URL to access this job through the portal.</description>
     <externalId>false</externalId>
-    <formula>&#39;https://goodness--vp.sandbox.my.site.com/vpstandard/s/volunteer-job/&#39;&amp;Id</formula>
+    <formula>&#39;https://serve.mlf.org/s/volunteer-job/&#39;&amp;Id</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>The public URL to access this job through the portal.</inlineHelpText>
     <label>Public URL</label>

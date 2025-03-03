@@ -10,7 +10,7 @@
         </menuItemBranding>
         <position>1</position>
         <publiclyAvailable>true</publiclyAvailable>
-        <target>https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/</target>
+        <target>https://serve.mlf.org/s/login/</target>
         <targetPreference>OpenExternalLinkInSameTab</targetPreference>
         <type>ExternalLink</type>
     </navigationMenuItem>

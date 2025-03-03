@@ -67,7 +67,7 @@
         <inputParameters>
             <name>destinationUrl</name>
             <value>
-                <stringValue>https://goodness--vp.sandbox.my.site.com/vpstandard/s/</stringValue>
+                <stringValue>https://serve.mlf.org/s/</stringValue>
             </value>
         </inputParameters>
         <nameSegment>c:navigateEverywhereLFA</nameSegment>

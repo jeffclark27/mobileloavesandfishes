@@ -145,7 +145,7 @@
       }, {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-account\" class=\"slds-button slds-button_brand\" title=\"My Account\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">My Account</a>"
+            "richTextValue" : "<a href=\"https://serve.mlf.org/s/my-account\" class=\"slds-button slds-button_brand\" title=\"My Account\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">My Account</a>"
           },
           "componentName" : "forceCommunity:htmlBlock",
           "id" : "d980ab20-4f2f-4dc0-bbf3-76608403ac90",
@@ -161,7 +161,7 @@
       }, {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/my-volunteer-history\" class=\"slds-button slds-button_brand\" title=\"Volunteer History\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">Volunteer History</a>"
+            "richTextValue" : "<a href=\"https://serve.mlf.org/s/my-volunteer-history\" class=\"slds-button slds-button_brand\" title=\"Volunteer History\" style=\"width: 100%; padding: 0.75em; margin: 0 auto; text-align: center; color:white;\">Volunteer History</a>"
           },
           "componentName" : "forceCommunity:htmlBlock",
           "id" : "6f048f37-c1ad-4f63-8c19-a26e4f7565fa",

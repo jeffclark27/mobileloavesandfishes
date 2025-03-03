@@ -45,7 +45,7 @@
       }, {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<h1 style=\"text-align: center;\">Contact Us</h1><p><br></p><p>Have questions? Either <a href=\"https://goodness--vp.sandbox.my.site.com/vpstandard/s/login/?ec=301&amp;startURL=%2Fvpstandard%2Fs%2F\" rel=\"noopener noreferrer\" target=\"_self\">login to your account</a> or head to our <a href=\"https://mlf.org/contact-us/?utm_source=website&amp;utm_medium=volunteer-portal&amp;utm_campaign=contact-page-redirect\" rel=\"noopener noreferrer\" target=\"_blank\">main website's contact form</a> to drop us a general inquiry form.</p>"
+            "richTextValue" : "<h1 style=\"text-align: center;\">Contact Us</h1><p><br></p><p>Have questions? Either <a href=\"https://serve.mlf.org/s/login/?ec=301&amp;startURL=%2Fvpstandard%2Fs%2F\" rel=\"noopener noreferrer\" target=\"_self\">login to your account</a> or head to our <a href=\"https://mlf.org/contact-us/?utm_source=website&amp;utm_medium=volunteer-portal&amp;utm_campaign=contact-page-redirect\" rel=\"noopener noreferrer\" target=\"_blank\">main website's contact form</a> to drop us a general inquiry form.</p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "ecf88486-8d2a-4640-8957-313e7e4cacb7",
